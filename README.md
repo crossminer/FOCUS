@@ -13,10 +13,10 @@ Repository structure
 	* **FOCUS**
 		* **200 focus files**
 		* **list.txt**
-* Evaluation  
-	* Maven  	
-		* ___  		
-	* FOCUSvsPAM  	
+* Evaluation
+	* Jars_Dataset
+		* evaluation files  		
+	* Repositories_Dataset
 		* PAM  		
 			* 10-folds valitazione result files  			
 		* Focus  		
