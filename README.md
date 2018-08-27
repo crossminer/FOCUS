@@ -14,7 +14,7 @@ Our collaborative filtering recommendation system attempts to narrow down the se
 that are the most similar to the active project. Therefore, methods that are typically used conjointly by similar projects
 in similar contexts tend to be recommended first.
 
-We incorporate these ideas in a new context-aware collaborative filtering recommender system that mines OSS repositories to provide developers with API **F**uncti**O**n** **C**alls and **US**age patterns: FOCUS. FOCUS employs a new model to represent mutual relationships between projects and collaboratively mines API usage from the most similar projects.
+We incorporate these ideas in a new context-aware collaborative filtering recommender system that mines OSS repositories to provide developers with API **F**uncti**O**n **C**alls and **US**age patterns, FOCUS for short. Our approach employs a new model to represent mutual relationships between projects and collaboratively mines API usage from the most similar projects.
 
 # Repository structure #
 
