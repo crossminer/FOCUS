@@ -19,14 +19,14 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 # Repository structure #
 
 * tool
-	* Focus - API FunctiOn Calls and USage patterns;
+	* Focus - API Function calls and usage patterns;
 	* Pam scripts - utilities supporting PAM evaluation;
 	* arffExtractor - Rascal metadata extractors;
 * Dataset
 	* Jars_Dataset
 		* __jars__: parsed jar files;
-		* __MVL__: metadata of the MV<sub>L</sub> dataset (3600 jar files);
-		* __MHL__: metadata of the MV<sub>S</sub> dataset (1600 jar files);
+		* __MVL__: metadata of the MV<sub>L</sub> dataset (3,600 jar files);
+		* __MHL__: metadata of the MV<sub>S</sub> dataset (1,600 jar files);
 	* Repositories_Dataset: The archive of 5,147 Java projects retrieved from GitHub via the Software
 Heritage archive is available at http://vps.xxx.org/vault.tar.gz.
 		* __SHL__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
@@ -36,6 +36,6 @@ Heritage archive is available at http://vps.xxx.org/vault.tar.gz.
 		* evaluation files 
 		* Repositories_Dataset
 	* PAM 
-		* 10-folds valitazione result files 
+		* leave-one-out cross validation result files 
 	* Focus 
-		* 10-folds valitazione result files			
+		* ten-fold cross validation result files			
