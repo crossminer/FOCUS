@@ -1,4 +1,4 @@
-This repository contains the source code implementation of FOCUS, the datasets as well as the experimental results for the following paper:
+This repository contains the source code implementation, the datasets as well as the experimental results for the following paper:
 
 FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns
 
