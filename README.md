@@ -24,13 +24,13 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 	* arffExtractor - Rascal metadata extractors;
 * Dataset
 	* Jars_Dataset
-		* __jars__ contains parsed jar files;
-		* __MVL__ contains FOCUS's metadata of 3600 jar files;
-		* __MHL__ contains FOCUS's metadata of 1600 jar files;
-	* Repositories_Dataset: Archive of 5,147 Java projects retrieved from GitHub via the Software
+		* __jars__: parsed jar files;
+		* __MVL__: metadata of the MV<sub>L</sub> dataset (3600 jar files);
+		* __MHL__: metadata of the MV<sub>S</sub> dataset (1600 jar files);
+	* Repositories_Dataset: The archive of 5,147 Java projects retrieved from GitHub via the Software
 Heritage archive is available at http://vps.xxx.org/vault.tar.gz.
-		* __SHL__ contains both FOCUS and PAM metadata of 610 projects;
-		* __SHS__ contains both FOCUS and PAM metadata of 200 projects;
+		* __SHL__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
+		* __SHS__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
 * Evaluation
 	* Jars_Dataset
 		* evaluation files 
