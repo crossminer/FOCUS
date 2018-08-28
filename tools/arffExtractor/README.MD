@@ -1,6 +1,6 @@
 # API Function Call
 
-API Function Call is a Rascal project developed by University of L'Aquila and CWI in the context of the CROSSMINER EU project. This project is a prototype that aims at mining Java projects to extract facts used for API recommendation. Source code facts are gathered in M3 models that are then use to retrieve the information required by a recommender system.
+API Function Call is a Rascal project developed by `anonymized` in the context of the `anonymized` project. This project is a prototype that aims at mining Java projects to extract facts used for API recommendation. Source code facts are gathered in M3 models that are then use to retrieve the information required by a recommender system.
 
 ## Requirements
 The following are the requirements to successfully use the current project:
