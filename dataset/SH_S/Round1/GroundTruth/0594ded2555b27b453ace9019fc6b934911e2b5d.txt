@@ -1,0 +1,2 @@
+org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/service/ApplicationService/findHooks(java.lang.String,java.lang.String)
+org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/service/CIService/findOne(java.lang.Long)

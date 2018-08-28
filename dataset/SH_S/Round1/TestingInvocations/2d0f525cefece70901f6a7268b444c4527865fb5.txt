@@ -1,0 +1,4 @@
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonArray/add(com.google.gson.JsonElement)
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonPrimitive/JsonPrimitive(java.lang.String)
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonArray/JsonArray()
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonObject/add(java.lang.String,com.google.gson.JsonElement)

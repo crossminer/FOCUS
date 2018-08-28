@@ -1,0 +1,4 @@
+uk/commonline/weather/geo/jaxrs/SimpleTest/test()#java/lang/Thread/sleep(long)
+uk/commonline/weather/geo/jaxrs/SimpleTest/test()#uk/commonline/weather/geo/jaxrs/GeoApplication/GeoApplication()
+uk/commonline/weather/geo/jaxrs/SimpleTest/test()#java/lang/Object/Object()
+uk/commonline/weather/geo/jaxrs/SimpleTest/test()#java/lang/Thread/currentThread()

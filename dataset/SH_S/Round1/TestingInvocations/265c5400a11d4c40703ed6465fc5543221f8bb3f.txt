@@ -1,0 +1,4 @@
+com/example/sdn4rc2/web/SupplierController/index(java.lang.Integer,org.springframework.ui.Model)#com/example/sdn4rc2/web/BaseController/addPageAttr(com.example.sdn4rc2.service.PageBean,org.springframework.ui.Model)
+com/example/sdn4rc2/web/SupplierController/index(java.lang.Integer,org.springframework.ui.Model)#com/example/sdn4rc2/service/GenericCRUDService/findAll(int,int,java.lang.String)
+com/example/sdn4rc2/web/SupplierController/index(java.lang.Integer,org.springframework.ui.Model)#com/example/sdn4rc2/service/GenericCRUDService/count()
+com/example/sdn4rc2/web/SupplierController/index(java.lang.Integer,org.springframework.ui.Model)#com/example/sdn4rc2/service/Pagination/calcPage(int,int,int)

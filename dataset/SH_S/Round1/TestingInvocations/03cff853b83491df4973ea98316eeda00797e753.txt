@@ -1,0 +1,4 @@
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#org/kamranzafar/samples/wicket/template/Image/setName(java.lang.String)
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#java/nio/file/Files/readAllBytes(java.nio.file.Path)
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#java/io/File/File(java.lang.String)
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#java/io/File/toPath()

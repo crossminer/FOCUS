@@ -1,0 +1,4 @@
+wikibooks/hadoop/chapter07/MapperWithReduceSideJoin/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#wikibooks/hadoop/chapter07/TaggedKey/setCarrierCode(java.lang.String)
+wikibooks/hadoop/chapter07/MapperWithReduceSideJoin/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#wikibooks/hadoop/common/AirlinePerformanceParser/AirlinePerformanceParser(org.apache.hadoop.io.Text)
+wikibooks/hadoop/chapter07/MapperWithReduceSideJoin/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#org/apache/hadoop/mapreduce/TaskInputOutputContext/write(KEYOUT,VALUEOUT)
+wikibooks/hadoop/chapter07/MapperWithReduceSideJoin/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#wikibooks/hadoop/chapter07/TaggedKey/setTag(java.lang.Integer)

@@ -86,7 +86,7 @@ public class Runner {
 			int testingEndPos =   (i+1)*step;
 
 			int k=i+1;
-			subFolder = "Round" + Integer.toString(k);
+			subFolder = "evaluation/round" + Integer.toString(k);
 
 			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,this.subFolder,
 					trainingStartPos1,
@@ -131,7 +131,7 @@ public class Runner {
 			int testingEndPos =  (i+1)*step;
 
 			int k=i+1;
-			subFolder = "Round1";			
+			subFolder = "round1";			
 
 			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,this.subFolder,
 					trainingStartPos1,

@@ -1,0 +1,4 @@
+org/wso2/dss/integration/common/utils/SqlDataSourceUtil/createDataSource(java.lang.String,java.util.List)#java/util/Random/nextInt()
+org/wso2/dss/integration/common/utils/SqlDataSourceUtil/createDataSource(java.lang.String,java.util.List)#org/wso2/dss/integration/common/utils/SqlDataSourceUtil/executeUpdate(java.util.List)
+org/wso2/dss/integration/common/utils/SqlDataSourceUtil/createDataSource(java.lang.String,java.util.List)#java/util/Random/Random()
+org/wso2/dss/integration/common/utils/SqlDataSourceUtil/createDataSource(java.lang.String,java.util.List)#java/lang/System/getProperty(java.lang.String)

@@ -1,0 +1,4 @@
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/lang/Throwable/printStackTrace()
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/io/PrintStream/println()
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/lang/Object/Object()

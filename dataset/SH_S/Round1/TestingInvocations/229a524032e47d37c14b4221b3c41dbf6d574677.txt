@@ -1,0 +1,4 @@
+demo/InventoryApplicationTests/inventoryTest()#java/util/stream/Stream/map(java.util.function.Function)
+demo/InventoryApplicationTests/inventoryTest()#demo/catalog/Catalog/Catalog()
+demo/InventoryApplicationTests/inventoryTest()#demo/product/Product/Product()
+demo/InventoryApplicationTests/inventoryTest()#demo/shipment/Shipment/Shipment(java.util.Set,demo.address.Address,demo.warehouse.Warehouse,demo.shipment.ShipmentStatus)

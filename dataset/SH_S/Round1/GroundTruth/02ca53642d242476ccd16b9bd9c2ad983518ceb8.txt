@@ -1,0 +1,2 @@
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/entity/Logradouro/Logradouro()
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/entity/Logradouro/setTp_logradouro(java.lang.String)

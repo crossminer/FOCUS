@@ -1,0 +1,6 @@
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#java/util/Date/Date(long)
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/core/Request/evaluatePreconditions(java.util.Date)
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/lastModified(java.util.Date)
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#java/io/File/length()
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#java/io/File/lastModified()
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/header(java.lang.String,java.lang.Object)

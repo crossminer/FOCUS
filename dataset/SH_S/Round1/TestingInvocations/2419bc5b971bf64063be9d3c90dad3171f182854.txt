@@ -1,0 +1,4 @@
+com/example/TimeseriesService/getIt()#javax/json/JsonArrayBuilder/add(javax.json.JsonObjectBuilder)
+com/example/TimeseriesService/getIt()#javax/json/JsonObjectBuilder/add(java.lang.String,javax.json.JsonArrayBuilder)
+com/example/TimeseriesService/getIt()#javax/json/JsonObjectBuilder/add(java.lang.String,java.lang.String)
+com/example/TimeseriesService/getIt()#javax/json/JsonWriterFactory/createWriter(java.io.Writer)

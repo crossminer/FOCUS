@@ -1,0 +1,4 @@
+de/l3s/warc/reader/ext/SubsetExtractor/IndexerMapper/convertToDate(java.lang.String)#java/util/Date/toString()
+de/l3s/warc/reader/ext/SubsetExtractor/IndexerMapper/convertToDate(java.lang.String)#java/text/SimpleDateFormat/toPattern()
+de/l3s/warc/reader/ext/SubsetExtractor/IndexerMapper/convertToDate(java.lang.String)#java/lang/String/toString()
+de/l3s/warc/reader/ext/SubsetExtractor/IndexerMapper/convertToDate(java.lang.String)#java/text/DateFormat/parse(java.lang.String)

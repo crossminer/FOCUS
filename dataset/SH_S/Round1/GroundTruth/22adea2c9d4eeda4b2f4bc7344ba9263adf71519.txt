@@ -1,0 +1,2 @@
+com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#com/heryratovoarison/wallpic/utilitaires/SessionSingleton/getToken(com.heryratovoarison.wallpic.entities.Utilisateur)
+com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#com/heryratovoarison/wallpic/entities/Utilisateur/getLogin()

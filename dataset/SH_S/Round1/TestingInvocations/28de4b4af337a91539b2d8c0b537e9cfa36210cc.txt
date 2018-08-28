@@ -1,0 +1,4 @@
+org/springframework/integration/gemfire/store/KeyValueMessageGroup/isMember(org.springframework.integration.gemfire.outbound.Message)#org/springframework/integration/gemfire/store/KeyValueMessageGroup/size()
+org/springframework/integration/gemfire/store/KeyValueMessageGroup/isMember(org.springframework.integration.gemfire.outbound.Message)#org/springframework/integration/gemfire/store/KeyValueMessageGroup/getSequenceSize()
+org/springframework/integration/gemfire/store/KeyValueMessageGroup/isMember(org.springframework.integration.gemfire.outbound.Message)#java/lang/Integer/equals(java.lang.Object)
+org/springframework/integration/gemfire/store/KeyValueMessageGroup/isMember(org.springframework.integration.gemfire.outbound.Message)#org/springframework/integration/gemfire/store/KeyValueMessageGroup/getUnmarked()

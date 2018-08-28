@@ -1,0 +1,2 @@
+br/com/geladaonline/services/ImageConsumer/readFrom(java.lang.Class,java.lang.reflect.Type,java.lang.annotation.Annotation[],javax.ws.rs.core.MediaType,javax.ws.rs.core.MultivaluedMap,java.io.InputStream)#org/apache/commons/io/IOUtils/toByteArray(java.io.InputStream)
+br/com/geladaonline/services/ImageConsumer/readFrom(java.lang.Class,java.lang.reflect.Type,java.lang.annotation.Annotation[],javax.ws.rs.core.MediaType,javax.ws.rs.core.MultivaluedMap,java.io.InputStream)#java/util/Map/containsKey(java.lang.Object)

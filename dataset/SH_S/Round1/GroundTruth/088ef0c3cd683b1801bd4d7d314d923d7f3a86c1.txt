@@ -1,0 +1,2 @@
+com/exercise/socialconnection/data/graph/BFSTraversal/pathTo(T,T)#java/lang/Object/equals(java.lang.Object)
+com/exercise/socialconnection/data/graph/BFSTraversal/pathTo(T,T)#com/exercise/socialconnection/data/graph/BFSTraversal/isConnected(T,T)

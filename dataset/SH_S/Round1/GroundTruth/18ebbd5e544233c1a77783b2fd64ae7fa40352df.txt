@@ -1,0 +1,6 @@
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#java/io/PrintWriter/println(java.lang.String)
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#javax/servlet/ServletResponse/setContentType(java.lang.String)
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#org/apache/mahout/cf/taste/recommender/RecommendedItem/getItemID()
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#javax/servlet/ServletResponse/getWriter()
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#javax/servlet/ServletResponse/setCharacterEncoding(java.lang.String)
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#java/io/PrintWriter/print(java.lang.String)

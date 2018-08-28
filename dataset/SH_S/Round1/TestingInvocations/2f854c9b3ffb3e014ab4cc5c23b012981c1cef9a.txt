@@ -1,0 +1,4 @@
+no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/protocol/http/WebApplication/mountBookmarkablePage(java.lang.String,java.lang.Class)
+no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/settings/IMarkupSettings/setDefaultMarkupEncoding(java.lang.String)
+no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/Application/getSessionSettings()
+no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/Application/getMarkupSettings()

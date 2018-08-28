@@ -1,0 +1,2 @@
+org/neo4j/examples/socnet/PersonRepository/deletePerson(org.neo4j.examples.socnet.Person)#org/neo4j/examples/socnet/Person/getStatus()
+org/neo4j/examples/socnet/PersonRepository/deletePerson(org.neo4j.examples.socnet.Person)#org/neo4j/examples/socnet/Person/removeFriend(org.neo4j.examples.socnet.Person)

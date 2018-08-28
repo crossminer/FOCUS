@@ -1,0 +1,4 @@
+com/web/mytest/config/MvcConfiguration/templateResolver()#org/thymeleaf/templateresolver/ServletContextTemplateResolver/ServletContextTemplateResolver()
+com/web/mytest/config/MvcConfiguration/templateResolver()#org/thymeleaf/templateresolver/TemplateResolver/setSuffix(java.lang.String)
+com/web/mytest/config/MvcConfiguration/templateResolver()#org/thymeleaf/templateresolver/TemplateResolver/setPrefix(java.lang.String)
+com/web/mytest/config/MvcConfiguration/templateResolver()#org/thymeleaf/templateresolver/TemplateResolver/setCharacterEncoding(java.lang.String)

@@ -1,0 +1,4 @@
+org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#com/mongodb/client/MongoDatabase/getCollection(java.lang.String)
+org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#com/mongodb/BasicDBObject/BasicDBObject(java.lang.String,java.lang.Object)
+org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#org/apache/log4j/Category/info(java.lang.Object)
+org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#com/mongodb/client/FindIterable/sort(org.bson.conversions.Bson)

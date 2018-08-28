@@ -1,0 +1,4 @@
+instagram/JsonCoder/getUrl(java.lang.String)#java/nio/charset/Charset/forName(java.lang.String)
+instagram/JsonCoder/getUrl(java.lang.String)#java/io/InputStream/close()
+instagram/JsonCoder/getUrl(java.lang.String)#instagram/JsonCoder/readAll(java.io.Reader)
+instagram/JsonCoder/getUrl(java.lang.String)#java/io/BufferedReader/BufferedReader(java.io.Reader)

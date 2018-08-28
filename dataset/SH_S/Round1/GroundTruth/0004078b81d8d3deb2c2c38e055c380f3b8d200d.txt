@@ -1,0 +1,1 @@
+com/esrichina/security/MySecurityMetadataSource/loadResourceDefine()#com/esrichina/entity/Resources/getResUrl()

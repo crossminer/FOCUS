@@ -1,0 +1,4 @@
+camelinaction/PingServiceMain/main(java.lang.String[])#java/lang/Thread/sleep(long)
+camelinaction/PingServiceMain/main(java.lang.String[])#java/lang/Runtime/getRuntime()
+camelinaction/PingServiceMain/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
+camelinaction/PingServiceMain/main(java.lang.String[])#java/lang/Runtime/addShutdownHook(java.lang.Thread)

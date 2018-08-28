@@ -1,0 +1,5 @@
+bb/rackmesa/research/authorization/CerbServer/authenticate(bb.rackmesa.research.authorization.CerbAuthRequest)#bb/rackmesa/research/authorization/DatabaseFunctions/getSecret(java.lang.String,java.lang.String)
+bb/rackmesa/research/authorization/CerbServer/authenticate(bb.rackmesa.research.authorization.CerbAuthRequest)#bb/rackmesa/research/authorization/CerbAuthRequest/getUser()
+bb/rackmesa/research/authorization/CerbServer/authenticate(bb.rackmesa.research.authorization.CerbAuthRequest)#bb/rackmesa/research/authorization/CerbAuthResponse/CerbAuthResponse(java.lang.String,java.lang.String,byte[],java.lang.String,bb.rackmesa.research.authorization.Subject)
+bb/rackmesa/research/authorization/CerbServer/authenticate(bb.rackmesa.research.authorization.CerbAuthRequest)#bb/rackmesa/research/authorization/CerbAuthRequest/getService()
+bb/rackmesa/research/authorization/CerbServer/authenticate(bb.rackmesa.research.authorization.CerbAuthRequest)#java/util/HashMap/HashMap()

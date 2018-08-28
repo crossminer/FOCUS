@@ -1,0 +1,4 @@
+com/hortonworks/example/Main/run(java.lang.String[])#org/apache/spark/sql/SQLContext/sql(java.lang.String)
+com/hortonworks/example/Main/run(java.lang.String[])#java/lang/Object/toString()
+com/hortonworks/example/Main/run(java.lang.String[])#org/apache/spark/api/java/AbstractJavaRDDLike/reduce(org.apache.spark.api.java.function.Function2)
+com/hortonworks/example/Main/run(java.lang.String[])#org/apache/spark/sql/Row/getList(int)

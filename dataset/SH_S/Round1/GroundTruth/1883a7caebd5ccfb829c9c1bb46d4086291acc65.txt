@@ -1,0 +1,3 @@
+$/UserServiceImpl/insertAdministratorIfNotExists()#$/UserServiceImpl/existsAministrator()
+$/UserServiceImpl/insertAdministratorIfNotExists()#$/EUser/setUserId(java.lang.String)
+$/UserServiceImpl/insertAdministratorIfNotExists()#$/ELoginPassword/setUser($.EUser)

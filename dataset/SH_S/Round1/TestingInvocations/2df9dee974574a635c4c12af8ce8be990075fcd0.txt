@@ -1,0 +1,4 @@
+org/wltea/analyzer/core/IKSegmenter/loadSegmenters()#org/wltea/analyzer/core/LetterSegmenter/LetterSegmenter()
+org/wltea/analyzer/core/IKSegmenter/loadSegmenters()#java/util/ArrayList/ArrayList(int)
+org/wltea/analyzer/core/IKSegmenter/loadSegmenters()#java/util/List/add(E)
+org/wltea/analyzer/core/IKSegmenter/loadSegmenters()#org/wltea/analyzer/core/CN_QuantifierSegmenter/CN_QuantifierSegmenter()

@@ -1,0 +1,4 @@
+storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#twitter4j/Status/getGeoLocation()
+storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#twitter4j/Status/getText()
+storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#twitter4j/Status/getLang()
+storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#java/util/HashMap/HashMap()

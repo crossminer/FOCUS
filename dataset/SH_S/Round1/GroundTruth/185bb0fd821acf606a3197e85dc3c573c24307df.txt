@@ -1,0 +1,1 @@
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/serialize(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)#org/codehaus/jackson/map/ObjectMapper/writeValueAsString(java.lang.Object)

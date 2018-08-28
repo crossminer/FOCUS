@@ -1,0 +1,4 @@
+org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/io/File/exists()
+org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/io/File/File(java.lang.String)
+org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#org/apache/log4j/Category/warn(java.lang.Object)
+org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/io/File/getAbsolutePath()

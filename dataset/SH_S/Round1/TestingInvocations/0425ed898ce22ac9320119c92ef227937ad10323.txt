@@ -1,0 +1,4 @@
+com/cathive/fx/cdi/JavaFXExtension/processAnnotatedType(javax.enterprise.inject.spi.ProcessAnnotatedType,javax.enterprise.inject.spi.BeanManager)#javax/enterprise/inject/spi/AnnotatedType/getJavaClass()
+com/cathive/fx/cdi/JavaFXExtension/processAnnotatedType(javax.enterprise.inject.spi.ProcessAnnotatedType,javax.enterprise.inject.spi.BeanManager)#java/lang/Object/equals(java.lang.Object)
+com/cathive/fx/cdi/JavaFXExtension/processAnnotatedType(javax.enterprise.inject.spi.ProcessAnnotatedType,javax.enterprise.inject.spi.BeanManager)#javax/enterprise/inject/spi/ProcessAnnotatedType/veto()
+com/cathive/fx/cdi/JavaFXExtension/processAnnotatedType(javax.enterprise.inject.spi.ProcessAnnotatedType,javax.enterprise.inject.spi.BeanManager)#com/cathive/fx/cdi/JavaFXExtension/getJavaFxApplication()

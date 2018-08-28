@@ -1,0 +1,4 @@
+org/apache/hadoop/mapred/MesosScheduler/start()#java/lang/Class/forName(java.lang.String)
+org/apache/hadoop/mapred/MesosScheduler/start()#org/apache/hadoop/mapred/TaskScheduler/setConf(org.apache.hadoop.conf.Configuration)
+org/apache/hadoop/mapred/MesosScheduler/start()#java/lang/Class/newInstance()
+org/apache/hadoop/mapred/MesosScheduler/start()#org/apache/hadoop/mapred/ResourcePolicyVariable/ResourcePolicyVariable(org.apache.hadoop.mapred.MesosScheduler)

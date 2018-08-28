@@ -1,0 +1,4 @@
+com/sldg/erp/controller/SldgRealm/doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection)#org/apache/shiro/authz/SimpleAuthorizationInfo/setRoles(java.util.Set)
+com/sldg/erp/controller/SldgRealm/doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection)#org/apache/shiro/SecurityUtils/getSubject()
+com/sldg/erp/controller/SldgRealm/doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection)#org/apache/shiro/authz/SimpleAuthorizationInfo/SimpleAuthorizationInfo()
+com/sldg/erp/controller/SldgRealm/doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection)#org/apache/shiro/session/Session/getAttribute(java.lang.Object)

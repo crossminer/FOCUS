@@ -1,0 +1,1 @@
+freenet/winterface/web/WinterPage/isAllowedFullAccess()#freenet/winterface/core/IPUtils/quietMatches(java.lang.String,java.lang.String)

@@ -1,0 +1,4 @@
+tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#java/sql/ResultSet/getString(java.lang.String)
+tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/UserInfo()
+tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#java/sql/ResultSet/getInt(java.lang.String)
+tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/setId(int)

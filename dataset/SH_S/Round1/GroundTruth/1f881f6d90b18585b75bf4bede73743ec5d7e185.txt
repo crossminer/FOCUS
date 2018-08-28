@@ -1,0 +1,1 @@
+com/guillaumecl/caskdays/models/Beer/fromJSON(com.fasterxml.jackson.databind.JsonNode)#com/guillaumecl/caskdays/models/Beer/setRegion(java.lang.String)

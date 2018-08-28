@@ -1,0 +1,7 @@
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/util/Date/Date(long)
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/util/Map/entrySet()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/util/Map/Entry/getValue()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#org/ops4j/pax/logging/spi/PaxLoggingEvent/getLoggerName()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/util/Map/Entry/getKey()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/text/DateFormat/format(java.util.Date)
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#org/ops4j/pax/logging/spi/PaxLoggingEvent/getMessage()

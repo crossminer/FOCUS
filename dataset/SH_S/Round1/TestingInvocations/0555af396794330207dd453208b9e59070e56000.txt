@@ -1,0 +1,4 @@
+com/opera/PropertiesLoadTest/main(java.lang.String[])#java/lang/Class/getResourceAsStream(java.lang.String)
+com/opera/PropertiesLoadTest/main(java.lang.String[])#java/lang/Throwable/printStackTrace()
+com/opera/PropertiesLoadTest/main(java.lang.String[])#java/util/Properties/getProperty(java.lang.String)
+com/opera/PropertiesLoadTest/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)

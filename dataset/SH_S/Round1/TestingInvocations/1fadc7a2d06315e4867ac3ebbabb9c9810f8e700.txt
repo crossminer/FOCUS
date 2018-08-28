@@ -1,0 +1,4 @@
+com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#com/mytest/myproject/entity/Task/getTitle()
+com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#com/mytest/myproject/data/TaskData/randomTask()
+com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#java/io/PrintStream/println(java.lang.String)
+com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#java/net/URI/toString()

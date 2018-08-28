@@ -1,0 +1,4 @@
+com/aliyun/emr/example/EMapReduceOSSUtil/buildOSSCompleteUri(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#com/aliyun/emr/example/EMapReduceOSSUtil/stripHttp(java.lang.String)
+com/aliyun/emr/example/EMapReduceOSSUtil/buildOSSCompleteUri(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#java/lang/String/length()
+com/aliyun/emr/example/EMapReduceOSSUtil/buildOSSCompleteUri(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#java/lang/String/indexOf(java.lang.String,int)
+com/aliyun/emr/example/EMapReduceOSSUtil/buildOSSCompleteUri(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#java/lang/String/substring(int,int)

@@ -1,0 +1,1 @@
+com/aspigrow/portel/convertor/AddressConvertor/convertToEntity(com.aspigrow.portel.model.AddressModel)#com/aspigrow/portel/model/AddressModel/getPincode()

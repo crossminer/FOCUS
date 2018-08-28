@@ -1,0 +1,3 @@
+com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/String/charAt(int)
+com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#com/jetdrone/nashorn/next/Loader/hex(char)
+com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/StringBuilder/StringBuilder(int)

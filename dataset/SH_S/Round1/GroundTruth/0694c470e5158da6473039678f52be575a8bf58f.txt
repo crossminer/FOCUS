@@ -1,0 +1,4 @@
+com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#com/sonal/flashcardapp/domain/FcDeck/setUserId(int)
+com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#org/springframework/jdbc/core/simple/SimpleJdbcInsert/executeAndReturnKey(org.springframework.jdbc.core.namedparam.SqlParameterSource)
+com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#com/sonal/flashcardapp/domain/FcDeck/getTitle()
+com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#com/sonal/flashcardapp/domain/FcDeck/getUserId()

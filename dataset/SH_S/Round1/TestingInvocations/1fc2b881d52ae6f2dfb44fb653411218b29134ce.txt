@@ -1,0 +1,4 @@
+jclustering/techniques/PCA/makeConfig()#javax/swing/JPanel/JPanel(java.awt.LayoutManager)
+jclustering/techniques/PCA/makeConfig()#javax/swing/JLabel/JLabel(java.lang.String)
+jclustering/techniques/PCA/makeConfig()#javax/swing/JCheckBox/JCheckBox()
+jclustering/techniques/PCA/makeConfig()#java/awt/GridLayout/GridLayout(int,int,int,int)

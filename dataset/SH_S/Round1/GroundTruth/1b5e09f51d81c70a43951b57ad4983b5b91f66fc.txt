@@ -1,0 +1,1 @@
+uk/commonline/weather/geo/jaxrs/SimpleTest/test()#java/lang/Thread/interrupt()

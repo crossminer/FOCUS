@@ -1,0 +1,4 @@
+DAO/PublicacoesDAO/update(DAO.Publicacoes)#database/Conn/getConnection()
+DAO/PublicacoesDAO/update(DAO.Publicacoes)#java/util/ArrayList/ArrayList()
+DAO/PublicacoesDAO/update(DAO.Publicacoes)#java/io/PrintStream/print(java.lang.String)
+DAO/PublicacoesDAO/update(DAO.Publicacoes)#java/io/PrintStream/println(java.lang.String)

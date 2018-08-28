@@ -1,0 +1,4 @@
+org/richfaces/example/Pages/getPagesByPattern(java.util.regex.Pattern)#java/util/regex/Matcher/group(int)
+org/richfaces/example/Pages/getPagesByPattern(java.util.regex.Pattern)#java/util/Iterator/hasNext()
+org/richfaces/example/Pages/getPagesByPattern(java.util.regex.Pattern)#org/richfaces/example/PageDescriptionBean/PageDescriptionBean()
+org/richfaces/example/Pages/getPagesByPattern(java.util.regex.Pattern)#java/util/regex/Matcher/matches()

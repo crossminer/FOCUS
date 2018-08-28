@@ -1,0 +1,4 @@
+com/example/response/InputTest/testFile()#java/lang/Class/getClassLoader()
+com/example/response/InputTest/testFile()#java/io/BufferedReader/readLine()
+com/example/response/InputTest/testFile()#java/io/BufferedReader/BufferedReader(java.io.Reader)
+com/example/response/InputTest/testFile()#java/lang/Object/getClass()

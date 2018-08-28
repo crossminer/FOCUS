@@ -1,0 +1,4 @@
+net/lr/tutorial/karaf/db/service/DbSelect/getDataSourceInfo(net.lr.tutorial.karaf.db.service.ServiceReference)#java/sql/DatabaseMetaData/getURL()
+net/lr/tutorial/karaf/db/service/DbSelect/getDataSourceInfo(net.lr.tutorial.karaf.db.service.ServiceReference)#java/lang/Throwable/getMessage()
+net/lr/tutorial/karaf/db/service/DbSelect/getDataSourceInfo(net.lr.tutorial.karaf.db.service.ServiceReference)#net/lr/tutorial/karaf/db/service/DbSelect/getJndiName(net.lr.tutorial.karaf.db.service.ServiceReference)
+net/lr/tutorial/karaf/db/service/DbSelect/getDataSourceInfo(net.lr.tutorial.karaf.db.service.ServiceReference)#java/sql/DatabaseMetaData/getDatabaseProductName()

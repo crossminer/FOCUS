@@ -1,0 +1,4 @@
+net/vvakame/vvakame10js/controller/CategoryControllerTest/get()#org/hamcrest/CoreMatchers/is(T)
+net/vvakame/vvakame10js/controller/CategoryControllerTest/get()#java/util/ArrayList/ArrayList()
+net/vvakame/vvakame10js/controller/CategoryControllerTest/get()#com/google/appengine/api/NamespaceManager/set(java.lang.String)
+net/vvakame/vvakame10js/controller/CategoryControllerTest/get()#org/slim3/tester/ControllerTester/getController()

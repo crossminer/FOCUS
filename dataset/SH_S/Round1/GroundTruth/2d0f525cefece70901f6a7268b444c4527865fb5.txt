@@ -1,0 +1,2 @@
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonObject/addProperty(java.lang.String,java.lang.String)
+ch/eitchnet/csvrestendpoint/marshaller/CsvNamesToJsonMarshaller/marshall(java.util.List)#com/google/gson/JsonObject/JsonObject()

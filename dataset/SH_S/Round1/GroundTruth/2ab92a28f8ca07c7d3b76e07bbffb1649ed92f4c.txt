@@ -1,0 +1,2 @@
+com/hbasebook/hush/DomainManager/listShortDomains()#java/util/Map/keySet()
+com/hbasebook/hush/DomainManager/listShortDomains()#com/hbasebook/hush/ResourceManager/putTable(com.hbasebook.hush.HTable)

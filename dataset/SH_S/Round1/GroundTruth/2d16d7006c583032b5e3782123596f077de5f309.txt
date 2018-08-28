@@ -1,0 +1,1 @@
+com/nzannino/web/data/SpringTransactionProvider/begin(org.jooq.TransactionContext)#org/jooq/tools/JooqLogger/info(java.lang.Object)

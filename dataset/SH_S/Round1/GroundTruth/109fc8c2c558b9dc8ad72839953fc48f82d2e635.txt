@@ -1,0 +1,2 @@
+at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#java/util/List/add(E)
+at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#at/ac/tuwien/domain/Profile/getValue(java.lang.String)

@@ -1,0 +1,4 @@
+com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)#com/nulli/openam/plugins/MockPrincipal/MockPrincipal(java.lang.String)
+com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)#java/util/Set/add(E)
+com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)#javax/security/auth/Subject/getPrivateCredentials()
+com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)#com/nulli/openam/plugins/MockToken/MockToken()

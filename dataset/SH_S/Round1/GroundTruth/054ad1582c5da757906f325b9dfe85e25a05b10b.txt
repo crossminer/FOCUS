@@ -1,0 +1,8 @@
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setTags(java.util.List)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setStatus(java.lang.String)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#java/util/List/add(E)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setCategory(models.Category)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Tag/Tag()
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setName(java.lang.String)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Tag/setId(long)
+api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#java/util/ArrayList/ArrayList()

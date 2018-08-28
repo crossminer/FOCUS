@@ -1,0 +1,1 @@
+br/com/tecsinapse/camel/filter/MDCLoggingFilter/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)#javax/servlet/http/HttpServletRequest/getRequestURL()

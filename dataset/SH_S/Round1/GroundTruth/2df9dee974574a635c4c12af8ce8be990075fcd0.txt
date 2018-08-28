@@ -1,0 +1,1 @@
+org/wltea/analyzer/core/IKSegmenter/loadSegmenters()#org/wltea/analyzer/core/CJKSegmenter/CJKSegmenter()

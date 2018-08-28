@@ -1,0 +1,4 @@
+it/gruppopbdmng5/shortlink/entity/URL/getBasicDBObjectClass()#it/gruppopbdmng5/shortlink/entity/Statistiche/getBasicDBObjectClass()
+it/gruppopbdmng5/shortlink/entity/URL/getBasicDBObjectClass()#java/util/ArrayList/ArrayList()
+it/gruppopbdmng5/shortlink/entity/URL/getBasicDBObjectClass()#com/mongodb/BasicDBObject/append(java.lang.String,java.lang.Object)
+it/gruppopbdmng5/shortlink/entity/URL/getBasicDBObjectClass()#it/gruppopbdmng5/shortlink/entity/Statistiche/Statistiche()

@@ -1,0 +1,3 @@
+ch/presentit/rest/ApplicationRest/getHelloWorld()#org/apache/log4j/Category/debug(java.lang.Object)
+ch/presentit/rest/ApplicationRest/getHelloWorld()#java/lang/String/String(java.lang.String)
+ch/presentit/rest/ApplicationRest/getHelloWorld()#javax/ws/rs/core/Response/status(int)

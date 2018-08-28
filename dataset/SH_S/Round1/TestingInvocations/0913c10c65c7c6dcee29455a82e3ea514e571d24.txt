@@ -1,0 +1,4 @@
+org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/lang/Class/getResourceAsStream(java.lang.String)
+org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/lang/Throwable/printStackTrace()
+org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/lang/StringBuilder/append(java.lang.String)
+org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/io/InputStreamReader/InputStreamReader(java.io.InputStream,java.lang.String)

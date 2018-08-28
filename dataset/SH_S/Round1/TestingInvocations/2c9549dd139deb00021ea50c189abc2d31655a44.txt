@@ -1,0 +1,4 @@
+com/howtodoinjava/jersey/provider/AuthenticationFilter/filter(javax.ws.rs.container.ContainerRequestContext)#javax/ws/rs/container/ContainerRequestContext/abortWith(javax.ws.rs.core.Response)
+com/howtodoinjava/jersey/provider/AuthenticationFilter/filter(javax.ws.rs.container.ContainerRequestContext)#org/glassfish/jersey/internal/util/Base64/decode(byte[])
+com/howtodoinjava/jersey/provider/AuthenticationFilter/filter(javax.ws.rs.container.ContainerRequestContext)#java/lang/reflect/Method/getAnnotation(java.lang.Class)
+com/howtodoinjava/jersey/provider/AuthenticationFilter/filter(javax.ws.rs.container.ContainerRequestContext)#javax/ws/rs/container/ResourceInfo/getResourceMethod()

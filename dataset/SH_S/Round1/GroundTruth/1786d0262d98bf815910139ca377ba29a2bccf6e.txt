@@ -1,0 +1,8 @@
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/StringReader/StringReader(java.lang.String)
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/OutputStreamWriter/OutputStreamWriter(java.io.OutputStream)
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/PrintStream/PrintStream(java.io.OutputStream,boolean)
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/OutputStreamWriter/flush()
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/OutputStreamWriter/close()
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/ByteArrayOutputStream/toString()
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#org/wicketstuff/console/engine/DefaultScriptExecutionResult/DefaultScriptExecutionResult(java.lang.String,java.lang.Throwable,java.lang.String,java.lang.Object)
+org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/io/ByteArrayOutputStream/ByteArrayOutputStream()

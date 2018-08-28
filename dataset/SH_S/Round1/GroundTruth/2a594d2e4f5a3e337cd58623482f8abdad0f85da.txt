@@ -1,0 +1,6 @@
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/view/BoardPanel/getColor(int)
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#org/junit/Assert/assertEquals(java.lang.Object,java.lang.Object)
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/model/Board/Board()
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#java/awt/Component/getBackground()
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/model/Tetrimino/getInstance()
+fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/view/BoardPanel/getGrid()

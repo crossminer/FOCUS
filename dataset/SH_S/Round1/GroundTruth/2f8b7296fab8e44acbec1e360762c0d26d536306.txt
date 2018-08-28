@@ -1,0 +1,1 @@
+yb/upc/edu/cn/controller/UserController/getUserInforMation()#yb/upc/edu/cn/repository/UserRepository/findByUserid(int)

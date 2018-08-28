@@ -1,0 +1,8 @@
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/apache/log4j/Category/error(java.lang.Object)
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/hibernate/SessionFactory/openSession()
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/hibernate/Transaction/rollback()
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/apache/log4j/Category/debug(java.lang.Object)
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/apache/log4j/Category/info(java.lang.Object)
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/lambico/test/spring/hibernate/DBTest/onSetUpBeforeTransaction()
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/hibernate/Session/close()
+org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/recipesearch/hibernatesearch/util/SessionHolder/setSession(org.hibernate.Session)

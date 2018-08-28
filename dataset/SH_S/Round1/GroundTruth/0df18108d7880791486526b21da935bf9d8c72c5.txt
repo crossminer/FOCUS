@@ -1,0 +1,7 @@
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletException/ServletException(java.lang.Throwable)
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/lang/String/equals(java.lang.Object)
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#org/jbpm/demo/rewards/ejb/TaskLocal/approveTask(java.lang.String,long)
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/GenericServlet/getServletContext()
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#org/jbpm/demo/rewards/ejb/TaskLocal/retrieveTaskList(java.lang.String)
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/setAttribute(java.lang.String,java.lang.Object)
+org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletContext/getRequestDispatcher(java.lang.String)

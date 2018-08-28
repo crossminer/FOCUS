@@ -1,0 +1,4 @@
+com/hbasebook/hush/DomainManager/listShortDomains()#java/util/ArrayList/ArrayList()
+com/hbasebook/hush/DomainManager/listShortDomains()#com/hbasebook/hush/ResourceManager/getTable(byte[])
+com/hbasebook/hush/DomainManager/listShortDomains()#com/hbasebook/hush/model/ShortDomain/ShortDomain(java.lang.String,java.util.List)
+com/hbasebook/hush/DomainManager/listShortDomains()#java/util/List/add(E)

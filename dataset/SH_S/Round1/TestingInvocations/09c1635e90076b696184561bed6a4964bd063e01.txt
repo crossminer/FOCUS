@@ -1,0 +1,4 @@
+org/feuyeux/jaxrs2/atup/core/rest/AtupRequest/rest(java.lang.String,java.lang.String,java.util.Set,java.util.Set,javax.ws.rs.core.MediaType,R,java.lang.Class)#javax/ws/rs/client/Invocation/Builder/header(java.lang.String,java.lang.Object)
+org/feuyeux/jaxrs2/atup/core/rest/AtupRequest/rest(java.lang.String,java.lang.String,java.util.Set,java.util.Set,javax.ws.rs.core.MediaType,R,java.lang.Class)#javax/ws/rs/client/SyncInvoker/put(javax.ws.rs.client.Entity)
+org/feuyeux/jaxrs2/atup/core/rest/AtupRequest/rest(java.lang.String,java.lang.String,java.util.Set,java.util.Set,javax.ws.rs.core.MediaType,R,java.lang.Class)#javax/ws/rs/core/Configurable/register(java.lang.Class)
+org/feuyeux/jaxrs2/atup/core/rest/AtupRequest/rest(java.lang.String,java.lang.String,java.util.Set,java.util.Set,javax.ws.rs.core.MediaType,R,java.lang.Class)#org/apache/logging/log4j/Logger/error(java.lang.Object)

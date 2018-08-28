@@ -1,0 +1,4 @@
+fr/grislain/async/Paxos/main(java.lang.String[])#java/net/InetAddress/getHostAddress()
+fr/grislain/async/Paxos/main(java.lang.String[])#java/net/InetAddress/isSiteLocalAddress()
+fr/grislain/async/Paxos/main(java.lang.String[])#fr/grislain/async/node/Address/provider()
+fr/grislain/async/Paxos/main(java.lang.String[])#fr/grislain/async/node/Address/Provider/address()

@@ -1,0 +1,4 @@
+net/spinetrak/gasguzzler/dao/RateMetricsMapper/map(int,java.sql.ResultSet,net.spinetrak.gasguzzler.dao.StatementContext)#java/sql/ResultSet/getDouble(java.lang.String)
+net/spinetrak/gasguzzler/dao/RateMetricsMapper/map(int,java.sql.ResultSet,net.spinetrak.gasguzzler.dao.StatementContext)#net/spinetrak/gasguzzler/core/RateDataPoint/setX(long)
+net/spinetrak/gasguzzler/dao/RateMetricsMapper/map(int,java.sql.ResultSet,net.spinetrak.gasguzzler.dao.StatementContext)#java/sql/ResultSet/getLong(java.lang.String)
+net/spinetrak/gasguzzler/dao/RateMetricsMapper/map(int,java.sql.ResultSet,net.spinetrak.gasguzzler.dao.StatementContext)#net/spinetrak/gasguzzler/core/RateDataPoint/setY(double)

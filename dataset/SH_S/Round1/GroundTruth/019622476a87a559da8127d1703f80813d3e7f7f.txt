@@ -1,0 +1,5 @@
+cn/lcf/controller/HelloController/add(cn.lcf.controller.ModelMap,cn.lcf.entity.User)#cn/lcf/entity/User/setPassword(java.lang.String)
+cn/lcf/controller/HelloController/add(cn.lcf.controller.ModelMap,cn.lcf.entity.User)#cn/lcf/entity/User/setId(java.lang.String)
+cn/lcf/controller/HelloController/add(cn.lcf.controller.ModelMap,cn.lcf.entity.User)#java/io/PrintStream/println(java.lang.Object)
+cn/lcf/controller/HelloController/add(cn.lcf.controller.ModelMap,cn.lcf.entity.User)#java/lang/Object/Object()
+cn/lcf/controller/HelloController/add(cn.lcf.controller.ModelMap,cn.lcf.entity.User)#java/lang/System/currentTimeMillis()

@@ -1,0 +1,4 @@
+info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#net/paoding/analysis/analyzer/PaodingAnalyzerBean/tokenStream(java.lang.String,java.io.Reader)
+info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#java/util/regex/Pattern/split(java.lang.CharSequence)
+info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#java/lang/CharSequence/toString()
+info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#java/io/StringReader/StringReader(java.lang.String)

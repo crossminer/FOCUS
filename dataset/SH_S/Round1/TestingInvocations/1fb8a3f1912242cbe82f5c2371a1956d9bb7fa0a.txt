@@ -1,0 +1,4 @@
+br/com/igor/tccrestws/service/AtividadeService/sugestaoAtividade(java.lang.String)#br/com/igor/tccrestws/service/AtividadeService/selecionaAtividadeRandom(java.util.List)
+br/com/igor/tccrestws/service/AtividadeService/sugestaoAtividade(java.lang.String)#com/google/gson/Gson/toJson(java.lang.Object)
+br/com/igor/tccrestws/service/AtividadeService/sugestaoAtividade(java.lang.String)#com/google/gson/Gson/Gson()
+br/com/igor/tccrestws/service/AtividadeService/sugestaoAtividade(java.lang.String)#br/com/igor/tccrestws/dao/AtividadeDao/selectAllAtividadeSugestao(br.com.igor.tccrestws.entity.Usuario)

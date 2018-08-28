@@ -1,0 +1,1 @@
+com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)#javax/security/auth/Subject/getPrincipals()

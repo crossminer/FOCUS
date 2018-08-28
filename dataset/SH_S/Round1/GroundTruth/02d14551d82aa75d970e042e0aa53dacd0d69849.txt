@@ -1,0 +1,3 @@
+com/stylussoftworks/web/service/SpriteManagerServiceImpl/getFormattedSpriteDataFromMap()#com/stylussoftworks/web/service/SpriteManagerServiceImpl/getStringFormattedSpriteCoordinatesForEid(java.lang.String)
+com/stylussoftworks/web/service/SpriteManagerServiceImpl/getFormattedSpriteDataFromMap()#java/lang/StringBuilder/toString()
+com/stylussoftworks/web/service/SpriteManagerServiceImpl/getFormattedSpriteDataFromMap()#com/stylussoftworks/web/service/SpriteManagerServiceImpl/removeFromSpriteManagerMap(java.util.List)

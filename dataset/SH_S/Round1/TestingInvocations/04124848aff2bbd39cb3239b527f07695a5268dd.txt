@@ -1,0 +1,4 @@
+io/C/MessageReceiver/run()#java/lang/Throwable/printStackTrace()
+io/C/MessageReceiver/run()#java/io/PrintStream/println(java.lang.String)
+io/C/MessageReceiver/run()#io/S/Message/getName()
+io/C/MessageReceiver/run()#java/io/ObjectInputStream/readObject()

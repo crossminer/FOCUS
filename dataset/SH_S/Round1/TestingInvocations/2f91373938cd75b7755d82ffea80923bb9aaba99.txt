@@ -1,0 +1,4 @@
+com/michaelpellegrini/brms/healthcare/DroolsClient/readKnowledgeBase()#org/drools/KnowledgeBase/getKnowledgePackages()
+com/michaelpellegrini/brms/healthcare/DroolsClient/readKnowledgeBase()#org/drools/definition/KnowledgePackage/getName()
+com/michaelpellegrini/brms/healthcare/DroolsClient/readKnowledgeBase()#org/drools/conf/KnowledgeBaseOptionsConfiguration/setOption(T)
+com/michaelpellegrini/brms/healthcare/DroolsClient/readKnowledgeBase()#java/lang/Object/toString()

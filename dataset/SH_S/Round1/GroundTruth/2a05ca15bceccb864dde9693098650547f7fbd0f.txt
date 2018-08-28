@@ -1,0 +1,3 @@
+org/slurry/cache4guice/aop/CacheInterceptor/getResultFromCacheOrMethod(org.slurry.cache4guice.cache.util.MethodInvocation)#org/slurry/cache4guice/aop/CacheInterceptor/getInvocations()
+org/slurry/cache4guice/aop/CacheInterceptor/getResultFromCacheOrMethod(org.slurry.cache4guice.cache.util.MethodInvocation)#java/util/Map/put(K,V)
+org/slurry/cache4guice/aop/CacheInterceptor/getResultFromCacheOrMethod(org.slurry.cache4guice.cache.util.MethodInvocation)#org/slurry/cache4guice/aop/CacheInterceptor/getCacheNameFromMethodInvocation(org.slurry.cache4guice.cache.util.MethodInvocation)

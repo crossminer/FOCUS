@@ -1,0 +1,1 @@
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/deleteOutputFileIfExists(java.lang.String[])#org/apache/hadoop/fs/FileSystem/delete(org.apache.hadoop.fs.Path,boolean)

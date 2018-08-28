@@ -1,0 +1,2 @@
+com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/Credentials/setEmail(java.lang.String)
+com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/UserProfile/getUsername()

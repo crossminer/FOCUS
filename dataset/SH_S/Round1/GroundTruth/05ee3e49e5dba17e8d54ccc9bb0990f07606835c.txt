@@ -1,0 +1,1 @@
+com/web/mytest/config/MvcConfiguration/templateResolver()#org/thymeleaf/templateresolver/TemplateResolver/setTemplateMode(java.lang.String)

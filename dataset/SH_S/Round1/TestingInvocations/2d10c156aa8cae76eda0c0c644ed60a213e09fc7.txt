@@ -1,0 +1,4 @@
+vaeke/restcountries/v0/EmptyDataTest/before()#java/util/ArrayList/ArrayList()
+vaeke/restcountries/v0/EmptyDataTest/before()#com/google/gson/stream/JsonReader/close()
+vaeke/restcountries/v0/EmptyDataTest/before()#java/io/InputStreamReader/InputStreamReader(java.io.InputStream,java.lang.String)
+vaeke/restcountries/v0/EmptyDataTest/before()#java/lang/ClassLoader/getResourceAsStream(java.lang.String)

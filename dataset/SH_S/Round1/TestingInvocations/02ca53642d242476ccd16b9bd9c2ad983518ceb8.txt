@@ -1,0 +1,4 @@
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/entity/Logradouro/setLogradouro(java.lang.String)
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/resource/LogradouroResource/insert(ungp.sampleng.backend.entity.Logradouro)
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/entity/Logradouro/setCep(java.lang.String)
+ungp/sampleng/cucumber/InfracaoFeatureSteps/criarLogradouro(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#ungp/sampleng/backend/entity/Logradouro/setId(java.lang.String)

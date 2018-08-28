@@ -1,0 +1,2 @@
+com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/entity/SysUser/setPassword(java.lang.String)
+com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/service/UserService/login(java.lang.String)

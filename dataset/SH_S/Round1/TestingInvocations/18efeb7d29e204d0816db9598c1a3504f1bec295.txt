@@ -1,0 +1,4 @@
+br/ufla/ecommerce/views/BasePage/renderHead(org.apache.wicket.markup.head.IHeaderResponse)#org/apache/wicket/markup/head/IHeaderResponse/render(org.apache.wicket.markup.head.HeaderItem)
+br/ufla/ecommerce/views/BasePage/renderHead(org.apache.wicket.markup.head.IHeaderResponse)#org/apache/wicket/request/resource/CssResourceReference/CssResourceReference(java.lang.Class,java.lang.String)
+br/ufla/ecommerce/views/BasePage/renderHead(org.apache.wicket.markup.head.IHeaderResponse)#org/apache/wicket/markup/head/CssHeaderItem/forReference(org.apache.wicket.request.resource.ResourceReference)
+br/ufla/ecommerce/views/BasePage/renderHead(org.apache.wicket.markup.head.IHeaderResponse)#org/apache/wicket/markup/html/IPackageResourceGuard/accept(java.lang.Class,java.lang.String)

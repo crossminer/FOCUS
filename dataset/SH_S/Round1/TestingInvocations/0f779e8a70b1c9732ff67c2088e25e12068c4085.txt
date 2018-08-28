@@ -1,0 +1,4 @@
+com/flavien/dao/mapper/LocalDateTimeUserType/nullSafeGet(java.sql.ResultSet,java.lang.String[],org.hibernate.engine.spi.SessionImplementor,java.lang.Object)#java/time/LocalDateTime/ofInstant(java.time.Instant,java.time.ZoneId)
+com/flavien/dao/mapper/LocalDateTimeUserType/nullSafeGet(java.sql.ResultSet,java.lang.String[],org.hibernate.engine.spi.SessionImplementor,java.lang.Object)#org/hibernate/type/AbstractStandardBasicType/nullSafeGet(java.sql.ResultSet,java.lang.String[],org.hibernate.engine.spi.SessionImplementor,java.lang.Object)
+com/flavien/dao/mapper/LocalDateTimeUserType/nullSafeGet(java.sql.ResultSet,java.lang.String[],org.hibernate.engine.spi.SessionImplementor,java.lang.Object)#java/time/ZoneId/systemDefault()
+com/flavien/dao/mapper/LocalDateTimeUserType/nullSafeGet(java.sql.ResultSet,java.lang.String[],org.hibernate.engine.spi.SessionImplementor,java.lang.Object)#java/util/Date/getTime()

@@ -1,0 +1,5 @@
+org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/CriteriaBuilder/asc(javax.persistence.criteria.Expression)
+org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/TypedQuery/getResultList()
+org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/CriteriaBuilder/createQuery(java.lang.Class)
+org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/Path/get(javax.persistence.metamodel.SingularAttribute)
+org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/EntityManager/createQuery(javax.persistence.criteria.CriteriaQuery)

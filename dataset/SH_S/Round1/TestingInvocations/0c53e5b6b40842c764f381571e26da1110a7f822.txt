@@ -1,0 +1,4 @@
+com/example/response/InputTest/testFile()#java/lang/ClassLoader/getResource(java.lang.String)
+com/example/response/InputTest/testFile()#java/net/URL/getFile()
+com/example/response/InputTest/testFile()#java/io/File/File(java.lang.String)
+com/example/response/InputTest/testFile()#java/io/FileReader/FileReader(java.io.File)

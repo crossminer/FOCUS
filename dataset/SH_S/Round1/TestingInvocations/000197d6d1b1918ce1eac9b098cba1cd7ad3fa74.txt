@@ -1,0 +1,4 @@
+com/hms/UssdMessageProcessor/getPreviousMenu(com.hms.Session)#com/hms/repo/SessionRepo/update(E)
+com/hms/UssdMessageProcessor/getPreviousMenu(com.hms.Session)#com/hms/Session/getAccessedMenuNames()
+com/hms/UssdMessageProcessor/getPreviousMenu(com.hms.Session)#com/hms/Session/setCurrentMenuName(java.lang.String)
+com/hms/UssdMessageProcessor/getPreviousMenu(com.hms.Session)#java/util/Stack/pop()

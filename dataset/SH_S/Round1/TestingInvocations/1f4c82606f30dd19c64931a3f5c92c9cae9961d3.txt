@@ -1,0 +1,4 @@
+com/example/restapp/db/ConnectionManager/deregisterDrivers()#java/sql/DriverManager/getDrivers()
+com/example/restapp/db/ConnectionManager/deregisterDrivers()#java/sql/DriverManager/deregisterDriver(java.sql.Driver)
+com/example/restapp/db/ConnectionManager/deregisterDrivers()#java/util/Enumeration/hasMoreElements()
+com/example/restapp/db/ConnectionManager/deregisterDrivers()#java/util/Enumeration/nextElement()

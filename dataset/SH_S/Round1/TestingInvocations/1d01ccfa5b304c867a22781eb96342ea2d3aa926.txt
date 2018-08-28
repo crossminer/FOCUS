@@ -1,0 +1,4 @@
+net/nhs/esb/problem/route/converter/ProblemUpdateConverter/convertCompositionToProblemUpdate(net.nhs.esb.problem.model.ProblemComposition)#net/nhs/esb/problem/model/Problem/getTerminology()
+net/nhs/esb/problem/route/converter/ProblemUpdateConverter/convertCompositionToProblemUpdate(net.nhs.esb.problem.model.ProblemComposition)#net/nhs/esb/problem/model/Problem/getDescription()
+net/nhs/esb/problem/route/converter/ProblemUpdateConverter/convertCompositionToProblemUpdate(net.nhs.esb.problem.model.ProblemComposition)#net/nhs/esb/problem/model/Problem/getDateOfOnset()
+net/nhs/esb/problem/route/converter/ProblemUpdateConverter/convertCompositionToProblemUpdate(net.nhs.esb.problem.model.ProblemComposition)#net/nhs/esb/problem/model/Problem/getProblem()

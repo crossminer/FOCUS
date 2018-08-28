@@ -1,0 +1,7 @@
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setEndTime(java.util.Date)
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#java/util/Date/Date()
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setReason(java.lang.String)
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#org/junit/Assert/assertNotNull(java.lang.Object)
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/Leave()
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setUserId(java.lang.String)
+me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setStartTime(java.util.Date)

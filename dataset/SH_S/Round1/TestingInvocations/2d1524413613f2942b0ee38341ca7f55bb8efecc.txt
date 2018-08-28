@@ -1,0 +1,4 @@
+com/trigram/main/Kata14Test/testGenerateNewBook()#java/lang/reflect/AccessibleObject/setAccessible(boolean)
+com/trigram/main/Kata14Test/testGenerateNewBook()#java/lang/Class/getDeclaredMethod(java.lang.String,java.lang.Class<?>[])
+com/trigram/main/Kata14Test/testGenerateNewBook()#org/easymock/EasyMock/reset(java.lang.Object[])
+com/trigram/main/Kata14Test/testGenerateNewBook()#org/easymock/EasyMock/expect(T)

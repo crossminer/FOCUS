@@ -1,0 +1,4 @@
+yb/upc/edu/cn/controller/UserController/getUserInforMation()#javax/servlet/http/HttpSession/getAttribute(java.lang.String)
+yb/upc/edu/cn/controller/UserController/getUserInforMation()#yb/upc/edu/cn/service/UserService/isOurUser()
+yb/upc/edu/cn/controller/UserController/getUserInforMation()#yb/upc/edu/cn/service/UserService/registe()
+yb/upc/edu/cn/controller/UserController/getUserInforMation()#javax/servlet/http/HttpSession/setAttribute(java.lang.String,java.lang.Object)

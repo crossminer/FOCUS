@@ -1,0 +1,4 @@
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/build()
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#java/io/File/File(java.io.File,java.lang.String)
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/WebApplicationException/WebApplicationException(javax.ws.rs.core.Response)
+org/woelker/telemetrion/service/DataResource/getData(java.lang.String,java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ok(java.lang.Object)

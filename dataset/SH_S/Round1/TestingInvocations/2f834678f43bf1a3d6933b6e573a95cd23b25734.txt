@@ -1,0 +1,4 @@
+org/apache/spark/streaming/zeromq/JavaZeroMQStreamSuite/testZeroMQStream()#org/apache/spark/streaming/zeromq/BytesToObjects/BytesToObjects()
+org/apache/spark/streaming/zeromq/JavaZeroMQStreamSuite/testZeroMQStream()#akka/actor/SupervisorStrategy/defaultStrategy()
+org/apache/spark/streaming/zeromq/JavaZeroMQStreamSuite/testZeroMQStream()#org/apache/spark/storage/StorageLevel/MEMORY_AND_DISK_SER_2()
+org/apache/spark/streaming/zeromq/JavaZeroMQStreamSuite/testZeroMQStream()#org/apache/spark/streaming/zeromq/ActorSystemCreatorForTest/ActorSystemCreatorForTest()

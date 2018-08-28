@@ -1,0 +1,4 @@
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#java/io/PrintWriter/print(long)
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#org/apache/mahout/cf/taste/recommender/RecommendedItem/getValue()
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#javax/servlet/http/HttpServletResponse/setHeader(java.lang.String,java.lang.String)
+com/ibm/taste/example/movie/servlet/MovieRecommenderServlet/writeXML(javax.servlet.http.HttpServletResponse,java.lang.Iterable)#java/io/PrintWriter/print(float)

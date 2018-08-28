@@ -1,0 +1,4 @@
+com/sportdataconnect/strictly/api/scraper/ShowScraper/processLine(java.lang.String,int)#com/sportdataconnect/strictly/api/response/CoupleResultBuilder/setMusic(java.lang.String)
+com/sportdataconnect/strictly/api/scraper/ShowScraper/processLine(java.lang.String,int)#com/sportdataconnect/strictly/api/response/CoupleResultBuilder/setCoupleId(java.lang.String)
+com/sportdataconnect/strictly/api/scraper/ShowScraper/processLine(java.lang.String,int)#com/sportdataconnect/strictly/api/response/CoupleResultBuilder/setOutcome(java.lang.String)
+com/sportdataconnect/strictly/api/scraper/ShowScraper/processLine(java.lang.String,int)#com/sportdataconnect/strictly/api/response/CoupleResultBuilder/setDance(java.lang.String)

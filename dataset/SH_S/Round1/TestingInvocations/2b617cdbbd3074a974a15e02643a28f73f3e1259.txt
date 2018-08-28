@@ -1,0 +1,4 @@
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#org/ops4j/pax/logging/spi/PaxLoggingEvent/getLevel()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#java/lang/Object/toString()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#org/ops4j/pax/logging/spi/PaxLoggingEvent/getProperties()
+org/apache/servicemix/logging/jms/LogstashEventFormat/toString(org.ops4j.pax.logging.spi.PaxLoggingEvent)#org/ops4j/pax/logging/spi/PaxLoggingEvent/getTimeStamp()

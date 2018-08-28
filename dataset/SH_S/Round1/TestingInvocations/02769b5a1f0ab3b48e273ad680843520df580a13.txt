@@ -1,0 +1,4 @@
+ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getParentID()
+ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getName()
+ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getDeviceState()
+ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getHostName()

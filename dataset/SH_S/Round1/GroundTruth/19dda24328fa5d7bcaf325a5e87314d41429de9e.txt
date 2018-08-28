@@ -1,0 +1,2 @@
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/io/InputStream/read()
+com/wicketinaction/StartWebSocketBroadcast/main(java.lang.String[])#java/lang/System/exit(int)

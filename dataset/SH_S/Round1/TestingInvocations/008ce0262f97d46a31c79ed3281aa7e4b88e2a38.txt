@@ -1,0 +1,4 @@
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/deleteOutputFileIfExists(java.lang.String[])#org/apache/hadoop/fs/FileSystem/get(java.net.URI,org.apache.hadoop.conf.Configuration)
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/deleteOutputFileIfExists(java.lang.String[])#org/apache/hadoop/fs/Path/toUri()
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/deleteOutputFileIfExists(java.lang.String[])#org/apache/hadoop/fs/Path/Path(java.lang.String)
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/deleteOutputFileIfExists(java.lang.String[])#org/apache/hadoop/conf/Configured/getConf()

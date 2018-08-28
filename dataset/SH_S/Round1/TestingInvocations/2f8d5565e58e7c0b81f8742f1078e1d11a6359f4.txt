@@ -1,0 +1,4 @@
+extractorExample/Extractor/extract()#org/jsoup/select/Elements/get(int)
+extractorExample/Extractor/extract()#org/jsoup/select/Elements/attr(java.lang.String)
+extractorExample/Extractor/extract()#org/apache/logging/log4j/Logger/debug(java.lang.String)
+extractorExample/Extractor/extract()#org/apache/logging/log4j/Logger/info(java.lang.String)
