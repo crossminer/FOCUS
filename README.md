@@ -26,10 +26,10 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 	* __arffExtractor__: Rascal metadata extractors.
 * dataset
 	* __jars__: parsed jar files;
-	* __MVL__: metadata of the MV<sub>L</sub> dataset (3,600 JAR files);
-	* __MHL__: metadata of the MV<sub>S</sub> dataset (1,600 JAR files);
-	* __SHL__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
-	* __SHS__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
+	* __MV_L__: metadata of the MV<sub>L</sub> dataset (3,600 JAR files);
+	* __MH_S__: metadata of the MV<sub>S</sub> dataset (1,600 JAR files);
+	* __SH_L__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
+	* __SH_S__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
 	* __Note__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
 * evaluation
 	* Jars_Dataset
