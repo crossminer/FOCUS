@@ -28,7 +28,7 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 		* __MVL__: metadata of the MV<sub>L</sub> dataset (3,600 jar files);
 		* __MHL__: metadata of the MV<sub>S</sub> dataset (1,600 jar files);
 	* Repositories_Dataset: The archive of 5,147 Java projects retrieved from GitHub via the Software
-Heritage archive is available at <<anonymized>>.
+Heritage archive is available at `anonymized`.
 		* __SHL__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
 		* __SHS__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
 * Evaluation
