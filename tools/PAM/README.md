@@ -1,4 +1,4 @@
-# APIMaterials
+# PAM Tool
 
 Parsing PAM: Python code
 
