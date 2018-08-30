@@ -20,6 +20,3 @@ The complete evaluation process involves the following sequence of functions to 
 4. getGroundTruth
 5. combineMethodsInv
 6. combineAll
-
-
-Special thanks go to @claudioDsi: he supported us during the evaluation of PAM.
