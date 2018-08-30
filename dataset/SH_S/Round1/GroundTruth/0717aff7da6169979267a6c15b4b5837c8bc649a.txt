@@ -1,2 +1,0 @@
-camelinaction/PingServiceMain/main(java.lang.String[])#camelinaction/ShutdownThread/ShutdownThread(camelinaction.CamelContext)
-camelinaction/PingServiceMain/main(java.lang.String[])#camelinaction/PingService/PingService()

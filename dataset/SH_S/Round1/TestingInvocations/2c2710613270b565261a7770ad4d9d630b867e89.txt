@@ -1,4 +1,0 @@
-mark/conover/crypto/util/SecureServerUtil/copy(java.io.File,java.io.File)#mark/conover/crypto/util/SecureServerUtil/safeClose(java.io.InputStream)
-mark/conover/crypto/util/SecureServerUtil/copy(java.io.File,java.io.File)#java/io/BufferedInputStream/read()
-mark/conover/crypto/util/SecureServerUtil/copy(java.io.File,java.io.File)#org/slf4j/Logger/error(java.lang.String,java.lang.Throwable)
-mark/conover/crypto/util/SecureServerUtil/copy(java.io.File,java.io.File)#java/io/BufferedInputStream/BufferedInputStream(java.io.InputStream)

@@ -1,6 +1,0 @@
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/lang/Class/getName()
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/lang/StringBuffer/StringBuffer()
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/lang/StringBuffer/length()
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/util/logging/Logger/getLogger(java.lang.String)
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/lang/StringBuffer/toString()
-org/tmf/dsmapi/commons/utils/URIParser/getParameters(java.lang.String)#java/lang/String/length()

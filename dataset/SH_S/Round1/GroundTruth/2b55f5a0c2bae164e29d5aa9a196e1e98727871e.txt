@@ -1,2 +1,0 @@
-com/joantolos/portfolio/template/security/impl/EncrypterImpl/encrypt(java.lang.String)#org/jasypt/util/text/BasicTextEncryptor/encrypt(java.lang.String)
-com/joantolos/portfolio/template/security/impl/EncrypterImpl/encrypt(java.lang.String)#java/lang/StringBuffer/toString()

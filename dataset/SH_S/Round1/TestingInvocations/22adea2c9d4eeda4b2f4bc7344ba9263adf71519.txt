@@ -1,4 +1,0 @@
-com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#com/heryratovoarison/wallpic/utilitaires/SessionSingleton/getInstance()
-com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#com/heryratovoarison/wallpic/entities/Utilisateur/getPassword()
-com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#com/heryratovoarison/wallpic/utilitaires/SessionSingleton/login(com.heryratovoarison.wallpic.entities.Utilisateur)
-com/heryratovoarison/wallpic/entities/service/UtilisateurFacadeREST/test(com.heryratovoarison.wallpic.entities.Utilisateur)#java/io/PrintStream/println(java.lang.String)

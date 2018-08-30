@@ -1,2 +1,0 @@
-com/opera/PropertiesLoadTest/main(java.lang.String[])#java/util/Properties/load(java.io.InputStream)
-com/opera/PropertiesLoadTest/main(java.lang.String[])#java/util/Properties/Properties()

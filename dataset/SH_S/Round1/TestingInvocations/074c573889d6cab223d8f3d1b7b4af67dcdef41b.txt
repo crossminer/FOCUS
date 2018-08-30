@@ -1,4 +1,0 @@
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#java/io/PrintStream/println(java.lang.String)
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#org/drools/runtime/rule/Activation/getFactHandles()
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#java/lang/Object/getClass()
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#java/lang/Object/toString()

@@ -1,4 +1,0 @@
-pangeanembassy/security/web/ForgotPasswordController/update(pangeanembassy.security.web.ForgotPasswordForm,org.springframework.validation.BindingResult)#pangeanembassy/security/web/ForgotPasswordForm/getEmailAddress()
-pangeanembassy/security/web/ForgotPasswordController/update(pangeanembassy.security.web.ForgotPasswordForm,org.springframework.validation.BindingResult)#org/springframework/mail/SimpleMailMessage/setSubject(java.lang.String)
-pangeanembassy/security/web/ForgotPasswordController/update(pangeanembassy.security.web.ForgotPasswordForm,org.springframework.validation.BindingResult)#org/springframework/mail/SimpleMailMessage/setText(java.lang.String)
-pangeanembassy/security/web/ForgotPasswordController/update(pangeanembassy.security.web.ForgotPasswordForm,org.springframework.validation.BindingResult)#org/springframework/mail/MailSender/send(org.springframework.mail.SimpleMailMessage)

@@ -1,4 +1,0 @@
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#javax/servlet/http/HttpServletRequest/getHeader(java.lang.String)
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/models/User/getAuthorities()
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/models/User/getCurrentUser()
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/models/LinkInfo/getAuthor()

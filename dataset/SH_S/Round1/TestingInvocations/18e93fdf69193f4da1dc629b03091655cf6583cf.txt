@@ -1,4 +1,0 @@
-me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setLeaveType(java.lang.String)
-me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/oa/Leave/setApplyTime(java.util.Date)
-me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#me/kafeitu/demo/activiti/entity/IdEntity/getId()
-me/kafeitu/demo/activiti/dao/LeaveDaoTest/crudEntity()#org/junit/Assert/assertNull(java.lang.Object)

@@ -1,2 +1,0 @@
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#com/epam/training/dataaccess/model/ServerInfo/getRaidType()
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#java/lang/StringBuilder/StringBuilder()

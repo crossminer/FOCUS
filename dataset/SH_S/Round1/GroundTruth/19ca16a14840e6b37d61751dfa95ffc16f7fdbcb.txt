@@ -1,1 +1,0 @@
-com/codility/numbers/EquilibriumIndex/solution(int[])#java/math/BigInteger/subtract(java.math.BigInteger)

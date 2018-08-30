@@ -1,4 +1,0 @@
-com/harishkannarao/angularjs/restapi/util/PropertiesReference/loadPropertiesFromPath(java.lang.String)#java/lang/RuntimeException/RuntimeException(java.lang.Throwable)
-com/harishkannarao/angularjs/restapi/util/PropertiesReference/loadPropertiesFromPath(java.lang.String)#java/nio/file/Files/newInputStream(java.nio.file.Path,java.nio.file.OpenOption[])
-com/harishkannarao/angularjs/restapi/util/PropertiesReference/loadPropertiesFromPath(java.lang.String)#java/util/Properties/load(java.io.InputStream)
-com/harishkannarao/angularjs/restapi/util/PropertiesReference/loadPropertiesFromPath(java.lang.String)#java/nio/file/Paths/get(java.lang.String,java.lang.String[])

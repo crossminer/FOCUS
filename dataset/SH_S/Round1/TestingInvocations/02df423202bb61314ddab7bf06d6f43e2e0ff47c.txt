@@ -1,4 +1,0 @@
-se/jsta/JSTABanken/getCusomers()#se/jsta/DBHelper/getCustomers()
-se/jsta/JSTABanken/getCusomers()#javax/ws/rs/core/Response/ResponseBuilder/build()
-se/jsta/JSTABanken/getCusomers()#javax/ws/rs/core/Response/status(javax.ws.rs.core.Response.Status)
-se/jsta/JSTABanken/getCusomers()#javax/ws/rs/core/Response/ResponseBuilder/entity(java.lang.Object)

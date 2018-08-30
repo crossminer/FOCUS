@@ -1,4 +1,0 @@
-fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/view/View/View()
-fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/model/Tetrimino/init()
-fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/view/View/getBoard()
-fr/esiea/tetris/test/ViewTest/shouldDisplayBoard()#fr/esiea/tetris/view/View/displayBoard(int[][],int[][],int,int)

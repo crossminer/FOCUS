@@ -1,4 +1,0 @@
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/sql/Connection/prepareStatement(java.lang.String)
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/lang/Throwable/printStackTrace()
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/sql/PreparedStatement/execute()
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#com/andy/Util/Temperature/temperature()

@@ -1,4 +1,0 @@
-ch/presentit/rest/ApplicationRest/getHelloWorld()#javax/ws/rs/core/Response/ResponseBuilder/build()
-ch/presentit/rest/ApplicationRest/getHelloWorld()#com/fasterxml/jackson/databind/ObjectMapper/writeValueAsString(java.lang.Object)
-ch/presentit/rest/ApplicationRest/getHelloWorld()#javax/ws/rs/core/Response/ResponseBuilder/entity(java.lang.Object)
-ch/presentit/rest/ApplicationRest/getHelloWorld()#com/fasterxml/jackson/databind/ObjectMapper/ObjectMapper()

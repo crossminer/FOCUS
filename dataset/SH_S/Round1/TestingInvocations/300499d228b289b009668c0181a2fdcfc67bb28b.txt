@@ -1,4 +1,0 @@
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/shiro/subject/Subject/logout()
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/wicket/authroles/authentication/AuthenticatedWebSession/invalidate()
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/wicket/Application/get()
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/shiro/SecurityUtils/getSubject()

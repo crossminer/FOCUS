@@ -1,1 +1,0 @@
-zx/soft/api/url/UrlResources/readInputStream(java.io.InputStream)#java/io/ByteArrayOutputStream/ByteArrayOutputStream()

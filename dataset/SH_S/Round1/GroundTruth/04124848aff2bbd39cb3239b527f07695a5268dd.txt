@@ -1,2 +1,0 @@
-io/C/MessageReceiver/run()#io/S/Message/getText()
-io/C/MessageReceiver/run()#io/C/MessageReceiver/getInputStream()

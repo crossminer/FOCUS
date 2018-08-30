@@ -1,5 +1,0 @@
-storm/cookbook/log/TestIndexerBolt/test()#storm/cookbook/log/StormTestCase/getTuple()
-storm/cookbook/log/TestIndexerBolt/test()#storm/cookbook/log/IndexerBolt/IndexerBolt()
-storm/cookbook/log/TestIndexerBolt/test()#storm/cookbook/log/IndexerBolt/prepare(java.util.Map,storm.cookbook.log.TopologyContext,storm.cookbook.log.OutputCollector)
-storm/cookbook/log/TestIndexerBolt/test()#java/util/Map/put(K,V)
-storm/cookbook/log/TestIndexerBolt/test()#storm/cookbook/log/StormTestCase/getEntry()

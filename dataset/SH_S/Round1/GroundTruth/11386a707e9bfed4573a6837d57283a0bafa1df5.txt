@@ -1,8 +1,0 @@
-launch/Main/main(java.lang.String[])#org/apache/catalina/startup/Tomcat/getServer()
-launch/Main/main(java.lang.String[])#org/apache/catalina/Server/await()
-launch/Main/main(java.lang.String[])#java/lang/Integer/valueOf(java.lang.String)
-launch/Main/main(java.lang.String[])#org/apache/catalina/startup/Tomcat/Tomcat()
-launch/Main/main(java.lang.String[])#java/io/File/getAbsolutePath()
-launch/Main/main(java.lang.String[])#org/apache/catalina/startup/Tomcat/setPort(int)
-launch/Main/main(java.lang.String[])#java/lang/String/isEmpty()
-launch/Main/main(java.lang.String[])#java/lang/System/getenv(java.lang.String)

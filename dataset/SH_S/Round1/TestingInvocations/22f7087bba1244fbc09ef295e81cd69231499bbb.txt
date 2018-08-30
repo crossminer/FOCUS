@@ -1,4 +1,0 @@
-com/trier/exam/shopping/service/CategoryService/findByName(java.lang.String)#javax/persistence/TypedQuery/getResultList()
-com/trier/exam/shopping/service/CategoryService/findByName(java.lang.String)#javax/persistence/criteria/AbstractQuery/getRoots()
-com/trier/exam/shopping/service/CategoryService/findByName(java.lang.String)#javax/persistence/criteria/Path/get(java.lang.String)
-com/trier/exam/shopping/service/CategoryService/findByName(java.lang.String)#javax/persistence/EntityManager/getCriteriaBuilder()

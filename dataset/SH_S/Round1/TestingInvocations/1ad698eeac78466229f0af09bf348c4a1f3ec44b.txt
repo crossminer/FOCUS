@@ -1,4 +1,0 @@
-br/com/tecsinapse/camel/filter/MDCLoggingFilter/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)#javax/servlet/FilterChain/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
-br/com/tecsinapse/camel/filter/MDCLoggingFilter/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)#org/slf4j/MDC/put(java.lang.String,java.lang.String)
-br/com/tecsinapse/camel/filter/MDCLoggingFilter/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)#java/lang/StringBuffer/toString()
-br/com/tecsinapse/camel/filter/MDCLoggingFilter/doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)#org/slf4j/MDC/remove(java.lang.String)

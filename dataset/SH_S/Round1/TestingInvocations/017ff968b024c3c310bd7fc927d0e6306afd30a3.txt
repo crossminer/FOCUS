@@ -1,4 +1,0 @@
-org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/hibernate/Session/getTransaction()
-org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/recipesearch/hibernatesearch/util/Indexer/Indexer()
-org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/recipesearch/hibernatesearch/util/Indexer/indexWithHibernate()
-org/recipesearch/hibernatesearch/test/BaseTest/onSetUpBeforeTransaction()#org/hibernate/Session/beginTransaction()

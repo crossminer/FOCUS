@@ -1,2 +1,0 @@
-info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#org/apache/lucene/util/AttributeSource/getAttribute(java.lang.Class)
-info/xiaohei/www/mr/weiboad/CalcTFAndN/CalcTFAndNMapper/map(info.xiaohei.www.mr.kpi.Text,info.xiaohei.www.mr.kpi.LongWritable,info.xiaohei.www.mr.kpi.Context)#org/apache/lucene/analysis/TokenStream/incrementToken()

@@ -1,4 +1,0 @@
-tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/setMiddleName(java.lang.String)
-tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/setFirstName(java.lang.String)
-tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/setSecondName(java.lang.String)
-tables/UserInfoDAO/UserInfoMapper/mapRow(java.sql.ResultSet,int)#tables/UserInfo/setGender(java.lang.String)

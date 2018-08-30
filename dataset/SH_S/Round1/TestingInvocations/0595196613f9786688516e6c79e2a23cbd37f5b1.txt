@@ -1,4 +1,0 @@
-com/zendaimoney/mqmonitor/QuickStartServer/main(java.lang.String[])#java/lang/Throwable/printStackTrace()
-com/zendaimoney/mqmonitor/QuickStartServer/main(java.lang.String[])#org/springside/modules/test/jetty/JettyFactory/reloadContext(org.eclipse.jetty.server.Server)
-com/zendaimoney/mqmonitor/QuickStartServer/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
-com/zendaimoney/mqmonitor/QuickStartServer/main(java.lang.String[])#org/springside/modules/test/jetty/JettyFactory/setTldJarNames(org.eclipse.jetty.server.Server,java.lang.String[])

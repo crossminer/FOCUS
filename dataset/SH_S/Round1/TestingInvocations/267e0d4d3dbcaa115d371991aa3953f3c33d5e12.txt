@@ -1,4 +1,0 @@
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topRatedFilms()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topRatedFilmsGender()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/SparkComputing()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topGenresByUser()

@@ -1,6 +1,0 @@
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/lang/Class/getClassLoader()
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/net/URL/getPath()
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/io/File/getParent()
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/io/File/mkdirs()
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/lang/ClassLoader/getResource(java.lang.String)
-org/linkeddata/triplegeo/rest/TripleGeoService/getWorkingDir(org.linkeddata.triplegeo.rest.ServletContext)#java/lang/Object/getClass()

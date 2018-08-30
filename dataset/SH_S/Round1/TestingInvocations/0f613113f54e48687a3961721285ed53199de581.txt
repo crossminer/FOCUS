@@ -1,4 +1,0 @@
-com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseAdapterHelper/setAssociatedObject(java.lang.Object)
-com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/getItem(int)
-com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/getItemViewType(int)
-com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/getAdapterHelper(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)

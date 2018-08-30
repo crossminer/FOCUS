@@ -1,4 +1,0 @@
-example/hello/HelloServerInitializer/initChannel(io.netty.channel.socket.SocketChannel)#io/netty/handler/codec/DelimiterBasedFrameDecoder/DelimiterBasedFrameDecoder(int,io.netty.buffer.ByteBuf[])
-example/hello/HelloServerInitializer/initChannel(io.netty.channel.socket.SocketChannel)#io/netty/channel/ChannelPipeline/addLast(java.lang.String,io.netty.channel.ChannelHandler)
-example/hello/HelloServerInitializer/initChannel(io.netty.channel.socket.SocketChannel)#io/netty/channel/Channel/pipeline()
-example/hello/HelloServerInitializer/initChannel(io.netty.channel.socket.SocketChannel)#io/netty/handler/codec/Delimiters/lineDelimiter()

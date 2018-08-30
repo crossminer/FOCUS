@@ -1,4 +1,0 @@
-org/commoncrawl/examples/mapreduce/WARCTagCounter/run(java.lang.String[])#org/apache/hadoop/mapreduce/Job/waitForCompletion(boolean)
-org/commoncrawl/examples/mapreduce/WARCTagCounter/run(java.lang.String[])#org/apache/hadoop/fs/FileSystem/exists(org.apache.hadoop.fs.Path)
-org/commoncrawl/examples/mapreduce/WARCTagCounter/run(java.lang.String[])#org/apache/hadoop/mapreduce/Job/setNumReduceTasks(int)
-org/commoncrawl/examples/mapreduce/WARCTagCounter/run(java.lang.String[])#org/apache/hadoop/mapreduce/Job/setReducerClass(java.lang.Class)

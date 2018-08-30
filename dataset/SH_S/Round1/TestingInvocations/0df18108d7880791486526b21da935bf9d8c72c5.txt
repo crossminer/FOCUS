@@ -1,4 +1,0 @@
-org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/RequestDispatcher/forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)
-org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/lang/Long/parseLong(java.lang.String)
-org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/getParameter(java.lang.String)
-org/jbpm/demo/rewards/web/TaskServlet/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/lang/Throwable/getMessage()

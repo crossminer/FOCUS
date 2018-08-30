@@ -1,4 +1,0 @@
-at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#java/util/ArrayList/ArrayList()
-at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#java/lang/Object/toString()
-at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#at/ac/tuwien/service/DBService/getProfiles()
-at/ac/tuwien/view/templateduplication/TemplateGenerator/generateUserData()#at/ac/tuwien/view/templateduplication/TemplateGenerator/HelperContainer/HelperContainer(java.lang.String,java.lang.String)

@@ -1,6 +1,6 @@
 # FOCUS
 
-This repository contains the source code implementation, the datasets as well as the experimental results for the following paper:
+This repository contains the source code implementation and the datasets used to get the experimental results of the following paper:
 
 FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns
 
@@ -30,12 +30,6 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 	* __MH_S__: metadata of the MV<sub>S</sub> dataset (1,600 JAR files);
 	* __SH_L__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
 	* __SH_S__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
-	* __Note__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
-* evaluation
-	* Jars_Dataset
-		* evaluation files 
-		* Repositories_Dataset
-	* PAM 
-		* leave-one-out cross validation result files 
-	* Focus 
-		* ten-fold cross validation result files			
+
+__Note<sub>1</sub>__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
+__Note<sub>2</sub>__: to get the results shown in the paper you must run the __Focus__ tool included in this repository.

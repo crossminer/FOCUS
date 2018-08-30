@@ -1,4 +1,0 @@
-com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/entity/SysUser/SysUser()
-com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/entity/IdEntity/setId(java.lang.String)
-com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/repository/jpa/UserDao/findByUsername(java.lang.String)
-com/fhd/bpm/service/UserServiceTest/testLogin()#com/fhd/bpm/entity/SysUser/setUsername(java.lang.String)

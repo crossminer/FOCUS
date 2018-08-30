@@ -1,4 +1,0 @@
-zx/soft/api/url/UrlResources/readInputStream(java.io.InputStream)#java/io/InputStream/read(byte[])
-zx/soft/api/url/UrlResources/readInputStream(java.io.InputStream)#java/io/ByteArrayOutputStream/write(byte[],int,int)
-zx/soft/api/url/UrlResources/readInputStream(java.io.InputStream)#java/io/InputStream/close()
-zx/soft/api/url/UrlResources/readInputStream(java.io.InputStream)#java/io/ByteArrayOutputStream/toByteArray()

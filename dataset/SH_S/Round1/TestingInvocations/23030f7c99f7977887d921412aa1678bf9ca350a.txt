@@ -1,4 +1,0 @@
-au/edu/anu/orcid/metadatastores/retrieve/ObtainMSPublicationInformation/fetch(java.lang.String)#au/edu/anu/orcid/process/retrieve/ObtainPublicationInformation/save(java.util.List)
-au/edu/anu/orcid/metadatastores/retrieve/ObtainMSPublicationInformation/fetch(java.lang.String)#java/util/ArrayList/ArrayList()
-au/edu/anu/orcid/metadatastores/retrieve/ObtainMSPublicationInformation/fetch(java.lang.String)#java/util/Properties/getProperty(java.lang.String)
-au/edu/anu/orcid/metadatastores/retrieve/ObtainMSPublicationInformation/fetch(java.lang.String)#java/util/List/add(E)

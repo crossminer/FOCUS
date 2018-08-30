@@ -1,4 +1,0 @@
-instagram/JsonCoder/getUrl(java.lang.String)#java/net/URL/openStream()
-instagram/JsonCoder/getUrl(java.lang.String)#java/net/URL/URL(java.lang.String)
-instagram/JsonCoder/getUrl(java.lang.String)#org/json/JSONObject/JSONObject(java.lang.String)
-instagram/JsonCoder/getUrl(java.lang.String)#java/io/InputStreamReader/InputStreamReader(java.io.InputStream,java.nio.charset.Charset)

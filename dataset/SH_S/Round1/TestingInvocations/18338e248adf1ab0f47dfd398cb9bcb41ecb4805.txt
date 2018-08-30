@@ -1,4 +1,0 @@
-com/mdeng/common/utils/Stopwatch/getDuration(java.util.concurrent.TimeUnit)#java/util/List/isEmpty()
-com/mdeng/common/utils/Stopwatch/getDuration(java.util.concurrent.TimeUnit)#java/util/concurrent/TimeUnit/convert(long,java.util.concurrent.TimeUnit)
-com/mdeng/common/utils/Stopwatch/getDuration(java.util.concurrent.TimeUnit)#java/util/List/add(E)
-com/mdeng/common/utils/Stopwatch/getDuration(java.util.concurrent.TimeUnit)#java/lang/Enum/equals(java.lang.Object)

@@ -1,2 +1,0 @@
-com/jakubstas/swagger/rest/EmployeeEndpoint/getProductsOptions()#java/lang/String/toString()
-com/jakubstas/swagger/rest/EmployeeEndpoint/getProductsOptions()#javax/ws/rs/core/Response/ResponseBuilder/header(java.lang.String,java.lang.Object)

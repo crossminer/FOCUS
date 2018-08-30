@@ -1,4 +1,0 @@
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#org/jboss/seam/examples/booking/model/Booking/getHotel()
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#org/jboss/seam/examples/booking/model/Booking/getId()
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#org/jboss/seam/examples/booking/i18n/DefaultBundleKey/DefaultBundleKey(java.lang.String)
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#org/jboss/seam/examples/booking/model/Booking/getCheckinDate()

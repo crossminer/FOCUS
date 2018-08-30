@@ -1,4 +1,0 @@
-org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#java/util/regex/Pattern/compile(java.lang.String,int)
-org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#org/salarymaster/DAO/SuggestionDAOMongo/iterToList(com.mongodb.client.FindIterable)
-org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#com/mongodb/client/MongoCollection/find(org.bson.conversions.Bson)
-org/salarymaster/DAO/SuggestionDAOMongo/getSuggestion(java.lang.String,java.lang.String,int)#com/mongodb/client/FindIterable/limit(int)

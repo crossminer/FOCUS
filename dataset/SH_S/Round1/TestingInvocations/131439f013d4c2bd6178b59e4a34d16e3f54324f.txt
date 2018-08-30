@@ -1,4 +1,0 @@
-com/paul/demo/ClientImpl/main(java.lang.String[])#java/lang/String/split(java.lang.String)
-com/paul/demo/ClientImpl/main(java.lang.String[])#com/paul/demo/ClientImpl/getValue(com.paul.demo.WebTarget)
-com/paul/demo/ClientImpl/main(java.lang.String[])#java/util/Scanner/nextLine()
-com/paul/demo/ClientImpl/main(java.lang.String[])#java/io/PrintStream/println(char[])

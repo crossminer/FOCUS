@@ -1,4 +1,0 @@
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topGenres()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/lastGenre()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topRatedGroup()
-vsu/amm/Main/main(java.lang.String[])#vsu/amm/SparkComputing/topDiscussedFilms()

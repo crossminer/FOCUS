@@ -1,4 +1,0 @@
-com/aspigrow/portel/convertor/AddressConvertor/convertToEntity(com.aspigrow.portel.model.AddressModel)#com/aspigrow/portel/model/AddressModel/getState()
-com/aspigrow/portel/convertor/AddressConvertor/convertToEntity(com.aspigrow.portel.model.AddressModel)#com/aspigrow/portel/model/AddressModel/getAddressLine1()
-com/aspigrow/portel/convertor/AddressConvertor/convertToEntity(com.aspigrow.portel.model.AddressModel)#com/aspigrow/portel/model/AddressModel/getAddressLine2()
-com/aspigrow/portel/convertor/AddressConvertor/convertToEntity(com.aspigrow.portel.model.AddressModel)#com/aspigrow/portel/model/AddressModel/getCity()

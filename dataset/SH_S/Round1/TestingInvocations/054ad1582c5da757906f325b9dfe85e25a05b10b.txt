@@ -1,4 +1,0 @@
-api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setId(long)
-api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/setPhotoUrls(java.util.List)
-api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Tag/setName(java.lang.String)
-api/PetData/createPet(long,models.Category,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String)#models/Pet/Pet()

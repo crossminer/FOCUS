@@ -1,1 +1,0 @@
-pl/com/sages/hbase/jpa/kundera/HbaseJpaKunderaExternalTest/shouldSaveEntity()#pl/com/sages/hbase/jpa/kundera/User/setLastName(java.lang.String)

@@ -1,4 +1,0 @@
-agenda/rest/TelefoneREST/put(agenda.entity.Telefone)#agenda/rest/exceptions/CustomWebApplicationException/CustomWebApplicationException(java.lang.Throwable)
-agenda/rest/TelefoneREST/put(agenda.entity.Telefone)#agenda/dao/SessionManager/commit()
-agenda/rest/TelefoneREST/put(agenda.entity.Telefone)#agenda/business/TelefoneBusiness/update(agenda.entity.Telefone)
-agenda/rest/TelefoneREST/put(agenda.entity.Telefone)#agenda/dao/SessionManager/begin()

@@ -1,6 +1,0 @@
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#org/springframework/security/core/authority/SimpleGrantedAuthority/SimpleGrantedAuthority(java.lang.String)
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/models/User/getId()
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/services/LinkInfosService/getLinkInfo(java.lang.Long)
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#java/util/Collection/contains(java.lang.Object)
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/services/LinkInfosService/removeLinkInfo(java.lang.Long)
-study/IndexController/removeLink(java.lang.Long,javax.servlet.http.HttpServletRequest)#study/models/User/getCurrentUserId()

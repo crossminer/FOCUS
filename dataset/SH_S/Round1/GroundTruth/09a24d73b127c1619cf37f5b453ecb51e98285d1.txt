@@ -1,1 +1,0 @@
-net/spinetrak/gasguzzler/dao/RateMetricsMapper/map(int,java.sql.ResultSet,net.spinetrak.gasguzzler.dao.StatementContext)#net/spinetrak/gasguzzler/core/RateDataPoint/RateDataPoint()

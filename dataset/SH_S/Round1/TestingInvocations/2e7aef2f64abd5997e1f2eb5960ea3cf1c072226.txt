@@ -1,4 +1,0 @@
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/util/ArrayList/ArrayList()
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Thread/setContextClassLoader(java.lang.ClassLoader)
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Thread/currentThread()
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/util/Locale/Locale(java.lang.String)

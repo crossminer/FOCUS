@@ -1,4 +1,0 @@
-pl/com/sages/hbase/jpa/kundera/HbaseJpaKunderaExternalTest/shouldSaveEntity()#pl/com/sages/hbase/jpa/kundera/User/User()
-pl/com/sages/hbase/jpa/kundera/HbaseJpaKunderaExternalTest/shouldSaveEntity()#pl/com/sages/hbase/jpa/kundera/User/setUserId(java.lang.String)
-pl/com/sages/hbase/jpa/kundera/HbaseJpaKunderaExternalTest/shouldSaveEntity()#pl/com/sages/hbase/jpa/kundera/User/setCity(java.lang.String)
-pl/com/sages/hbase/jpa/kundera/HbaseJpaKunderaExternalTest/shouldSaveEntity()#pl/com/sages/hbase/jpa/kundera/User/setFirstName(java.lang.String)

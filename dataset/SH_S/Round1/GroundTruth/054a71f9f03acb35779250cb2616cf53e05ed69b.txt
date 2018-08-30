@@ -1,1 +1,0 @@
-com/kijes/ela/serial/ElaSerialProperties/load(java.io.InputStream)#java/util/Properties/load(java.io.InputStream)

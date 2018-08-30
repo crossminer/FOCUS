@@ -1,4 +1,0 @@
-com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/UserProfileResource/authenticate(com.edmunds.hackathon.reviewedcars.Credentials)
-com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/UserProfile/getFirstname()
-com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/Credentials/setPassword(java.lang.String)
-com/edmunds/hackathon/reviewedcars/WebResource/account(com.edmunds.hackathon.reviewedcars.HttpServletRequest,java.lang.String,java.lang.String)#com/edmunds/hackathon/reviewedcars/Credentials/Credentials()

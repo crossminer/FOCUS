@@ -1,4 +1,0 @@
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/io/PrintStream/println(java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/io/PrintWriter/write(java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/getParameter(java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/util/HashMap/HashMap()

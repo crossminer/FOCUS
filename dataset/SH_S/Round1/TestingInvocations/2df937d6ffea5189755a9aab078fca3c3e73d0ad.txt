@@ -1,4 +1,0 @@
-main/Last24hTweets/test()#dao/MeasurementDAOImpl/updateMeasurementTwitterLast24Authors(model.Measurement)
-main/Last24hTweets/test()#model/Measurement/setTwitter_last24h(int)
-main/Last24hTweets/test()#java/io/PrintStream/println(java.lang.String)
-main/Last24hTweets/test()#model/Measurement/setTwitter_last24hAuthorOnly(int)

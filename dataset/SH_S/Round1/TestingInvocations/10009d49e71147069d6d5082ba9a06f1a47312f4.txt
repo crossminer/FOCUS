@@ -1,4 +1,0 @@
-com/lucidworks/IndexingSampler/FieldSpec/nextText(java.util.Random)#com/lucidworks/IndexingSampler/FieldSpec/nextString(java.util.Random)
-com/lucidworks/IndexingSampler/FieldSpec/nextText(java.util.Random)#java/lang/StringBuilder/append(java.lang.String)
-com/lucidworks/IndexingSampler/FieldSpec/nextText(java.util.Random)#java/util/Random/nextInt(int)
-com/lucidworks/IndexingSampler/FieldSpec/nextText(java.util.Random)#java/lang/StringBuilder/StringBuilder()

@@ -1,4 +1,0 @@
-com/codility/numbers/EquilibriumIndex/solution(int[])#java/math/BigInteger/add(java.math.BigInteger)
-com/codility/numbers/EquilibriumIndex/solution(int[])#com/codility/numbers/EquilibriumIndex/sumOfSubArray(int[])
-com/codility/numbers/EquilibriumIndex/solution(int[])#java/math/BigInteger/equals(java.lang.Object)
-com/codility/numbers/EquilibriumIndex/solution(int[])#java/math/BigInteger/valueOf(long)

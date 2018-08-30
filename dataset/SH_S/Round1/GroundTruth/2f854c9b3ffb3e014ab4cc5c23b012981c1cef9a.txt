@@ -1,6 +1,0 @@
-no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/Application/getPageSettings()
-no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/Application/addComponentInstantiationListener(org.apache.wicket.application.IComponentInstantiationListener)
-no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/settings/ISessionSettings/setMaxPageMaps(int)
-no/bekk/bankidsignering/Applikasjon/init()#no/bekk/bankidsignering/Applikasjon/newSpringComponentInjector()
-no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/protocol/http/WebApplication/init()
-no/bekk/bankidsignering/Applikasjon/init()#org/apache/wicket/settings/IPageSettings/setVersionPagesByDefault(boolean)

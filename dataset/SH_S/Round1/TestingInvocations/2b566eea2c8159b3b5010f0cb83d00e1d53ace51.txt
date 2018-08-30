@@ -1,4 +1,0 @@
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#java/math/BigDecimal/BigDecimal(double)
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#java/text/DecimalFormat/DecimalFormat(java.lang.String)
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#java/math/BigDecimal/setScale(int,int)
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#java/math/BigDecimal/doubleValue()

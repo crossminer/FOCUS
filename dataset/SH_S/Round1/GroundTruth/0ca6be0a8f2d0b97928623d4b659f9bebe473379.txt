@@ -1,4 +1,0 @@
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#org/jboss/seam/examples/booking/model/Hotel/getName()
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#java/text/DateFormat/getDateInstance(int)
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#java/util/List/remove(java.lang.Object)
-org/jboss/seam/examples/booking/booking/BookingHistory/cancelBooking(org.jboss.seam.examples.booking.model.Booking)#java/text/DateFormat/format(java.util.Date)

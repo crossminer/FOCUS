@@ -1,4 +1,0 @@
-org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/onTimer(org.apache.wicket.ajax.AjaxRequestTarget)#org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/onPostTimerUpdated(org.apache.wicket.ajax.AjaxRequestTarget)
-org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/onTimer(org.apache.wicket.ajax.AjaxRequestTarget)#org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/getStateObject()
-org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/onTimer(org.apache.wicket.ajax.AjaxRequestTarget)#org/planningpoker/wicket/behaviours/ajax/timer/IObjectState/checkState(java.lang.Object)
-org/planningpoker/wicket/behaviours/ajax/timer/AjaxSelfUpdatingTimerBehavior/onTimer(org.apache.wicket.ajax.AjaxRequestTarget)#org/apache/wicket/behavior/AbstractAjaxBehavior/getComponent()

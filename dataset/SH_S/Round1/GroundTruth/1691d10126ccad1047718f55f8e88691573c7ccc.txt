@@ -1,6 +1,0 @@
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#java/lang/String/equalsIgnoreCase(java.lang.String)
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#twitter4j/GeoLocation/getLatitude()
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#java/lang/Double/toString()
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#java/util/concurrent/LinkedBlockingQueue/offer(E)
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#java/util/Map/put(K,V)
-storm/starter/TweetSpout/TweetListener/onStatus(twitter4j.Status)#twitter4j/GeoLocation/getLongitude()

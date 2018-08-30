@@ -1,4 +1,0 @@
-org/apache/spark/examples/mllib/JavaALS/main(java.lang.String[])#org/apache/spark/examples/mllib/JavaALS/FeaturesToString/FeaturesToString()
-org/apache/spark/examples/mllib/JavaALS/main(java.lang.String[])#org/apache/spark/examples/mllib/JavaALS/ParseRating/ParseRating()
-org/apache/spark/examples/mllib/JavaALS/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
-org/apache/spark/examples/mllib/JavaALS/main(java.lang.String[])#java/lang/System/exit(int)

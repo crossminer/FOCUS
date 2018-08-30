@@ -1,1 +1,0 @@
-io/swagger/sample/data/StoreData/placeOrder(io.swagger.sample.model.Order)#java/util/List/get(int)

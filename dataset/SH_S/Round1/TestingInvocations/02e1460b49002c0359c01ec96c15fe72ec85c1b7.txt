@@ -1,4 +1,0 @@
-com/surfilter/flood/maintain/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.surfilter.flood.maintain.service.account.AuthenticationToken)#com/surfilter/flood/maintain/service/account/AccountService/findUserByLoginName(java.lang.String)
-com/surfilter/flood/maintain/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.surfilter.flood.maintain.service.account.AuthenticationToken)#com/surfilter/flood/maintain/entity/User/getName()
-com/surfilter/flood/maintain/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.surfilter.flood.maintain.service.account.AuthenticationToken)#com/surfilter/flood/maintain/service/account/ShiroDbRealm/ShiroUser/ShiroUser(java.lang.Long,java.lang.String,java.lang.String)
-com/surfilter/flood/maintain/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.surfilter.flood.maintain.service.account.AuthenticationToken)#com/surfilter/flood/maintain/entity/IdEntity/getId()

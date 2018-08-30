@@ -1,4 +1,0 @@
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#java/lang/String/split(java.lang.String)
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/feature/TypeSchema/createDistanceStrategy(int)
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/feature/SingleTypeSchema/getEntity()
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/feature/SingleTypeSchema/processStructuredFields()

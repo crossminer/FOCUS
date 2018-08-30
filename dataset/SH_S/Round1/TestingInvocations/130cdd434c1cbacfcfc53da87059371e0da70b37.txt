@@ -1,4 +1,0 @@
-org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/CriteriaQuery/select(javax.persistence.criteria.Selection)
-org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/CriteriaQuery/orderBy(javax.persistence.criteria.Order[])
-org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/criteria/AbstractQuery/from(java.lang.Class)
-org/edr/services/impl/StandaardBoekrekeningService/findBoekrekeningen()#javax/persistence/EntityManager/getCriteriaBuilder()

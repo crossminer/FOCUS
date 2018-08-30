@@ -1,2 +1,0 @@
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#java/text/NumberFormat/format(double)
-app/util/mvc_interceptors/PageInterceptor/initCurrency()#app/util/currency/CurrencyWorker/getCurrency(java.lang.String)

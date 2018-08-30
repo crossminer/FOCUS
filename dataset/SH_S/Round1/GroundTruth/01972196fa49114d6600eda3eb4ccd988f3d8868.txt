@@ -1,1 +1,0 @@
-wikibooks/hadoop/chapter07/MapperWithReduceSideJoin/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#wikibooks/hadoop/common/AirlinePerformanceParser/getUniqueCarrier()

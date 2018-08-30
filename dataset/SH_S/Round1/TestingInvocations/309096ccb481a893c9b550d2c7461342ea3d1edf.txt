@@ -1,4 +1,0 @@
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/io/File/File(java.net.URI)
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/net/URL/toURI()
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/lang/Class/getResource(java.lang.String)
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/io/File/getAbsolutePath()

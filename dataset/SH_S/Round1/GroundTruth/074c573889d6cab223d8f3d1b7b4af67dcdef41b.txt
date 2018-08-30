@@ -1,2 +1,0 @@
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#java/lang/Class/getSimpleName()
-org/drools/runtime/rule/ConsequenceException/printFacts(java.io.PrintStream)#org/drools/runtime/rule/WorkingMemoryEntryPoint/getObject(org.drools.runtime.rule.FactHandle)

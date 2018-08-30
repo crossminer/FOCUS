@@ -1,4 +1,0 @@
-au/com/ibm/bluecoin/UIContainerTest/should_run_as_client(au.com.ibm.bluecoin.LoginPage)#org/openqa/selenium/By/xpath(java.lang.String)
-au/com/ibm/bluecoin/UIContainerTest/should_run_as_client(au.com.ibm.bluecoin.LoginPage)#org/openqa/selenium/WebElement/click()
-au/com/ibm/bluecoin/UIContainerTest/should_run_as_client(au.com.ibm.bluecoin.LoginPage)#org/openqa/selenium/By/id(java.lang.String)
-au/com/ibm/bluecoin/UIContainerTest/should_run_as_client(au.com.ibm.bluecoin.LoginPage)#java/net/URL/toExternalForm()

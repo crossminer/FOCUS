@@ -1,4 +1,0 @@
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/EntityManager/getEntityManagerFactory()
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#java/util/Set/size()
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#org/slf4j/Logger/info(java.lang.String)
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/EntityManagerFactory/getMetamodel()

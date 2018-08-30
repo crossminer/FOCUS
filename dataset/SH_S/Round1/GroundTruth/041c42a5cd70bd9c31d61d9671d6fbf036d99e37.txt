@@ -1,1 +1,0 @@
-coin/Coin/main(java.lang.String[])#coin/conf/CoinConfiguration/CoinConfiguration()

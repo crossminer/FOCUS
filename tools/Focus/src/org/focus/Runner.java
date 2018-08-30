@@ -107,11 +107,10 @@ public class Runner {
 					trainingEndPos2,
 					testingStartPos,
 					testingEndPos);
-
-			//			matcher.searchAPIUsagePatterns();
+			//matcher.searchAPIUsagePatterns();
 
 			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, this.subFolder, testingStartPos, testingEndPos);
-			//			eval.ComputeSimilarityScore();
+			//eval.computeSimilarityScore();
 		}
 	}
 

@@ -1,4 +1,0 @@
-com/enlight/task/data/TaskData/randomTask()#com/enlight/task/entity/Task/Task()
-com/enlight/task/data/TaskData/randomTask()#com/enlight/task/entity/Task/setTitle(java.lang.String)
-com/enlight/task/data/TaskData/randomTask()#com/enlight/task/entity/User/User(java.lang.Long)
-com/enlight/task/data/TaskData/randomTask()#com/enlight/task/entity/Task/setUser(com.enlight.task.entity.User)

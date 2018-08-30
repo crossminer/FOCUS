@@ -1,6 +1,0 @@
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/util/List/add(E)
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Class/getClassLoader()
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/net/URLClassLoader/URLClassLoader(java.net.URL[],java.lang.ClassLoader)
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Object/Object()
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Thread/getContextClassLoader()
-org/appfuse/webapp/action/BasePageTestCase/onSetUp()#java/lang/Object/getClass()

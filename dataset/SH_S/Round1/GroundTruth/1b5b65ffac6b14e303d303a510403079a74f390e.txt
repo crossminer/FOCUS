@@ -1,3 +1,0 @@
-org/apache/camel/spit/parser/spitParser/ruleExpression()#org/apache/camel/spit/parser/spitParser/reportError(org.apache.camel.spit.parser.RecognitionException)
-org/apache/camel/spit/parser/spitParser/ruleExpression()#org/apache/camel/spit/parser/spitParser/line()
-org/apache/camel/spit/parser/spitParser/ruleExpression()#org/apache/camel/spit/parser/spitParser/getLastToken()

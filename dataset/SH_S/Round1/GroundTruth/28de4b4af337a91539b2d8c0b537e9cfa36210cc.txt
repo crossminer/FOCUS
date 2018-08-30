@@ -1,1 +1,0 @@
-org/springframework/integration/gemfire/store/KeyValueMessageGroup/isMember(org.springframework.integration.gemfire.outbound.Message)#org/springframework/integration/gemfire/store/KeyValueMessageGroup/containsSequenceNumber(java.util.Collection,java.lang.Integer)

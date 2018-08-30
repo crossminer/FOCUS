@@ -1,2 +1,0 @@
-com/creamsugardonut/HttpStaticFileServerHandler2/sendError(io.netty.channel.ChannelHandlerContext,io.netty.handler.codec.http.HttpResponseStatus)#io/netty/buffer/Unpooled/copiedBuffer(java.lang.CharSequence,java.nio.charset.Charset)
-com/creamsugardonut/HttpStaticFileServerHandler2/sendError(io.netty.channel.ChannelHandlerContext,io.netty.handler.codec.http.HttpResponseStatus)#io/netty/handler/codec/http/HttpMessage/headers()

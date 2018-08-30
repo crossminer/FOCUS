@@ -1,4 +1,0 @@
-org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/util/Collections/synchronizedMap(java.util.Map)
-org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/lang/System/setOut(java.io.PrintStream)
-org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/util/Collections/emptyMap()
-org/wicketstuff/console/engine/ClojureEngine/execute(java.lang.String,java.util.Map)#java/lang/System/setErr(java.io.PrintStream)

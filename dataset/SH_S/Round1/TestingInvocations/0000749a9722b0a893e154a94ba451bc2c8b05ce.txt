@@ -1,4 +1,0 @@
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#java/lang/String/split(java.lang.String)
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#junit/framework/Assert/assertTrue(java.lang.String,boolean)
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#net/sf/jpam/Pam/getLibraryName()
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#java/io/File/File(java.lang.String)

@@ -1,1 +1,0 @@
-agenda/rest/TelefoneREST/put(agenda.entity.Telefone)#agenda/dao/SessionManager/rollBack()

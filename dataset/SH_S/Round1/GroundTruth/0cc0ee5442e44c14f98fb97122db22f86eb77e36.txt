@@ -1,3 +1,0 @@
-com/kyip/api/buildstartportal/external/MainApplication/run(com.kyip.api.buildstartportal.external.MainConfiguration,com.kyip.api.buildstartportal.external.Environment)#java/lang/Class/getName()
-com/kyip/api/buildstartportal/external/MainApplication/run(com.kyip.api.buildstartportal.external.MainConfiguration,com.kyip.api.buildstartportal.external.Environment)#com/kyip/api/buildstartportal/external/health/Ping/Ping(com.kyip.api.buildstartportal.external.MainConfiguration)
-com/kyip/api/buildstartportal/external/MainApplication/run(com.kyip.api.buildstartportal.external.MainConfiguration,com.kyip.api.buildstartportal.external.Environment)#com/kyip/api/buildstartportal/external/MainConfiguration/setProjectRegistries(java.lang.String)

@@ -1,4 +1,0 @@
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/util/function/Function/apply(T)
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/io/PrintWriter/write(java.lang.String)
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/lang/String/length()
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/util/List/size()

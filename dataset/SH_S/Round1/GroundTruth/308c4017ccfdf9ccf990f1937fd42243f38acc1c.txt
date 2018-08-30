@@ -1,6 +1,0 @@
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#java/util/List/add(E)
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#org/w3c/dom/NodeList/item(int)
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#no/koteng/appstore/Artifact/Parser/Parser()
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#org/w3c/dom/Node/getTextContent()
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#no/koteng/appstore/Artifact/Parser/parseXML(org.w3c.dom.Node)
-no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#no/koteng/appstore/Repository/Repository(java.lang.String,java.lang.String,java.util.List)

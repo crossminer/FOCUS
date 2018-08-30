@@ -1,4 +1,0 @@
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/lang/String/format(java.lang.String,java.lang.Object[])
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#java/util/List/get(int)
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/pad(int)
-com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/printTableRow(java.util.List,boolean)#com/github/jakz/nit/batch/BatchOperations/ASCIITablePrinter/ln()

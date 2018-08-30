@@ -1,4 +1,0 @@
-com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/String/length()
-com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/StringBuilder/append(char)
-com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/StringBuilder/toString()
-com/jetdrone/nashorn/next/Loader/escapeJavaStyleString(java.lang.String,boolean,boolean)#java/lang/StringBuilder/append(java.lang.String)

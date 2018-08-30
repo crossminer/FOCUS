@@ -1,8 +1,0 @@
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#com/ejm/service/EmailService/sendContactPageMessage(java.lang.String,java.lang.String,java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletResponse/setContentType(java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#com/google/gson/Gson/toJson(java.lang.Object)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletResponse/setCharacterEncoding(java.lang.String)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#com/google/gson/Gson/Gson()
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletResponse/getWriter()
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/util/Map/put(K,V)
-com/ejm/service/EmailServlet/doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletRequest/getRequestURI()

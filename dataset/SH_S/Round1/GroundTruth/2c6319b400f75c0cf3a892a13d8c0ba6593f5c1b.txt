@@ -1,4 +1,0 @@
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/EntityManager/createQuery(java.lang.String)
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/Query/getResultList()
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/metamodel/EntityType/getName()
-org/ng12306/web/system/repository/JpaMappingTest/allClassMapping()#javax/persistence/metamodel/Metamodel/getEntities()

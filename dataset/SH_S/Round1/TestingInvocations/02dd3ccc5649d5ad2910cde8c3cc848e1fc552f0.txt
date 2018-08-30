@@ -1,4 +1,0 @@
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#com/epam/training/dataaccess/model/ServerInfo/getName()
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#java/lang/StringBuilder/toString()
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#java/lang/StringBuilder/append(java.lang.String)
-com/epam/training/webapp/page/ServersPage/ServerInfo(com.epam.training.dataaccess.model.ServerInfo)#com/epam/training/dataaccess/model/ServerInfo/getCpuType()

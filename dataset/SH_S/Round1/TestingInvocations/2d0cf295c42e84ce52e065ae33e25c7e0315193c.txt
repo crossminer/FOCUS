@@ -1,4 +1,0 @@
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/util/Entity/getIdField()
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/feature/TypeSchema/createTextSimilarityStrategy()
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#org/sifarish/util/Field/getOrdinal()
-org/sifarish/feature/SameTypeSimilarity/SimilarityReducer/setup(org.sifarish.social.Context)#java/lang/Integer/parseInt(java.lang.String)

@@ -1,3 +1,0 @@
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/wicket/Application/getHomePage()
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/wicket/Component/setResponsePage(java.lang.Class)
-com/nikolas/wicketsecurity/ui/pages/dashboard/AdminDashboard/logoutUser()#org/apache/wicket/authroles/authentication/AuthenticatedWebSession/get()

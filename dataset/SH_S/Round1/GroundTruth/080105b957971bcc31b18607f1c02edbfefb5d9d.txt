@@ -1,5 +1,0 @@
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/sql/PreparedStatement/setTimestamp(int,java.sql.Timestamp)
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#com/andy/Util/Temperature/date()
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/io/PrintStream/println(java.lang.String)
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/sql/Timestamp/Timestamp(long)
-com/andy/IO/PostgresDB/logTemperature(com.andy.Util.Temperature)#java/util/Date/getTime()

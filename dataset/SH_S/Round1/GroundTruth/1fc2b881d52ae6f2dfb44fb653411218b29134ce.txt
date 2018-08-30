@@ -1,6 +1,0 @@
-jclustering/techniques/PCA/makeConfig()#jclustering/GUIUtils/createChoices(java.lang.String,java.lang.String[],java.awt.event.ItemListener)
-jclustering/techniques/PCA/makeConfig()#javax/swing/AbstractButton/setSelected(boolean)
-jclustering/techniques/PCA/makeConfig()#java/awt/Component/setName(java.lang.String)
-jclustering/techniques/PCA/makeConfig()#javax/swing/AbstractButton/addItemListener(java.awt.event.ItemListener)
-jclustering/techniques/PCA/makeConfig()#javax/swing/JComboBox/setSelectedIndex(int)
-jclustering/techniques/PCA/makeConfig()#java/awt/Container/add(java.awt.Component)

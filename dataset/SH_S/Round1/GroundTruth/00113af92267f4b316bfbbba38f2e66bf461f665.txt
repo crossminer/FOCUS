@@ -1,1 +1,0 @@
-nl/illuminated/arduino/ArduinoPort/SerialPortReader/run()#java/io/BufferedReader/readLine()

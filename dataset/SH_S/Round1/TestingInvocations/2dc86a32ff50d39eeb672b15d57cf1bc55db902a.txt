@@ -1,4 +1,0 @@
-com/springapp/mvc/impl/HotNewsImpl/getHotNews()#java/io/BufferedReader/close()
-com/springapp/mvc/impl/HotNewsImpl/getHotNews()#java/util/ArrayList/ArrayList()
-com/springapp/mvc/impl/HotNewsImpl/getHotNews()#java/net/URL/URL(java.lang.String)
-com/springapp/mvc/impl/HotNewsImpl/getHotNews()#org/jsoup/nodes/Element/toString()

@@ -1,4 +1,0 @@
-graph/SubgraphMatchingTest/main(java.lang.String[])#java/io/PrintStream/println(int)
-graph/SubgraphMatchingTest/main(java.lang.String[])#org/okbqa/rocknrole/graph/interpreter/GraphReader/GraphReader()
-graph/SubgraphMatchingTest/main(java.lang.String[])#java/util/List/size()
-graph/SubgraphMatchingTest/main(java.lang.String[])#org/okbqa/rocknrole/graph/interpreter/GraphReader/interpret(java.lang.String)

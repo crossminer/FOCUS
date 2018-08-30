@@ -1,4 +1,0 @@
-dk/miw/playlists/LastFmAggregationStrategy/aggregate(org.apache.camel.Exchange,org.apache.camel.Exchange)#org/apache/camel/Message/getBody(java.lang.Class)
-dk/miw/playlists/LastFmAggregationStrategy/aggregate(org.apache.camel.Exchange,org.apache.camel.Exchange)#dk/miw/playlists/model/Track/setAlbumImageUrl(java.lang.String)
-dk/miw/playlists/LastFmAggregationStrategy/aggregate(org.apache.camel.Exchange,org.apache.camel.Exchange)#javax/xml/xpath/XPathFactory/newInstance()
-dk/miw/playlists/LastFmAggregationStrategy/aggregate(org.apache.camel.Exchange,org.apache.camel.Exchange)#java/io/StringReader/StringReader(java.lang.String)

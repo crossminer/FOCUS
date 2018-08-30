@@ -1,3 +1,0 @@
-CSVebatiVBazu/main(java.lang.String[])#CSVebatiVBazu/getFromExcel()
-CSVebatiVBazu/main(java.lang.String[])#java/lang/Integer/Integer(java.lang.String)
-CSVebatiVBazu/main(java.lang.String[])#CSVebatiVBazu/UpdateTitle(java.lang.String,java.lang.String,java.lang.Integer)

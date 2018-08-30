@@ -1,3 +1,0 @@
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/io/File/File(java.lang.String)
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#dk/statsbiblioteket/scape/arcunpacker/CLI/main(java.lang.String[])
-dk/statsbiblioteket/scape/arcunpacker/CLITest/testMain()#java/io/File/list()

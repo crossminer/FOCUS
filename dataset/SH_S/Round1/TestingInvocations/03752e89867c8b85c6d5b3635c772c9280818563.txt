@@ -1,4 +1,0 @@
-com/porterhead/security/HierarchicalJsr250Voter/vote(org.springframework.security.core.Authentication,java.lang.Object,java.util.Collection)#org/springframework/security/core/GrantedAuthority/getAuthority()
-com/porterhead/security/HierarchicalJsr250Voter/vote(org.springframework.security.core.Authentication,java.lang.Object,java.util.Collection)#org/springframework/security/access/annotation/Jsr250Voter/supports(org.springframework.security.access.ConfigAttribute)
-com/porterhead/security/HierarchicalJsr250Voter/vote(org.springframework.security.core.Authentication,java.lang.Object,java.util.Collection)#com/porterhead/security/HierarchicalJsr250Voter/extractAuthorities(org.springframework.security.core.Authentication)
-com/porterhead/security/HierarchicalJsr250Voter/vote(org.springframework.security.core.Authentication,java.lang.Object,java.util.Collection)#org/springframework/security/access/SecurityConfig/equals(java.lang.Object)

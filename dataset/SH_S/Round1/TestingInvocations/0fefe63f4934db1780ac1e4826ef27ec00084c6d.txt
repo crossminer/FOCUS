@@ -1,4 +1,0 @@
-org/objetdirect/wickext/core/effects/WickextAjaxEffectBehavior/renderHead(org.apache.wicket.markup.html.IHeaderResponse)#org/objetdirect/wickext/core/effects/WickextAjaxEffectBehavior/getHandlerScript()
-org/objetdirect/wickext/core/effects/WickextAjaxEffectBehavior/renderHead(org.apache.wicket.markup.html.IHeaderResponse)#org/objetdirect/wickext/core/javascript/JsQuery/$()
-org/objetdirect/wickext/core/effects/WickextAjaxEffectBehavior/renderHead(org.apache.wicket.markup.html.IHeaderResponse)#org/apache/wicket/ajax/AbstractDefaultAjaxBehavior/renderHead(org.apache.wicket.markup.html.IHeaderResponse)
-org/objetdirect/wickext/core/effects/WickextAjaxEffectBehavior/renderHead(org.apache.wicket.markup.html.IHeaderResponse)#org/objetdirect/wickext/core/effects/Effect/setCallback(org.objetdirect.wickext.core.javascript.JsScope)

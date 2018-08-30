@@ -1,8 +1,0 @@
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/entity/account/Role/getAuthorityList()
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/service/account/AccountManager/findUserByLoginName(java.lang.String)
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#java/util/List/add(E)
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/entity/account/User/getRoleList()
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/entity/account/User/getPassword()
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/entity/account/Authority/getPrefixedName()
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/service/account/UserDetailsServiceImpl/loadUserByUsername(java.lang.String)
-org/springside/examples/miniweb/unit/service/account/UserDetailsServiceImplTest/loadUserExist()#org/springside/examples/miniweb/data/AccountData/getRandomUser()

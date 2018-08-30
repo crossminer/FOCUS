@@ -1,4 +1,0 @@
-ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getId()
-ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getLocation()
-ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getCommState()
-ru/at_consulting/itsm/device/Device/toString()#ru/at_consulting/itsm/device/Device/getSerialNumber()

@@ -1,4 +1,0 @@
-freenet/winterface/web/WinterPage/isAllowedFullAccess()#freenet/winterface/web/core/WinterfaceApplication/getConfiguration()
-freenet/winterface/web/WinterPage/isAllowedFullAccess()#java/lang/String/split(java.lang.String)
-freenet/winterface/web/WinterPage/isAllowedFullAccess()#freenet/winterface/web/WinterPage/getHttpServletRequest()
-freenet/winterface/web/WinterPage/isAllowedFullAccess()#freenet/winterface/core/Configuration/getFullAccessHosts()

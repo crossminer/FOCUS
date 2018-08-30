@@ -1,5 +1,0 @@
-org/eu/eark/etl/IngestMapper/extractContent(java.lang.String,org.eu.eark.etl.RecordId,org.eu.eark.etl.Record,org.eu.eark.etl.Record,java.lang.String)#org/eu/eark/etl/IngestMapper/q(java.lang.String)
-org/eu/eark/etl/IngestMapper/extractContent(java.lang.String,org.eu.eark.etl.RecordId,org.eu.eark.etl.Record,org.eu.eark.etl.Record,java.lang.String)#org/eu/eark/etl/webscraping/WebScraper/getValue(java.lang.String)
-org/eu/eark/etl/IngestMapper/extractContent(java.lang.String,org.eu.eark.etl.RecordId,org.eu.eark.etl.Record,org.eu.eark.etl.Record,java.lang.String)#java/lang/String/contains(java.lang.CharSequence)
-org/eu/eark/etl/IngestMapper/extractContent(java.lang.String,org.eu.eark.etl.RecordId,org.eu.eark.etl.Record,org.eu.eark.etl.Record,java.lang.String)#java/util/List/contains(java.lang.Object)
-org/eu/eark/etl/IngestMapper/extractContent(java.lang.String,org.eu.eark.etl.RecordId,org.eu.eark.etl.Record,org.eu.eark.etl.Record,java.lang.String)#org/eu/eark/etl/webscraping/WebScraper/getFieldNames()

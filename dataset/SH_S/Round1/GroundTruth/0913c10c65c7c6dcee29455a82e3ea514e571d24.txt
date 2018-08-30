@@ -1,5 +1,0 @@
-org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/lang/StringBuilder/toString()
-org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/io/BufferedReader/readLine()
-org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#io/vertx/ext/graph/neo4j/Neo4VertxConfiguration/Neo4VertxConfiguration(org.openpcf.neo4vertx.example.JsonObject)
-org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/lang/StringBuilder/StringBuilder()
-org/openpcf/neo4vertx/neo4j/Fixtures/getConfig()#java/io/BufferedReader/BufferedReader(java.io.Reader)

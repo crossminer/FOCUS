@@ -1,8 +1,0 @@
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/util/KeywordComparator/KeywordComparator()
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/MetaDataCriteria/MetaDataCriteria()
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/MetaDataContainer/getKeywords()
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/service/metadata/OpenCalaisService/getMetaData(be.rhok.ejc.common.model.metadata.MetaDataCriteria)
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/Keyword/getRelevance()
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/MetaDataContainer/addKeyword(be.rhok.ejc.common.model.metadata.Keyword)
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/Keyword/addRelevance(double)
-be/rhok/ejc/web/service/metadata/MetaDataWebService/getMetaData(java.lang.String)#be/rhok/ejc/common/model/metadata/MetaDataCriteria/setText(java.lang.String)

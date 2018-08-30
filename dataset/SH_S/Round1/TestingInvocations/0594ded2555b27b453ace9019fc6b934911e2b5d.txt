@@ -1,4 +1,0 @@
-org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/model/GitHubScm/getUser()
-org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/model/Application/getScm()
-org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/model/GitHubScm/getRepo()
-org/zkybase/web/controller/application/ApplicationScmController/getHooks(java.lang.Long,org.zkybase.web.controller.Model)#org/zkybase/web/controller/AbstractController/addNavigation(org.zkybase.web.controller.Model,java.lang.String)

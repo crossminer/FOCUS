@@ -1,3 +1,0 @@
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#java/io/File/exists()
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#java/lang/System/getProperty(java.lang.String)
-net/sf/jpam/PamTest/testSharedLibraryInstalledInLibraryPath()#org/apache/commons/logging/Log/info(java.lang.Object)

@@ -1,4 +1,0 @@
-com/gsihadoop/utils/StockData/parse(java.lang.String)#java/lang/String/split(java.lang.String,int)
-com/gsihadoop/utils/StockData/parse(java.lang.String)#java/lang/Throwable/printStackTrace()
-com/gsihadoop/utils/StockData/parse(java.lang.String)#java/lang/String/trim()
-com/gsihadoop/utils/StockData/parse(java.lang.String)#java/lang/Double/parseDouble(java.lang.String)

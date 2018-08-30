@@ -1,4 +1,0 @@
-com/pangratz/derstandardatcomments/model/ForumFetcherTest/testLocalGetForum()#com/pangratz/derstandardatcomments/model/ForumEntry/getPosting()
-com/pangratz/derstandardatcomments/model/ForumFetcherTest/testLocalGetForum()#com/pangratz/derstandardatcomments/model/ForumEntry/getHeader()
-com/pangratz/derstandardatcomments/model/ForumFetcherTest/testLocalGetForum()#java/net/URL/openStream()
-com/pangratz/derstandardatcomments/model/ForumFetcherTest/testLocalGetForum()#com/pangratz/derstandardatcomments/model/Rating/getUnnecessary()

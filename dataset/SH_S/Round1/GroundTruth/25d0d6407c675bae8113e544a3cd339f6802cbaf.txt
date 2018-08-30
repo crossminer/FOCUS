@@ -1,7 +1,0 @@
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#com/egnore/hadoop/conf/jaxb/Configurations/Configurations()
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#java/util/List/add(E)
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#com/egnore/hadoop/conf/jaxb/Configurations/loadFromFile(java.lang.String)
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#javax/xml/bind/JAXBContext/newInstance(java.lang.Class[])
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#com/egnore/hadoop/conf/jaxb/Configuration/Configuration()
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#java/io/PrintStream/println(java.lang.Object)
-com/egnore/hadoop/conf/jaxb/Configurations/main(java.lang.String[])#javax/xml/bind/JAXBContext/createMarshaller()

@@ -1,4 +1,0 @@
-com/kijes/ela/serial/ElaSerialProperties/load(java.io.InputStream)#java/util/Properties/stringPropertyNames()
-com/kijes/ela/serial/ElaSerialProperties/load(java.io.InputStream)#java/util/Properties/getProperty(java.lang.String)
-com/kijes/ela/serial/ElaSerialProperties/load(java.io.InputStream)#java/util/Properties/Properties()
-com/kijes/ela/serial/ElaSerialProperties/load(java.io.InputStream)#com/kijes/ela/serial/ElaSerialProperties/setProperty(java.lang.String,java.lang.String)

@@ -1,4 +1,0 @@
-com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#com/sonal/flashcardapp/domain/FcDeck/setDeckid(int)
-com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#org/slf4j/Logger/info(java.lang.String)
-com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#java/lang/Number/intValue()
-com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/insertDeck(com.sonal.flashcardapp.domain.FcDeck,int)#com/sonal/flashcardapp/dao/jdbc/FcDeckDaoJdbcImpl/getDeckParamMap(com.sonal.flashcardapp.domain.FcDeck)

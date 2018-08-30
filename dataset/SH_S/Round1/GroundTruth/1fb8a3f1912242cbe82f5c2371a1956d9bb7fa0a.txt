@@ -1,1 +1,0 @@
-br/com/igor/tccrestws/service/AtividadeService/sugestaoAtividade(java.lang.String)#com/google/gson/Gson/fromJson(java.lang.String,java.lang.Class)

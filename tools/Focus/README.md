@@ -10,3 +10,17 @@ mvn exec:java -Dexec.mainClass="it.focus.Runner"
 ```
 
 3. Results will be stored in the `evaluation` folder of the selected dataset directory. For instance, `<local-path>/FOCUS/dataset/SH_L/evaluation/`. 
+
+4. To get information related to API usage patterns and the Levenshtein distance, uncomment the following line in the `tenFoldCrossValidation()` method in the `Runner.java` class:
+```
+// matcher.searchAPIUsagePatterns();
+```
+and
+```
+// eval.computeSimilarityScore();
+```
+
+5. To use the leave-one-out cross validation, uncomment the following line in the `run()` method of the Runner.java class:
+```
+// leaveOneOutValidation();
+```

@@ -1,4 +1,0 @@
-enterprisegeeks/rest/ResponseUtil/buildValidErrorResponce(java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/build()
-enterprisegeeks/rest/ResponseUtil/buildValidErrorResponce(java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/entity(java.lang.Object)
-enterprisegeeks/rest/ResponseUtil/buildValidErrorResponce(java.lang.String,java.lang.String)#enterprisegeeks/rest/dto/Message/of(java.lang.String,java.lang.String)
-enterprisegeeks/rest/ResponseUtil/buildValidErrorResponce(java.lang.String,java.lang.String)#javax/ws/rs/core/Response/ResponseBuilder/type(java.lang.String)

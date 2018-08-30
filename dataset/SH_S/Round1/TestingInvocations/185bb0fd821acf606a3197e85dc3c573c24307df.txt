@@ -1,4 +1,0 @@
-cn/thinkjoy/utils4s/hive/json/JSONSerDe/serialize(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)#org/codehaus/jackson/map/ObjectMapper/ObjectMapper()
-cn/thinkjoy/utils4s/hive/json/JSONSerDe/serialize(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)#org/apache/hadoop/hive/serde2/SerDeException/SerDeException(java.lang.Throwable)
-cn/thinkjoy/utils4s/hive/json/JSONSerDe/serialize(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)#cn/thinkjoy/utils4s/hive/json/JSONSerDe/deparseRow(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)
-cn/thinkjoy/utils4s/hive/json/JSONSerDe/serialize(java.lang.Object,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector)#org/apache/hadoop/io/Text/Text(java.lang.String)

@@ -1,4 +1,0 @@
-nl/illuminated/arduino/ArduinoPort/SerialPortReader/run()#java/util/concurrent/BlockingQueue/put(E)
-nl/illuminated/arduino/ArduinoPort/SerialPortReader/run()#java/util/logging/Logger/getLogger(java.lang.String)
-nl/illuminated/arduino/ArduinoPort/SerialPortReader/run()#java/lang/Class/getName()
-nl/illuminated/arduino/ArduinoPort/SerialPortReader/run()#java/util/logging/Logger/log(java.util.logging.Level,java.lang.String,java.lang.Throwable)

@@ -1,3 +1,0 @@
-com/gs/Classifier/MapMaker/extractSingle(java.io.File)#java/lang/String/matches(java.lang.String)
-com/gs/Classifier/MapMaker/extractSingle(java.io.File)#java/io/FileReader/FileReader(java.io.File)
-com/gs/Classifier/MapMaker/extractSingle(java.io.File)#java/util/HashSet/HashSet()

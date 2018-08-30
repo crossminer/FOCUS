@@ -1,4 +1,0 @@
-com/adm/sparkserver/spark/SparkRunner/main(java.lang.String[])#com/adm/sparkserver/utils/TimeCounter/TimeCounter()
-com/adm/sparkserver/spark/SparkRunner/main(java.lang.String[])#com/adm/sparkserver/models/Query/Query(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)
-com/adm/sparkserver/spark/SparkRunner/main(java.lang.String[])#com/adm/sparkserver/models/EffectiveQuery/EffectiveQuery(com.adm.sparkserver.models.Query)
-com/adm/sparkserver/spark/SparkRunner/main(java.lang.String[])#com/adm/sparkserver/models/Result/toJson()

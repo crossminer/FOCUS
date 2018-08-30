@@ -1,4 +1,0 @@
-com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#com/mytest/myproject/data/TaskData/randomTitle()
-com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#com/mytest/myproject/entity/Task/setTitle(java.lang.String)
-com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#java/lang/Long/Long(java.lang.String)
-com/mytest/myproject/functional/rest/TaskRestFT/createUpdateAndDeleteTask()#com/mytest/myproject/entity/IdEntity/setId(java.lang.Long)

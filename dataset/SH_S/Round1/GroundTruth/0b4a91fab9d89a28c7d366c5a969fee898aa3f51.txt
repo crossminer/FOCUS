@@ -1,8 +1,0 @@
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/util/Arrays/asList(T[])
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#com/orange/twitter/TesttwitterMapSentimental/extractDevice(java.lang.String)
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/io/FileReader/FileReader(java.lang.String)
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/util/List/get(int)
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/util/List/size()
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/lang/String/startsWith(java.lang.String)
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/io/BufferedReader/readLine()
-com/orange/twitter/TesttwitterMapSentimental/TestTwitterMapSentimental()#java/io/BufferedReader/BufferedReader(java.io.Reader)

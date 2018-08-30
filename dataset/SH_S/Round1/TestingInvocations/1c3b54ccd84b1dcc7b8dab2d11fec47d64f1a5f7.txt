@@ -1,4 +1,0 @@
-HBaseIA/GIS/filter/WithinFilter/filterRow(java.util.List)#org/apache/commons/logging/Log/debug(java.lang.Object)
-HBaseIA/GIS/filter/WithinFilter/filterRow(java.util.List)#org/apache/hadoop/hbase/KeyValue/getQualifier()
-HBaseIA/GIS/filter/WithinFilter/filterRow(java.util.List)#org/apache/hadoop/hbase/KeyValue/getKeyString()
-HBaseIA/GIS/filter/WithinFilter/filterRow(java.util.List)#org/apache/hadoop/hbase/KeyValue/getValue()

@@ -1,4 +1,0 @@
-io/swagger/sample/data/StoreData/placeOrder(io.swagger.sample.model.Order)#java/util/List/remove(int)
-io/swagger/sample/data/StoreData/placeOrder(io.swagger.sample.model.Order)#java/util/List/size()
-io/swagger/sample/data/StoreData/placeOrder(io.swagger.sample.model.Order)#io/swagger/sample/model/Order/getId()
-io/swagger/sample/data/StoreData/placeOrder(io.swagger.sample.model.Order)#java/util/List/add(E)
