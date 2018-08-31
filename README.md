@@ -20,7 +20,7 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 
 ## Repository Structure
 
-* tool
+* tools
 	* __Focus__: API Function calls and usage patterns approach.
 	* __PAM__: utilities supporting PAM evaluation.
 	* __arffExtractor__: Rascal metadata extractors.
