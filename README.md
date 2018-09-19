@@ -2,7 +2,7 @@
 
 This repository contains the source code implementation and the datasets used to get the experimental results of the following paper:
 
-FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns
+_FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
 ## Introduction
 
@@ -20,7 +20,7 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 
 ## Repository Structure
 
-* tool
+* tools
 	* __Focus__: API Function calls and usage patterns approach.
 	* __PAM__: utilities supporting PAM evaluation.
 	* __arffExtractor__: Rascal metadata extractors.
@@ -31,5 +31,6 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 	* __SH_L__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
 	* __SH_S__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
 
-__Note<sub>1</sub>__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
-__Note<sub>2</sub>__: to get the results shown in the paper you must run the __Focus__ tool included in this repository.
+__Note<sup>1</sup>__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
+
+__Note<sup>2</sup>__: to get the results shown in the paper you must run the `Focus` tool included in this repository. Follow the instructions provided in the corresponding project.
