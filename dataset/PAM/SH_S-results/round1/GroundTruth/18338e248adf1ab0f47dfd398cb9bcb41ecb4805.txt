@@ -1,0 +1,4 @@
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/Collection/size()
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/Collections/shuffle(java.util.List)
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/Collection/add(E)
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/lang/IllegalArgumentException/IllegalArgumentException(java.lang.String)

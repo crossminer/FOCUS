@@ -1,0 +1,3 @@
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#java/lang/Throwable/printStackTrace()
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#java/lang/Object/toString()
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#java/io/PrintStream/println(java.lang.String)

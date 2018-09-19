@@ -1,0 +1,3 @@
+pangeanembassy/security/web/ChangePasswordController/update(pangeanembassy.security.web.ChangePasswordForm,org.springframework.validation.BindingResult)#org/springframework/security/core/context/SecurityContext/getAuthentication()
+pangeanembassy/security/web/ChangePasswordController/update(pangeanembassy.security.web.ChangePasswordForm,org.springframework.validation.BindingResult)#org/springframework/security/core/Authentication/getPrincipal()
+pangeanembassy/security/web/ChangePasswordController/update(pangeanembassy.security.web.ChangePasswordForm,org.springframework.validation.BindingResult)#javax/persistence/Query/getSingleResult()

@@ -1,0 +1,6 @@
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/amazonaws/services/s3/model/ObjectMetadata/setContentEncoding(java.lang.String)
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#javax/activation/MimetypesFileTypeMap/MimetypesFileTypeMap()
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/amazonaws/services/s3/AmazonS3/putObject(com.amazonaws.services.s3.model.PutObjectRequest)
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/tchepannou/kiosk/core/service/S3Service/key(java.lang.String)
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/tchepannou/kiosk/core/service/S3Service/getBucket()
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/amazonaws/services/s3/model/PutObjectRequest/PutObjectRequest(java.lang.String,java.lang.String,java.io.InputStream,com.amazonaws.services.s3.model.ObjectMetadata)

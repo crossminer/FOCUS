@@ -1,0 +1,2 @@
+com/surfilter/flood/maintain/web/account/UserAdminController/deleteUser(com.surfilter.flood.maintain.entity.User,com.surfilter.flood.maintain.web.account.HttpServletRequest)#com/surfilter/flood/maintain/util/ResultObject/setSuccess(boolean)
+com/surfilter/flood/maintain/web/account/UserAdminController/deleteUser(com.surfilter.flood.maintain.entity.User,com.surfilter.flood.maintain.web.account.HttpServletRequest)#com/surfilter/flood/maintain/util/ResultObject/setMsg(java.lang.String)

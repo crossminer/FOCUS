@@ -1,0 +1,3 @@
+au/edu/anu/orcid/db/model/Publication/equals(java.lang.Object)#au/edu/anu/orcid/db/model/Publication/getPublicationName()
+au/edu/anu/orcid/db/model/Publication/equals(java.lang.Object)#au/edu/anu/orcid/db/model/Publication/getTitle()
+au/edu/anu/orcid/db/model/Publication/equals(java.lang.Object)#au/edu/anu/orcid/db/model/Publication/getIssn()

@@ -1,0 +1,3 @@
+com/example/Main/main(java.lang.String[])#com/example/Main/main(java/lang/String[])/$anonymous1/()
+com/example/Main/main(java.lang.String[])#org/glassfish/grizzly/http/server/HttpServer/shutdown()
+com/example/Main/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)

@@ -1,0 +1,8 @@
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/test/junit4/CamelTestSupport/assertMockEndpointsSatisfied()
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/ProducerTemplate/sendBody(java.lang.String,java.lang.Object)
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#java/util/List/get(int)
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#java/util/List/size()
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/component/mock/MockEndpoint/expectedMessageCount(int)
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#dk/miw/playlists/PlaylistsRouteTest/testRoute()/$anonymous1/()
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/model/RouteDefinition/adviceWith(org.apache.camel.model.ModelCamelContext,org.apache.camel.builder.RouteBuilder)
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/test/junit4/CamelTestSupport/getMockEndpoint(java.lang.String)

@@ -1,0 +1,2 @@
+com/creamsugardonut/HttpStaticFileServerHandler2/setContentTypeHeader(io.netty.handler.codec.http.HttpResponse,java.io.File)#java/io/File/getPath()
+com/creamsugardonut/HttpStaticFileServerHandler2/setContentTypeHeader(io.netty.handler.codec.http.HttpResponse,java.io.File)#io/netty/handler/codec/http/HttpMessage/headers()

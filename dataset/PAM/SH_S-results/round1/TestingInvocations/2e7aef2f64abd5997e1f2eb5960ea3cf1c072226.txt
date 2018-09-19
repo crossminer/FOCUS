@@ -1,0 +1,3 @@
+org/appfuse/webapp/components/MenuItem/getUrl()#java/lang/StringBuilder/append(java.lang.String)
+org/appfuse/webapp/components/MenuItem/getUrl()#java/lang/StringBuilder/StringBuilder()
+org/appfuse/webapp/components/MenuItem/getUrl()#java/lang/String/startsWith(java.lang.String)

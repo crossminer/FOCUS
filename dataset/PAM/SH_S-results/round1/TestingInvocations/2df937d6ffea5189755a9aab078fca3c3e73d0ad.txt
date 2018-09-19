@@ -1,0 +1,3 @@
+dao/EventDAOImpl/insertEvent(model.Event)#model/Event/getName()
+dao/EventDAOImpl/insertEvent(model.Event)#java/sql/Statement/close()
+dao/EventDAOImpl/insertEvent(model.Event)#model/Event/getDate()

@@ -1,0 +1,2 @@
+com/trier/exam/shopping/model/ProductList/equals(java.lang.Object)#java/util/List/equals(java.lang.Object)
+com/trier/exam/shopping/model/ProductList/equals(java.lang.Object)#java/lang/Object/getClass()

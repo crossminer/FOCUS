@@ -1,0 +1,3 @@
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#com/jetdrone/nashorn/next/RequireJS/RequireJS(xyz.jetdrone.vertx.factory.Vertx)
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#java/io/File/File(java.lang.String,java.lang.String)
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#java/lang/System/getProperty(java.lang.String)

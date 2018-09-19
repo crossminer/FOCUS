@@ -1,0 +1,4 @@
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/apache/isis/core/metamodel/adapter/ObjectAdapter/getObject()
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/isisaddons/wicket/svg/cpt/ui/interactivemap/SvgLabel/SvgLabel(java.lang.String,org.isisaddons.wicket.svg.cpt.applib.InteractiveMap)
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/addLinkList(org.isisaddons.wicket.svg.cpt.applib.InteractiveMap)
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/addLegend(org.isisaddons.wicket.svg.cpt.applib.InteractiveMap)

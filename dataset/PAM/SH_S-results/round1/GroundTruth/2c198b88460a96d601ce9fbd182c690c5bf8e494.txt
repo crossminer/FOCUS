@@ -1,0 +1,2 @@
+org/tmf/dsmapi/commons/workflow/StateModelBase/from(E)#java/util/Map/containsKey(java.lang.Object)
+org/tmf/dsmapi/commons/workflow/StateModelBase/from(E)#java/util/Map/put(K,V)

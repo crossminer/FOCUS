@@ -1,0 +1,5 @@
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/ForumFetcher/extractForumEntries(long,com.pangratz.derstandardatcomments.model.Document)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#java/lang/Integer/parseInt(java.lang.String)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/Forum/setPage(int)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/ForumFetcher/parseArticleId(java.lang.String)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/Forum/setForumEntries(java.util.List)

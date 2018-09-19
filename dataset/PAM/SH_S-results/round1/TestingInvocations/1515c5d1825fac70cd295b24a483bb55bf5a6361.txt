@@ -1,0 +1,3 @@
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setExternalId(java.lang.String)
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setFirstName(java.lang.String)
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setEmail(java.lang.String)

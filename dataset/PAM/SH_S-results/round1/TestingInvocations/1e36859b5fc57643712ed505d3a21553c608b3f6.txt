@@ -1,0 +1,3 @@
+org/woelker/telemetrion/core/sensors/DiskSensorTest/testGetCurrentValues()#com/google/common/collect/ImmutableMap/Builder/build()
+org/woelker/telemetrion/core/sensors/DiskSensorTest/testGetCurrentValues()#org/apache/commons/io/FileUtils/forceMkdir(java.io.File)
+org/woelker/telemetrion/core/sensors/DiskSensorTest/testGetCurrentValues()#org/woelker/telemetrion/core/sensors/DiskSensor/setRoot(java.io.File)

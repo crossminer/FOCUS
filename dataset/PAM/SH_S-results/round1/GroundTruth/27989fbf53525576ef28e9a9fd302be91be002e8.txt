@@ -1,0 +1,4 @@
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/service/ShiroDbRealm/ShiroUser/ShiroUser(java.lang.String,java.lang.String,java.lang.String)
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/entity/IdEntity/getId()
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/service/UserService/login(java.lang.String)
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#java/lang/Object/Object()

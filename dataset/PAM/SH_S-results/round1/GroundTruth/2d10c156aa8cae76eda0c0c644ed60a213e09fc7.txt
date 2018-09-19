@@ -1,0 +1,2 @@
+vaeke/restcountries/v0/CountryRestTest/region()#com/eclipsesource/restfuse/Assert/assertOk(com.eclipsesource.restfuse.Response)
+vaeke/restcountries/v0/CountryRestTest/region()#vaeke/restcountries/v0/CountryRestTest/deserializeList(java.lang.String)

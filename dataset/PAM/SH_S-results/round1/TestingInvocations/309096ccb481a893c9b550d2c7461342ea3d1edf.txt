@@ -1,0 +1,3 @@
+dk/statsbiblioteket/scape/arcunpacker/mapreduce/WARCTest/setUpONBSample()#java/io/OutputStream/close()
+dk/statsbiblioteket/scape/arcunpacker/mapreduce/WARCTest/setUpONBSample()#dk/statsbiblioteket/scape/arcunpacker/mapreduce/FileUtils/getTmpFile(java.lang.String,java.lang.String)
+dk/statsbiblioteket/scape/arcunpacker/mapreduce/WARCTest/setUpONBSample()#java/lang/Class/getResourceAsStream(java.lang.String)

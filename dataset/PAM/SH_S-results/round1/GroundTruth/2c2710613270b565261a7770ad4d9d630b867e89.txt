@@ -1,0 +1,2 @@
+mark/conover/crypto/FileEncryption/makeKey()#javax/crypto/spec/SecretKeySpec/SecretKeySpec(byte[],java.lang.String)
+mark/conover/crypto/FileEncryption/makeKey()#java/security/Key/getEncoded()

@@ -1,0 +1,4 @@
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setLastName(java.lang.String)
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setPhone(java.lang.String)
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/ContactModel()
+com/aspigrow/portel/convertor/ContactModelConvertor/convertToModel(com.aspigrow.portel.convertor.Contact)#com/aspigrow/portel/model/ContactModel/setContId(java.lang.String)

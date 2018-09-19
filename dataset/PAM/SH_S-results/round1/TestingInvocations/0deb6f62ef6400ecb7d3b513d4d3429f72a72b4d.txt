@@ -1,0 +1,3 @@
+info/xiaohei/www/mr/posnet/TotalReducer/reduce(info.xiaohei.www.mr.kpi.Text,java.lang.Iterable,info.xiaohei.www.mr.kpi.Context)#info/xiaohei/www/HadoopUtil/calcStayTime(java.util.TreeMap)
+info/xiaohei/www/mr/posnet/TotalReducer/reduce(info.xiaohei.www.mr.kpi.Text,java.lang.Iterable,info.xiaohei.www.mr.kpi.Context)#info/xiaohei/www/HadoopUtil/getSortedData(Reducer.Context,java.lang.Iterable)
+info/xiaohei/www/mr/posnet/TotalReducer/reduce(info.xiaohei.www.mr.kpi.Text,java.lang.Iterable,info.xiaohei.www.mr.kpi.Context)#java/util/HashMap/entrySet()

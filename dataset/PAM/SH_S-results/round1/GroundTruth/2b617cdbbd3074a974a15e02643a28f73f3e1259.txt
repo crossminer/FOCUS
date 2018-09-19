@@ -1,0 +1,2 @@
+org/apache/servicemix/logging/jms/JMSAppenderTest/setupBroker()#org/apache/activemq/broker/BrokerService/setUseJmx(boolean)
+org/apache/servicemix/logging/jms/JMSAppenderTest/setupBroker()#org/apache/activemq/broker/BrokerService/setPersistent(boolean)

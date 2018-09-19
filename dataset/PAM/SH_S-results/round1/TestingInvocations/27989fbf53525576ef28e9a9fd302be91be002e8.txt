@@ -1,0 +1,3 @@
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/entity/SysUser/getRealname()
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/entity/SysUser/getUsername()
+com/fhd/bpm/service/ShiroDbRealm/doGetAuthenticationInfo(com.fhd.bpm.service.AuthenticationToken)#com/fhd/bpm/entity/SysUser/getPassword()

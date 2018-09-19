@@ -1,0 +1,3 @@
+net/nhs/esb/cancermdt/route/converter/CancerMDTUpdateConverter/convertCompositionToCancerMDTUpdate(net.nhs.esb.cancermdt.model.CancerMDT)#net/nhs/esb/cancermdt/model/CancerMDTparticipation/getMode()
+net/nhs/esb/cancermdt/route/converter/CancerMDTUpdateConverter/convertCompositionToCancerMDTUpdate(net.nhs.esb.cancermdt.model.CancerMDT)#net/nhs/esb/cancermdt/model/CancerMDT/getService()
+net/nhs/esb/cancermdt/route/converter/CancerMDTUpdateConverter/convertCompositionToCancerMDTUpdate(net.nhs.esb.cancermdt.model.CancerMDT)#net/nhs/esb/cancermdt/model/CancerMDT/getRawComposition()

@@ -1,0 +1,3 @@
+com/trigram/mapred/TrigramMapper/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#java/util/ArrayList/ArrayList()
+com/trigram/mapred/TrigramMapper/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#java/util/Properties/getProperty(java.lang.String)
+com/trigram/mapred/TrigramMapper/map(org.apache.hadoop.io.LongWritable,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#java/lang/String/replaceAll(java.lang.String,java.lang.String)

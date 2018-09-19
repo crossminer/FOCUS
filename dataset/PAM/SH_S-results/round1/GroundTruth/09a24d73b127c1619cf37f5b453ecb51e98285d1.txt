@@ -1,0 +1,2 @@
+net/spinetrak/gasguzzler/resources/LoginResourceTest/login()#net/spinetrak/gasguzzler/core/User/getToken()
+net/spinetrak/gasguzzler/resources/LoginResourceTest/login()#net/spinetrak/gasguzzler/dao/UserDAO/select(java.lang.String)

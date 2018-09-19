@@ -1,0 +1,3 @@
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#com/joantolos/portfolio/template/utils/FileUtils/closeBufferedReader(java.io.BufferedReader)
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#java/io/InputStreamReader/InputStreamReader(java.io.InputStream,java.lang.String)
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#junit/framework/Assert/fail()

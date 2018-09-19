@@ -1,0 +1,3 @@
+com/waimai/ops/service/AirChinaService/getError(java.util.List)#java/util/ArrayList/ArrayList()
+com/waimai/ops/service/AirChinaService/getError(java.util.List)#java/util/List/size()
+com/waimai/ops/service/AirChinaService/getError(java.util.List)#java/util/List/add(E)

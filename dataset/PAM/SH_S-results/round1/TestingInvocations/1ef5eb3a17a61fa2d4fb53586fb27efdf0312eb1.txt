@@ -1,0 +1,3 @@
+au/com/ibm/bluecoin/dao/relational/AbstractDao/save(S)#org/slf4j/Logger/info(java.lang.String)
+au/com/ibm/bluecoin/dao/relational/AbstractDao/save(S)#au/com/ibm/bluecoin/dao/relational/AbstractDao/getRepository()
+au/com/ibm/bluecoin/dao/relational/AbstractDao/save(S)#java/lang/Object/getClass()

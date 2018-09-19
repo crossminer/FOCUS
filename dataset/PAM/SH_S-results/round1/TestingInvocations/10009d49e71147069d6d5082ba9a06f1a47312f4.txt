@@ -1,0 +1,3 @@
+com/lucidworks/IndexingSampler/RandomGenerator/randomString(java.util.Random)#java/lang/StringBuffer/StringBuffer(int)
+com/lucidworks/IndexingSampler/RandomGenerator/randomString(java.util.Random)#java/lang/StringBuffer/append(char[])
+com/lucidworks/IndexingSampler/RandomGenerator/randomString(java.util.Random)#java/util/Random/nextInt(int)

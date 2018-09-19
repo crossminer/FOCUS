@@ -1,0 +1,3 @@
+com/kijes/ela/common/JSONSerializers/usersToJson(java.util.Collection)#org/json/JSONObject/put(java.lang.String,java.lang.Object)
+com/kijes/ela/common/JSONSerializers/usersToJson(java.util.Collection)#org/json/JSONObject/JSONObject()
+com/kijes/ela/common/JSONSerializers/usersToJson(java.util.Collection)#com/kijes/ela/common/JSONSerializers/userToJson(com.kijes.ela.common.ElaUser)

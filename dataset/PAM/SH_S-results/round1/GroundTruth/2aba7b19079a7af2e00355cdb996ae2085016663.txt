@@ -1,0 +1,5 @@
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#com/gs/utils/URL/URL(java.lang.String,int)
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/regex/Pattern/matcher(java.lang.CharSequence)
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/regex/Matcher/find()
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/HashSet/HashSet()
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/lang/String/endsWith(java.lang.String)

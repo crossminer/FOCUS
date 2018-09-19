@@ -1,0 +1,3 @@
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/apache/wicket/MarkupContainer/addOrReplace(org.apache.wicket.Component[])
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/apache/wicket/model/LoadableDetachableModel/getObject()
+org/isisaddons/wicket/svg/cpt/ui/interactivemap/StandaloneValueAsInteractiveMap/buildGui()#org/apache/isis/viewer/wicket/ui/panels/PanelAbstract/getModel()

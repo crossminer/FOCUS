@@ -1,0 +1,3 @@
+com/done/analytics/domain/VoteResult/equals(java.lang.Object)#com/done/analytics/domain/VoteResult/compareTo(com.done.analytics.domain.VoteResult)
+com/done/analytics/domain/VoteResult/equals(java.lang.Object)#com/done/analytics/domain/VoteResult/getTopicOwner()
+com/done/analytics/domain/VoteResult/equals(java.lang.Object)#java/lang/String/equals(java.lang.Object)

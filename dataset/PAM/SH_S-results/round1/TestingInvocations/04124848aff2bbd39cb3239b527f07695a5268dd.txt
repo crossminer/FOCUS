@@ -1,0 +1,3 @@
+redis/StringServiceTest/testByte()#redis/AbstractTest/getJedis()
+redis/StringServiceTest/testByte()#redis/AbstractTest/p(java.lang.Object)
+redis/StringServiceTest/testByte()#java/lang/String/String(byte[])

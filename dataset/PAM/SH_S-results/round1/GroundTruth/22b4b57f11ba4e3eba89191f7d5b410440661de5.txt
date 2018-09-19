@@ -1,0 +1,2 @@
+org/apache/spark/JavaAPISuite/reduceByKey()#org/apache/spark/JavaAPISuite/reduceByKey()/$anonymous2/()
+org/apache/spark/JavaAPISuite/reduceByKey()#org/apache/spark/JavaAPISuite/reduceByKey()/$anonymous1/()

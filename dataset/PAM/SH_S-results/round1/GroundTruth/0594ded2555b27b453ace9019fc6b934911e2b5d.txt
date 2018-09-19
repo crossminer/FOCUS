@@ -1,0 +1,4 @@
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/lang/reflect/Method/invoke(java.lang.Object,java.lang.Object[])
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/beans/PropertyDescriptor/getReadMethod()
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/beans/PropertyDescriptor/getWriteMethod()
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/beans/FeatureDescriptor/getName()

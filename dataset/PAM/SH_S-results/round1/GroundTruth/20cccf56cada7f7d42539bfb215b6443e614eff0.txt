@@ -1,0 +1,5 @@
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#java/io/File/File(java.lang.String)
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#com/jetdrone/nashorn/next/RequireJS/main(java.lang.String)
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#java/lang/System/exit(int)
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#java/io/File/getCanonicalPath()
+com/jetdrone/nashorn/next/RequireJSVerticle/start()#com/jetdrone/nashorn/next/RequireJS/config(com.jetdrone.nashorn.next.JsonObject)

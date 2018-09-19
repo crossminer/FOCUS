@@ -1,0 +1,3 @@
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#com/intel/daal/algorithms/ModelSerializer/cFreeByteBuffer(java.nio.ByteBuffer)
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#java/nio/ByteBuffer/get(byte[])
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#com/intel/daal/algorithms/ModelSerializer/cSerializeQrModel(long)

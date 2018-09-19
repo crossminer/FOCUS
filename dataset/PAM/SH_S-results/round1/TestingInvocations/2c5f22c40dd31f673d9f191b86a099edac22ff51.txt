@@ -1,0 +1,3 @@
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/io/PrintStream/println(java.lang.String)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/getParameter(java.lang.String)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletRequest/getSession()

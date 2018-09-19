@@ -1,0 +1,3 @@
+pl/com/sages/hadoop/mapreduce/HdfsJob/run()#java/io/BufferedReader/close()
+pl/com/sages/hadoop/mapreduce/HdfsJob/run()#java/lang/Boolean/getBoolean(java.lang.String)
+pl/com/sages/hadoop/mapreduce/HdfsJob/run()#java/io/BufferedWriter/BufferedWriter(java.io.Writer)

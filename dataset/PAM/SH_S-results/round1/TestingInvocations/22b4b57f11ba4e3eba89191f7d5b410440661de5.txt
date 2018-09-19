@@ -1,0 +1,3 @@
+org/apache/spark/JavaAPISuite/reduceByKey()#java/lang/Integer/intValue()
+org/apache/spark/JavaAPISuite/reduceByKey()#java/util/Map/get(java.lang.Object)
+org/apache/spark/JavaAPISuite/reduceByKey()#java/util/Arrays/asList(T[])

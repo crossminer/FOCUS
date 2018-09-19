@@ -1,0 +1,3 @@
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#java/lang/Object/toString()
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#java/lang/String/replaceAll(java.lang.String,java.lang.String)
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseMap(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.MapTypeInfo)

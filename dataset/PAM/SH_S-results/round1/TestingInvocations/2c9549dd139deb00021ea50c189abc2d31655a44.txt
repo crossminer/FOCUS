@@ -1,0 +1,3 @@
+com/howtodoinjava/jersey/client/JerseyClientExamples/httpGETCollectionExample()#org/glassfish/jersey/client/ClientConfig/register(java.lang.Object)
+com/howtodoinjava/jersey/client/JerseyClientExamples/httpGETCollectionExample()#java/util/List/toArray(T[])
+com/howtodoinjava/jersey/client/JerseyClientExamples/httpGETCollectionExample()#java/io/PrintStream/println(int)

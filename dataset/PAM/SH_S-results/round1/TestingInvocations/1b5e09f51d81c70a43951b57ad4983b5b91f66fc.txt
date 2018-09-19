@@ -1,0 +1,3 @@
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/parsers/DocumentBuilder/parse(java.io.InputStream)
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#org/w3c/dom/NodeList/getLength()
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#java/lang/Double/parseDouble(java.lang.String)

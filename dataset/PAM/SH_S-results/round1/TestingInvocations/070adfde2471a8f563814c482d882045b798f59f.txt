@@ -1,0 +1,3 @@
+be/rhok/ejc/web/service/socialmedia/TwitterWebService/getTweets(java.lang.String,double,double)#be/rhok/ejc/common/model/socialmedia/SocialMediaCriteria/setKeywords(java.lang.String)
+be/rhok/ejc/web/service/socialmedia/TwitterWebService/getTweets(java.lang.String,double,double)#be/rhok/ejc/service/socialmedia/TwitterService/query(be.rhok.ejc.common.model.socialmedia.SocialMediaCriteria)
+be/rhok/ejc/web/service/socialmedia/TwitterWebService/getTweets(java.lang.String,double,double)#be/rhok/ejc/common/model/socialmedia/SocialMediaCriteria/setLongitude(double)

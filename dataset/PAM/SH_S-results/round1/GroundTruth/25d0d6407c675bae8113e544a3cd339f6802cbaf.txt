@@ -1,0 +1,4 @@
+com/egnore/cmhelper/Validator/verifyXML(java.lang.String)#com/egnore/cmhelper/CMConfigDictionary/findByRelatedName(java.lang.String)
+com/egnore/cmhelper/Validator/verifyXML(java.lang.String)#com/egnore/common/Dictionary/getNewName(java.lang.String)
+com/egnore/cmhelper/Validator/verifyXML(java.lang.String)#java/util/Map/Entry/getKey()
+com/egnore/cmhelper/Validator/verifyXML(java.lang.String)#com/egnore/common/model/conf/SettingManager/getSettingDictionary()

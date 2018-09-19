@@ -1,0 +1,5 @@
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/springside/modules/test/selenium/Selenium2/open(java.lang.String)
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/springside/modules/test/selenium/Selenium2/check(org.openqa.selenium.By)
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/openqa/selenium/By/name(java.lang.String)
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/springside/modules/test/selenium/Selenium2/getTitle()
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/springside/modules/test/selenium/Selenium2/click(org.openqa.selenium.By)

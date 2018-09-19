@@ -1,0 +1,3 @@
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/regex/Matcher/group(int)
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/regex/Pattern/compile(java.lang.String)
+com/gs/extractor/impl/DefaultLinkExtractor/extractFromHtml(java.lang.String,int)#java/util/Set/add(E)

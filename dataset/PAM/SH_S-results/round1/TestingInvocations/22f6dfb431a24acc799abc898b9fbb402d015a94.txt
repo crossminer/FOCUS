@@ -1,0 +1,3 @@
+collabstream/streaming/Worker/execute(backtype.storm.tuple.Tuple)#backtype/storm/tuple/Values/Values(java.lang.Object[])
+collabstream/streaming/Worker/execute(backtype.storm.tuple.Tuple)#java/io/PrintStream/println(java.lang.String)
+collabstream/streaming/Worker/execute(backtype.storm.tuple.Tuple)#collabstream/streaming/Configuration/getItemBlockIdx(int)

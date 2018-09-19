@@ -1,0 +1,6 @@
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/jooq/ExecuteContext/sql()
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/jooq/ExecuteContext/sqlException()
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/jooq/ExecuteContext/exception(java.lang.RuntimeException)
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/jooq/Configuration/dialect()
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/jooq/Scope/configuration()
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/springframework/jdbc/support/SQLExceptionTranslator/translate(java.lang.String,java.lang.String,java.sql.SQLException)

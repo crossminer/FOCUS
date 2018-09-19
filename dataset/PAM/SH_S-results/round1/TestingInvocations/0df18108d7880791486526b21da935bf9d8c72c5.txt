@@ -1,0 +1,3 @@
+org/jbpm/demo/rewards/ejb/ProcessBean/startProcess(java.lang.String)#javax/transaction/UserTransaction/rollback()
+org/jbpm/demo/rewards/ejb/ProcessBean/startProcess(java.lang.String)#java/io/PrintStream/println(java.lang.String)
+org/jbpm/demo/rewards/ejb/ProcessBean/startProcess(java.lang.String)#org/kie/api/runtime/manager/RuntimeEngine/getKieSession()

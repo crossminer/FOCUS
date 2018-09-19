@@ -1,0 +1,3 @@
+org/apache/hadoop/mapred/ResourcePolicy/computeNeededSlots(java.util.List,java.util.Collection)#org/apache/commons/httpclient/HttpHost/getHostName()
+org/apache/hadoop/mapred/ResourcePolicy/computeNeededSlots(java.util.List,java.util.Collection)#org/apache/hadoop/mapred/TaskTrackerStatus/getAvailableReduceSlots()
+org/apache/hadoop/mapred/ResourcePolicy/computeNeededSlots(java.util.List,java.util.Collection)#org/apache/hadoop/mapred/TaskTrackerStatus/getHost()

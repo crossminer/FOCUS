@@ -1,0 +1,2 @@
+com/lucidworks/IndexingSampler/RandomGenerator/randomString(java.util.Random)#java/lang/StringBuffer/toString()
+com/lucidworks/IndexingSampler/RandomGenerator/randomString(java.util.Random)#java/lang/Character/toChars(int)

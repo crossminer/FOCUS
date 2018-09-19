@@ -1,0 +1,7 @@
+commands/DB/print()#java/util/AbstractCollection/toString()
+commands/DB/print()#java/io/PrintStream/println(java.lang.String)
+commands/DB/print()#connectionprovider/ConnectionProvider/getConnection()
+commands/DB/print()#java/sql/ResultSet/getString(java.lang.String)
+commands/DB/print()#java/util/ArrayList/add(E)
+commands/DB/print()#java/sql/ResultSet/next()
+commands/DB/print()#java/sql/PreparedStatement/executeQuery()

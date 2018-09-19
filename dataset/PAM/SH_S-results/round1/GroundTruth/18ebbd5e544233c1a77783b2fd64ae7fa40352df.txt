@@ -1,0 +1,8 @@
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#java/io/File/File(java.lang.String)
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/eval/RecommenderIRStatsEvaluator/evaluate(org.apache.mahout.cf.taste.eval.RecommenderBuilder,org.apache.mahout.cf.taste.eval.DataModelBuilder,org.apache.mahout.cf.taste.model.DataModel,org.apache.mahout.cf.taste.recommender.IDRescorer,int,double,double)
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/eval/IRStatistics/getRecall()
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/eval/IRStatistics/getPrecision()
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java/lang/String[])/$anonymous1/()
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java/lang/String[])/$anonymous2/()
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/impl/model/file/FileDataModel/FileDataModel(java.io.File)
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#java/io/PrintStream/println(double)

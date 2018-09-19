@@ -1,0 +1,4 @@
+DAO/OrientacaoDAO/delete(int,int,int)#database/Conn/Conn()
+DAO/OrientacaoDAO/delete(int,int,int)#java/sql/Statement/execute(java.lang.String)
+DAO/OrientacaoDAO/delete(int,int,int)#java/sql/Connection/createStatement()
+DAO/OrientacaoDAO/delete(int,int,int)#java/lang/Integer/toString(int)

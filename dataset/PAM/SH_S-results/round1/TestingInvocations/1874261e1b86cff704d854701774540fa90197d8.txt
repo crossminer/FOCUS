@@ -1,0 +1,3 @@
+zx/soft/api/service/IndexService/addIndexData(zx.soft.api.domain.PostData)#java/util/concurrent/ThreadPoolExecutor/execute(java.lang.Runnable)
+zx/soft/api/service/IndexService/addIndexData(zx.soft.api.domain.PostData)#zx/soft/api/domain/PostData/getRecords()
+zx/soft/api/service/IndexService/addIndexData(zx.soft.api.domain.PostData)#zx/soft/api/domain/ErrorResponse/Builder/build()

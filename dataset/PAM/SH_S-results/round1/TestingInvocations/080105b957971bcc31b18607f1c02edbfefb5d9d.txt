@@ -1,0 +1,3 @@
+com/andy/IO/PostgresDB/getCyclesFromResults(java.sql.ResultSet)#java/sql/Connection/prepareStatement(java.lang.String)
+com/andy/IO/PostgresDB/getCyclesFromResults(java.sql.ResultSet)#java/util/ArrayList/ArrayList()
+com/andy/IO/PostgresDB/getCyclesFromResults(java.sql.ResultSet)#java/sql/ResultSet/getInt(java.lang.String)

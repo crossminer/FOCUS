@@ -1,0 +1,3 @@
+com/github/jakz/nit/DevMain/main(java.lang.String[])#java/lang/Throwable/printStackTrace()
+com/github/jakz/nit/DevMain/main(java.lang.String[])#com/github/jakz/nit/batch/BatchOperations/batchScanAndVerify(com.github.jakz.nit.batch.BatchOptions,com.github.jakz.nit.Options)
+com/github/jakz/nit/DevMain/main(java.lang.String[])#com/github/jakz/nit/Operations/verifyGameSet(com.github.jakz.nit.parser.GameSet,com.github.jakz.nit.HandleSet,com.github.jakz.nit.Options)

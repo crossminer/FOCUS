@@ -1,0 +1,3 @@
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/MockConnection/MockConnection()
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/MockConnection/setDBConnection(com.nulli.openam.plugins.NeoUniversalCondition)
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/MockConnection/setSubject(javax.security.auth.Subject)

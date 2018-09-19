@@ -1,0 +1,3 @@
+org/eu/eark/etl/IngestMapper/map(org.eu.eark.etl.Text,org.eu.eark.etl.Text,org.eu.eark.etl.Context)#java/lang/String/split(java.lang.String)
+org/eu/eark/etl/IngestMapper/map(org.eu.eark.etl.Text,org.eu.eark.etl.Text,org.eu.eark.etl.Context)#java/net/URI/URI(java.lang.String)
+org/eu/eark/etl/IngestMapper/map(org.eu.eark.etl.Text,org.eu.eark.etl.Text,org.eu.eark.etl.Context)#java/io/PrintStream/println(java.lang.String)

@@ -1,0 +1,6 @@
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#java/util/List/add(E)
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#br/com/geladaonline/services/test/model/CustomLink/getRel()
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#javax/ws/rs/core/Link/Builder/title(java.lang.String)
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#br/com/geladaonline/services/test/model/CustomLink/getHref()
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#javax/ws/rs/core/Link/Builder/build(java.lang.Object[])
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#java/util/ArrayList/ArrayList()

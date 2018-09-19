@@ -1,0 +1,3 @@
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/MedicaoMeteorologicaMapper/map(java.lang.Object,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#org/apache/hadoop/io/FloatWritable/FloatWritable(float)
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/MedicaoMeteorologicaMapper/map(java.lang.Object,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#java/lang/String/split(java.lang.String)
+br/edu/utfpr/medicaoMeteorologica/MedicaoMeteorologicaManager/MedicaoMeteorologicaMapper/map(java.lang.Object,org.apache.hadoop.io.Text,org.apache.hadoop.mapreduce.Mapper.Context)#br/edu/utfpr/medicaoMeteorologica/MedicaoType/getOrder(java.lang.String)

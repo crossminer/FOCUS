@@ -1,0 +1,4 @@
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#java/util/Date/Date()
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#java/lang/System/nanoTime()
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#java/lang/Long/toString(long)
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#org/apache/logging/log4j/Logger/info(java.lang.String)

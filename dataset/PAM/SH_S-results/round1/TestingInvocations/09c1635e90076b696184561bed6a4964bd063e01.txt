@@ -1,0 +1,3 @@
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#org/feuyeux/jaxrs2/atup/core/domain/AtupTestResult/AtupTestResult(org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase,java.lang.Integer,java.lang.String,java.util.Date,java.util.Date)
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#java/lang/Thread/sleep(long)
+org/feuyeux/jaxrs2/atup/station/resource/AtupStationResource/test(javax.servlet.http.HttpServletRequest,org.feuyeux.jaxrs2.atup.core.domain.AtupTestCase)#javax/servlet/ServletRequest/getRemoteAddr()

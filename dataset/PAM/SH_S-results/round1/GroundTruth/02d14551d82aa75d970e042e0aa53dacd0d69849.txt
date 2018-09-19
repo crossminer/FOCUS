@@ -1,0 +1,5 @@
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletRequest/getSession()
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletResponse/setHeader(java.lang.String,java.lang.String)
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#com/stylussoftworks/web/service/SpriteManagerService/addToSpriteManagerMap(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpSession/getId()
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#com/stylussoftworks/web/service/SpriteManagerService/getStringFormattedSpriteCoordinatesForEid(java.lang.String)

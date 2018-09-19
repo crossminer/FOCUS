@@ -1,0 +1,3 @@
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/services/UserServiceTest/createUser()
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/dataaccess/model/ServerInfo/setCpuType(java.lang.String)
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/dataaccess/model/ServerInfo/setRaidType(java.lang.String)

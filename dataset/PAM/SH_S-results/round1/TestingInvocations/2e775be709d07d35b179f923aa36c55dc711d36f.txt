@@ -1,0 +1,3 @@
+net/lr/tutorial/karaf/db/command/SelectCommand/getDataSourcesTable()#net/lr/tutorial/karaf/db/command/ShellTable/ShellTable()
+net/lr/tutorial/karaf/db/command/SelectCommand/getDataSourcesTable()#net/lr/tutorial/karaf/db/service/DbSelect/getDataSources()
+net/lr/tutorial/karaf/db/command/SelectCommand/getDataSourcesTable()#net/lr/tutorial/karaf/db/service/DbSelect/getDataSourceInfo(net.lr.tutorial.karaf.db.service.ServiceReference)

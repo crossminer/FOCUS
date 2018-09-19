@@ -1,0 +1,3 @@
+com/ejm/model/Recipe/parseRecipeId(java.lang.String)#java/lang/String/substring(int,int)
+com/ejm/model/Recipe/parseRecipeId(java.lang.String)#java/lang/String/lastIndexOf(java.lang.String)
+com/ejm/model/Recipe/parseRecipeId(java.lang.String)#java/util/logging/Logger/log(java.util.logging.Level,java.lang.String,java.lang.Throwable)

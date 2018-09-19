@@ -1,0 +1,3 @@
+mark/conover/crypto/FileEncryption/makeKey()#javax/crypto/KeyGenerator/generateKey()
+mark/conover/crypto/FileEncryption/makeKey()#javax/crypto/KeyGenerator/init(int)
+mark/conover/crypto/FileEncryption/makeKey()#javax/crypto/KeyGenerator/getInstance(java.lang.String)

@@ -1,0 +1,3 @@
+edu/snu/bdcs/tg/MLAggregateTask/call(byte[])#java/lang/StringBuilder/append(java.lang.String)
+edu/snu/bdcs/tg/MLAggregateTask/call(byte[])#java/lang/String/format(java.lang.String,java.lang.Object[])
+edu/snu/bdcs/tg/MLAggregateTask/call(byte[])#java/util/logging/Logger/log(java.util.logging.Level,java.lang.String)

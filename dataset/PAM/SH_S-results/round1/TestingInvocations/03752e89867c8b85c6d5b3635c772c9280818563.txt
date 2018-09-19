@@ -1,0 +1,3 @@
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/VerificationTokenServiceImpl/getActiveToken(java.util.List)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/VerificationTokenRepository/findByUserIdAndTokenType(java.lang.String,com.porterhead.user.VerificationTokenType)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/UserRepository/findByEmailAddress(java.lang.String)

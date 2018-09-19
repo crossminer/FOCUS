@@ -1,0 +1,3 @@
+com/harishkannarao/angularjs/model/ConnectivityDetailsBuilder/build()#com/harishkannarao/angularjs/model/ConnectivityDetails/setCell(java.lang.String)
+com/harishkannarao/angularjs/model/ConnectivityDetailsBuilder/build()#com/harishkannarao/angularjs/model/ConnectivityDetails/setInfrared(java.lang.Boolean)
+com/harishkannarao/angularjs/model/ConnectivityDetailsBuilder/build()#com/harishkannarao/angularjs/model/ConnectivityDetails/setBluetooth(java.lang.String)

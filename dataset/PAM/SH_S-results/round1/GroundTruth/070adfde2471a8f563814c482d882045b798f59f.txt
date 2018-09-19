@@ -1,0 +1,2 @@
+be/rhok/ejc/web/service/socialmedia/TwitterWebService/getTweets(java.lang.String,double,double)#be/rhok/ejc/common/model/socialmedia/SocialMediaCriteria/SocialMediaCriteria()
+be/rhok/ejc/web/service/socialmedia/TwitterWebService/getTweets(java.lang.String,double,double)#be/rhok/ejc/common/model/socialmedia/SocialMediaCriteria/setLatitude(double)

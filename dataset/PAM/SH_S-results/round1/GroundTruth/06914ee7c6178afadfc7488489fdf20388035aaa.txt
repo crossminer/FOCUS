@@ -1,0 +1,4 @@
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#java/util/List/add(E)
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#com/aliyun/emr/example/ODPSJavaSample/RecordToLongs/RecordToLongs()
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#java/lang/Object/Object()
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#com/aliyun/emr/example/ODPSJavaSample/SaveRecord/SaveRecord()

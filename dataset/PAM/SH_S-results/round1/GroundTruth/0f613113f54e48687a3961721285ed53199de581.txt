@@ -1,0 +1,4 @@
+com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/createIndeterminateProgressView(com.joanzapata.android.View,com.joanzapata.android.ViewGroup)
+com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/convert(H,T)
+com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseQuickAdapter/getAdapterHelper(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)
+com/joanzapata/android/BaseQuickAdapter/getView(int,com.joanzapata.android.View,com.joanzapata.android.ViewGroup)#com/joanzapata/android/BaseAdapterHelper/getView()

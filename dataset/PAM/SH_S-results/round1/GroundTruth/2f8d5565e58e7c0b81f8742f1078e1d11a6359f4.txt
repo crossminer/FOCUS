@@ -1,0 +1,3 @@
+extractorExample/ExtractorTest/observe1Notification()#extractorExample/Extractor/Extractor(extractorExample.Retriever,java.util.Calendar)
+extractorExample/ExtractorTest/observe1Notification()#extractorExample/Extractor/startObserving()
+extractorExample/ExtractorTest/observe1Notification()#extractorExample/ExtractorTest/assertObserved(extractorExample.ExtractorTest.MockObserver,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)

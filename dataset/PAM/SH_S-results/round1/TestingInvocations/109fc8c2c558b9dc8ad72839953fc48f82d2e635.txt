@@ -1,0 +1,3 @@
+at/ac/tuwien/service/impl/DBServiceImpl/editProfile(java.lang.String,java.util.List)#at/ac/tuwien/domain/KeyValueEntry/getValue()
+at/ac/tuwien/service/impl/DBServiceImpl/editProfile(java.lang.String,java.util.List)#at/ac/tuwien/service/impl/DBServiceImpl/splitBirthday(at.ac.tuwien.domain.Profile,at.ac.tuwien.domain.KeyValueEntry)
+at/ac/tuwien/service/impl/DBServiceImpl/editProfile(java.lang.String,java.util.List)#java/util/List/add(E)

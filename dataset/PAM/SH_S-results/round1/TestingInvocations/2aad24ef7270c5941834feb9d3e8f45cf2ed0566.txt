@@ -1,0 +1,3 @@
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#ch/presentit/service/PresentationService/findAll()
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#java/util/List/size()
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#org/springframework/util/Assert/notNull(java.lang.Object,java.lang.String)

@@ -1,0 +1,3 @@
+storm/starter/ReportBolt/execute(backtype.storm.tuple.Tuple)#java/lang/StringBuilder/append(java.lang.String)
+storm/starter/ReportBolt/execute(backtype.storm.tuple.Tuple)#com/lambdaworks/redis/RedisConnection/publish(K,V)
+storm/starter/ReportBolt/execute(backtype.storm.tuple.Tuple)#java/lang/StringBuilder/StringBuilder()

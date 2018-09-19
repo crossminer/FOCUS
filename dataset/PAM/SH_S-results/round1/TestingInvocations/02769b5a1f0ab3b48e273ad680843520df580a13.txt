@@ -1,0 +1,3 @@
+ru/atc/camel/alcatel/events/AlcatelConsumer/genEventObj(java.util.HashMap,java.lang.String,java.lang.String)#ru/at_consulting/itsm/event/Event/toString()
+ru/atc/camel/alcatel/events/AlcatelConsumer/genEventObj(java.util.HashMap,java.lang.String,java.lang.String)#ru/at_consulting/itsm/event/Event/Event()
+ru/atc/camel/alcatel/events/AlcatelConsumer/genEventObj(java.util.HashMap,java.lang.String,java.lang.String)#ru/at_consulting/itsm/event/Event/setEventsource(java.lang.String)

@@ -1,0 +1,7 @@
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/io/InputStreamReader/InputStreamReader(java.io.InputStream)
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/io/PrintStream/println(java.lang.String)
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/lang/StringBuilder/toString()
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/io/BufferedReader/readLine()
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/lang/StringBuilder/append(java.lang.String)
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/lang/StringBuilder/StringBuilder()
+com/saligh/rest/services/TestRestService/readRestService(java.io.InputStream)#java/io/BufferedReader/BufferedReader(java.io.Reader)

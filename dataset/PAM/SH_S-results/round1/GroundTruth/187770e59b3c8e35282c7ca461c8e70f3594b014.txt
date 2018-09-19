@@ -1,0 +1,2 @@
+com/waimai/ops/service/AirChinaService/getError(java.util.List)#java/util/List/get(int)
+com/waimai/ops/service/AirChinaService/getError(java.util.List)#java/lang/String/contains(java.lang.CharSequence)

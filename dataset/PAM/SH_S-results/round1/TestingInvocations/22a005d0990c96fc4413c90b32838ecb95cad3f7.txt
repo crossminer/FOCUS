@@ -1,0 +1,3 @@
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/service/account/ShiroDbRealm/ShiroUser/ShiroUser(java.lang.Long,java.lang.String,java.lang.String)
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/entity/User/getName()
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/entity/User/getSalt()

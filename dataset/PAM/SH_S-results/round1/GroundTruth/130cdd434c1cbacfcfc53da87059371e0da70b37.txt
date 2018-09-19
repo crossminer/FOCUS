@@ -1,0 +1,5 @@
+org/edr/services/BudgetStaatServiceTest/test4()#org/edr/domain/BudgetStaat/getGeboektBedrag()
+org/edr/services/BudgetStaatServiceTest/test4()#java/util/List/get(int)
+org/edr/services/BudgetStaatServiceTest/test4()#org/edr/po/Boekrekening/getRekeningnr()
+org/edr/services/BudgetStaatServiceTest/test4()#org/edr/domain/BudgetStaat/getBoekrekening()
+org/edr/services/BudgetStaatServiceTest/test4()#org/edr/domain/BudgetStaat/getGebudgetteerdBedrag()

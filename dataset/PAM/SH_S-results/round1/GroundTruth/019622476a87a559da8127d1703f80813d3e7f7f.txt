@@ -1,0 +1,5 @@
+cn/lcf/newjava/Lambada/main(java.lang.String[])#java/util/List/add(E)
+cn/lcf/newjava/Lambada/main(java.lang.String[])#java/lang/Thread/Thread(java.lang.Runnable)
+cn/lcf/newjava/Lambada/main(java.lang.String[])#java/lang/Iterable/forEach(java.util.function.Consumer)
+cn/lcf/newjava/Lambada/main(java.lang.String[])#cn/lcf/newjava/Lambada/main(java/lang/String[])/$anonymous2/()
+cn/lcf/newjava/Lambada/main(java.lang.String[])#cn/lcf/newjava/LambadaEntity/LambadaEntity(int,java.lang.String)

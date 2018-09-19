@@ -1,0 +1,3 @@
+helpers/TwitterKeysReader/getTwitterKeys()#java/lang/Throwable/printStackTrace()
+helpers/TwitterKeysReader/getTwitterKeys()#java/util/Properties/getProperty(java.lang.String)
+helpers/TwitterKeysReader/getTwitterKeys()#java/util/Properties/setProperty(java.lang.String,java.lang.String)

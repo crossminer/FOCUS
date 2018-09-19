@@ -1,0 +1,2 @@
+org/appfuse/webapp/components/MenuItem/getUrl()#java/lang/StringBuilder/append(java.lang.Object)
+org/appfuse/webapp/components/MenuItem/getUrl()#java/lang/StringBuilder/toString()

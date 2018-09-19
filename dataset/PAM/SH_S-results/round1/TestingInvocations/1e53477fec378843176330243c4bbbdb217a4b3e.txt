@@ -1,0 +1,3 @@
+indexer/SimpleLucene/main(java.lang.String[])#org/apache/lucene/index/IndexWriter/IndexWriter(org.apache.lucene.store.Directory,org.apache.lucene.analysis.Analyzer,org.apache.lucene.index.IndexWriter.MaxFieldLength)
+indexer/SimpleLucene/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
+indexer/SimpleLucene/main(java.lang.String[])#org/apache/lucene/document/Field/Field(java.lang.String,java.lang.String,org.apache.lucene.document.Field.Store,org.apache.lucene.document.Field.Index)

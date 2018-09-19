@@ -1,0 +1,8 @@
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/AbstractJavaRDDLike/map(org.apache.spark.api.java.function.Function)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/hadoop/conf/Configuration/set(java.lang.String,java.lang.String)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/AbstractJavaRDDLike/mapToPair(org.apache.spark.api.java.function.PairFunction)
+vsu/amm/SparkComputing/topRatedFilms()#vsu/amm/SparkComputing/yearComparator/yearComparator()
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/AbstractJavaRDDLike/collect()
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/JavaPairRDD/join(org.apache.spark.api.java.JavaPairRDD)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/JavaPairRDD/saveAsNewAPIHadoopFile(java.lang.String,java.lang.Class,java.lang.Class,java.lang.Class,org.apache.hadoop.conf.Configuration)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/hadoop/conf/Configuration/Configuration()

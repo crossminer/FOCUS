@@ -1,0 +1,3 @@
+jclustering/metrics/PNorm/makeConfig()#java/lang/Double/toString(double)
+jclustering/metrics/PNorm/makeConfig()#javax/swing/JTextField/JTextField(java.lang.String)
+jclustering/metrics/PNorm/makeConfig()#javax/swing/JPanel/JPanel()

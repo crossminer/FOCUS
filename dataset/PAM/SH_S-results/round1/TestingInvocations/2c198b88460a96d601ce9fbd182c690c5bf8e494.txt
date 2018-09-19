@@ -1,0 +1,3 @@
+org/tmf/dsmapi/commons/workflow/StateModelBase/from(E)#org/tmf/dsmapi/commons/workflow/Transition/Transition(E)
+org/tmf/dsmapi/commons/workflow/StateModelBase/from(E)#java/util/Map/get(java.lang.Object)
+org/tmf/dsmapi/commons/workflow/StateModelBase/from(E)#org/tmf/dsmapi/commons/workflow/StateModelBase/getTransitionMap()

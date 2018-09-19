@@ -1,0 +1,5 @@
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#org/springside/examples/quickstart/functional/BaseFunctionalTestCase/startJettyOnce()
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#org/springside/examples/quickstart/functional/BaseFunctionalTestCase/reloadSampleData()
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#org/springside/modules/utils/PropertiesLoader/getProperty(java.lang.String)
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#java/net/URL/getHost()
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#org/springside/modules/utils/PropertiesLoader/getBoolean(java.lang.String)

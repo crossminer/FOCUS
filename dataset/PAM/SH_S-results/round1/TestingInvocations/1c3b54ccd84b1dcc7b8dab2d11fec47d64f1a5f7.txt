@@ -1,0 +1,3 @@
+HBaseIA/GIS/WithinQuery/query(com.vividsolutions.jts.geom.Geometry)#java/util/Iterator/remove()
+HBaseIA/GIS/WithinQuery/query(com.vividsolutions.jts.geom.Geometry)#org/apache/hadoop/hbase/client/Scan/setFilter(org.apache.hadoop.hbase.filter.Filter)
+HBaseIA/GIS/WithinQuery/query(com.vividsolutions.jts.geom.Geometry)#org/apache/hadoop/hbase/client/Scan/Scan(byte[])

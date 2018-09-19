@@ -1,0 +1,3 @@
+com/guillaumecl/caskdays/Main/main(java.lang.String[])#com/guillaumecl/caskdays/Main/configureSpellChecker(com.guillaumecl.caskdays.Config)
+com/guillaumecl/caskdays/Main/main(java.lang.String[])#java/util/HashMap/put(K,V)
+com/guillaumecl/caskdays/Main/main(java.lang.String[])#org/eclipse/jetty/servlet/Holder/setInitParameters(java.util.Map)

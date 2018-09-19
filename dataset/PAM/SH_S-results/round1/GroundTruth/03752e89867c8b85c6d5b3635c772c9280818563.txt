@@ -1,0 +1,8 @@
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/VerificationTokenServiceImpl/sendEmailVerificationToken(com.porterhead.user.User)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/mail/EmailServiceTokenModel/EmailServiceTokenModel(com.porterhead.user.User,com.porterhead.user.VerificationToken,java.lang.String)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/mail/MailSenderService/sendVerificationEmail(com.porterhead.mail.EmailServiceTokenModel)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#org/springframework/util/Assert/notNull(java.lang.Object)
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/User/isVerified()
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/exception/UserNotFoundException/UserNotFoundException()
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/user/exception/AlreadyVerifiedException/AlreadyVerifiedException()
+com/porterhead/user/VerificationTokenServiceImpl/generateEmailVerificationToken(java.lang.String)#com/porterhead/persistence/BaseEntity/getId()

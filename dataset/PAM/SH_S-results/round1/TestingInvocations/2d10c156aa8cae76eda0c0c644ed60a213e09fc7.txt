@@ -1,0 +1,3 @@
+vaeke/restcountries/v0/CountryRestTest/region()#com/eclipsesource/restfuse/Response/getBody()
+vaeke/restcountries/v0/CountryRestTest/region()#java/lang/String/toLowerCase()
+vaeke/restcountries/v0/CountryRestTest/region()#vaeke/restcountries/v0/domain/Country/getRegion()

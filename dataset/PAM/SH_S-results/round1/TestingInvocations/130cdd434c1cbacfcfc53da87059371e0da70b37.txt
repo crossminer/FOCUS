@@ -1,0 +1,3 @@
+org/edr/services/BudgetStaatServiceTest/test4()#java/util/List/size()
+org/edr/services/BudgetStaatServiceTest/test4()#java/math/BigDecimal/BigDecimal(java.lang.String)
+org/edr/services/BudgetStaatServiceTest/test4()#org/edr/services/BudgetStaatService/getBudgetStaatAsList(int)

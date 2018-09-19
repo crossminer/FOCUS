@@ -1,0 +1,3 @@
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/springframework/jdbc/support/SQLErrorCodeSQLExceptionTranslator/SQLErrorCodeSQLExceptionTranslator(java.lang.String)
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#java/lang/Enum/name()
+com/nzannino/web/data/ExceptionTranslator/exception(org.jooq.ExecuteContext)#org/springframework/jdbc/support/SQLStateSQLExceptionTranslator/SQLStateSQLExceptionTranslator()

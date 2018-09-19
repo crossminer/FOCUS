@@ -1,0 +1,8 @@
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#org/jinstagram/auth/oauth/InstagramService/getAccessToken(org.jinstagram.auth.model.Verifier)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#org/jinstagram/Instagram/Instagram(org.jinstagram.auth.model.Token)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletResponse/sendRedirect(java.lang.String)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#org/jinstagram/auth/model/Verifier/Verifier(java.lang.String)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/getServletContext()
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpSession/setAttribute(java.lang.String,java.lang.Object)
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletRequest/getContextPath()
+instagram/instaOperations/doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletContext/getAttribute(java.lang.String)

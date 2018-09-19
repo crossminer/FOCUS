@@ -1,0 +1,3 @@
+com/maxmind/geoip/DatabaseInfo/getDate()#java/lang/Character/isWhitespace(char)
+com/maxmind/geoip/DatabaseInfo/getDate()#java/lang/String/charAt(int)
+com/maxmind/geoip/DatabaseInfo/getDate()#java/lang/String/length()

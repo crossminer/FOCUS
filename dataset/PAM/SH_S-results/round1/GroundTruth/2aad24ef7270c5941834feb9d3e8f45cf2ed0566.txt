@@ -1,0 +1,6 @@
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#ch/presentit/util/MockedObject/getPresentations()
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#org/junit/Assert/assertEquals(java.lang.Object,java.lang.Object)
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#org/junit/Assert/assertEquals(long,long)
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#ch/presentit/util/MockedObject/MockedObject()
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#java/util/List/isEmpty()
+ch/presentit/service/PresentationServiceTest/findAllPresentation()#ch/presentit/service/PresentationService/save(ch.presentit.model.Presentation)

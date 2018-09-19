@@ -1,0 +1,3 @@
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/openqa/selenium/By/id(java.lang.String)
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#org/springside/modules/test/selenium/Selenium2/type(org.openqa.selenium.By,java.lang.String)
+org/ng12306/web/system/functional/BaseSeleniumTestCase/loginAsUserIfNecessary()#java/lang/String/equals(java.lang.Object)

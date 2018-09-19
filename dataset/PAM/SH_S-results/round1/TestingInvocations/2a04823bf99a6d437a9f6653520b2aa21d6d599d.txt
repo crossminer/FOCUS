@@ -1,0 +1,3 @@
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#java/lang/Thread/sleep(long)
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#org/apache/camel/model/ModelCamelContext/getRouteDefinitions()
+dk/miw/playlists/PlaylistsRouteTest/testRoute()#dk/miw/playlists/ChannelList/getChannels()

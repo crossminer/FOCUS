@@ -1,0 +1,3 @@
+io/swagger/sample/resource/PetResource/updatePetWithForm(java.lang.Long,java.lang.String,java.lang.String)#java/io/PrintStream/println(java.lang.String)
+io/swagger/sample/resource/PetResource/updatePetWithForm(java.lang.Long,java.lang.String,java.lang.String)#io/swagger/sample/data/PetData/getPetbyId(long)
+io/swagger/sample/resource/PetResource/updatePetWithForm(java.lang.Long,java.lang.String,java.lang.String)#java/lang/String/equals(java.lang.Object)

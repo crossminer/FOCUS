@@ -1,0 +1,3 @@
+de/appplant/cordova/plugin/localnotification/Restore/onReceive(de.appplant.cordova.plugin.localnotification.Context,de.appplant.cordova.plugin.localnotification.Intent)#de/appplant/cordova/plugin/localnotification/LocalNotification/getSharedPreferences()
+de/appplant/cordova/plugin/localnotification/Restore/onReceive(de.appplant.cordova.plugin.localnotification.Context,de.appplant.cordova.plugin.localnotification.Intent)#java/lang/Object/Object()
+de/appplant/cordova/plugin/localnotification/Restore/onReceive(de.appplant.cordova.plugin.localnotification.Context,de.appplant.cordova.plugin.localnotification.Intent)#de/appplant/cordova/plugin/localnotification/Options/Options(de.appplant.cordova.plugin.localnotification.Activity)

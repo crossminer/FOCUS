@@ -1,0 +1,3 @@
+io/vertx/ext/graph/neo4j/Neo4jGraphVerticle/initializeDatabase()#java/lang/Class/forName(java.lang.String)
+io/vertx/ext/graph/neo4j/Neo4jGraphVerticle/initializeDatabase()#java/lang/reflect/Constructor/newInstance(java.lang.Object[])
+io/vertx/ext/graph/neo4j/Neo4jGraphVerticle/initializeDatabase()#java/lang/Class/getConstructor(java.lang.Class<?>[])

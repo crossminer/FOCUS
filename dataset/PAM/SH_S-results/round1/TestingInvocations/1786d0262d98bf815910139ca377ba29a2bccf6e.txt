@@ -1,0 +1,3 @@
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/createRandomEvent(java.util.Date,int)
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/createEvent(int,boolean,java.util.Date,java.util.Date)
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#java/util/Random/nextInt(int)

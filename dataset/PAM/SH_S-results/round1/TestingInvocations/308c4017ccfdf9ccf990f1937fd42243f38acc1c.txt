@@ -1,0 +1,3 @@
+no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#java/util/ArrayList/ArrayList()
+no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#org/w3c/dom/NodeList/getLength()
+no/koteng/appstore/Repository/Parser/parseXML(org.w3c.dom.Document)#org/w3c/dom/Element/getElementsByTagName(java.lang.String)

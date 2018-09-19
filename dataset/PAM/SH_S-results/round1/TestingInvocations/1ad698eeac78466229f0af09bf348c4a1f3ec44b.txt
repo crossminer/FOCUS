@@ -1,0 +1,3 @@
+br/com/tecsinapse/camel/repository/SocialRepository/getLatests(int,java.util.Map,java.util.Comparator,java.util.function.Function)#br/com/tecsinapse/camel/repository/SocialRepository/getLatests(int,java/util/Map,java/util/Comparator,java/util/function/Function)/$anonymous1/()
+br/com/tecsinapse/camel/repository/SocialRepository/getLatests(int,java.util.Map,java.util.Comparator,java.util.function.Function)#java/util/stream/Stream/collect(java.util.stream.Collector)
+br/com/tecsinapse/camel/repository/SocialRepository/getLatests(int,java.util.Map,java.util.Comparator,java.util.function.Function)#java/util/List/size()

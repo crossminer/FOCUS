@@ -1,0 +1,3 @@
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/JavaPairRDD/reduceByKey(org.apache.spark.api.java.function.Function2)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/JavaPairRDD/sortByKey(boolean)
+vsu/amm/SparkComputing/topRatedFilms()#org/apache/spark/api/java/JavaPairRDD/values()

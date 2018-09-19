@@ -1,0 +1,3 @@
+com/zendaimoney/mqmonitor/command/Command/init()#com/mongodb/Mongo/getDB(java.lang.String)
+com/zendaimoney/mqmonitor/command/Command/init()#com/mongodb/Mongo/Mongo(java.lang.String,int)
+com/zendaimoney/mqmonitor/command/Command/init()#java/lang/System/setProperty(java.lang.String,java.lang.String)

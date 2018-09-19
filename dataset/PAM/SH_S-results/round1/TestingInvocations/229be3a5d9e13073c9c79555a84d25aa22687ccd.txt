@@ -1,0 +1,3 @@
+com/sldg/erp/controller/LoginController/autenticar()#java/lang/Throwable/printStackTrace()
+com/sldg/erp/controller/LoginController/autenticar()#org/apache/shiro/SecurityUtils/getSubject()
+com/sldg/erp/controller/LoginController/autenticar()#com/sldg/erp/model/Usuario/getSenha()

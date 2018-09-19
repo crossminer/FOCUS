@@ -1,0 +1,3 @@
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#javax/ws/rs/core/Link/fromUri(java.lang.String)
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#javax/ws/rs/core/Link/Builder/rel(java.lang.String)
+br/com/geladaonline/services/test/model/Cervejas/getLinks()#br/com/geladaonline/services/test/model/CustomLink/getTitle()

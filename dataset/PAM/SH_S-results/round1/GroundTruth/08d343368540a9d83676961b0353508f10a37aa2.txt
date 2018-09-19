@@ -1,0 +1,7 @@
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#com/mongodb/BasicDBObject/BasicDBObject(java.lang.String,java.lang.Object)
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#org/bson/BasicBSONObject/getString(java.lang.String)
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#com/mongodb/DBCollection/findOne(com.mongodb.DBObject)
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#com/mongodb/BasicDBObject/BasicDBObject()
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#java/util/ArrayList/get(int)
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#java/util/ArrayList/size()
+it/gruppopbdmng5/shortlink/presentation/UrlService/prendiStatisticheShortURL(java.lang.String)#com/mongodb/BasicDBObject/BasicDBObject(java.util.Map)

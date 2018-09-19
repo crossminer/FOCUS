@@ -1,0 +1,5 @@
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#org/wicketstuff/calendarviews/model/IEvent/getEndTime()
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#java/util/Date/before(java.util.Date)
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#java/util/Set/add(E)
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/getAdjustedDate(java.util.Date,int)
+org/wicketstuff/calendarviews/exampleapp/RandomTestEventProvider/initializeWithDateRange(java.util.Date,java.util.Date)#org/wicketstuff/calendarviews/model/IEvent/getStartTime()

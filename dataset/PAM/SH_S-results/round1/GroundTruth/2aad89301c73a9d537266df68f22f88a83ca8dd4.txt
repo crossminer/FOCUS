@@ -1,0 +1,3 @@
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#java/nio/Buffer/position(int)
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#java/nio/Buffer/capacity()
+com/intel/daal/algorithms/ModelSerializer/serializeQrModel(com.intel.daal.algorithms.linear_regression.Model)#com/intel/daal/data_management/data/SerializableBase/getCObject()

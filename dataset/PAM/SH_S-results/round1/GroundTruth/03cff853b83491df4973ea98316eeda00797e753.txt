@@ -1,0 +1,5 @@
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#java/io/File/toPath()
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#org/kamranzafar/samples/wicket/template/Image/Image()
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#org/kamranzafar/samples/wicket/template/service/ServiceFacade/getImageService()
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#org/kamranzafar/samples/wicket/template/service/ImageService/saveImage(org.kamranzafar.samples.wicket.template.Image)
+org/kamranzafar/samples/wicket/template/ImageServiceTest/saveImage()#org/kamranzafar/samples/wicket/template/Image/setData(byte[])

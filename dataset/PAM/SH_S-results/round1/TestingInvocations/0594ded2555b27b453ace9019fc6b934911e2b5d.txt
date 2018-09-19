@@ -1,0 +1,3 @@
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#org/zkybase/cmdb/test/AbstractBeanTestCase/getDummyValue(java.lang.Class)
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/beans/PropertyDescriptor/getPropertyType()
+org/zkybase/cmdb/test/AbstractBeanTestCase/accessors()#java/lang/String/equals(java.lang.Object)

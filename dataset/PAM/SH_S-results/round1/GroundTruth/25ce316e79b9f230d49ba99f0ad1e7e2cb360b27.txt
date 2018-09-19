@@ -1,0 +1,3 @@
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#java/lang/Integer/parseInt(java.lang.String)
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#com/lambdaworks/redis/api/sync/BaseRedisCommands/isOpen()
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection(com.lambdaworks.redis.RedisClient,com.lambdaworks.redis.RedisURI)

@@ -1,0 +1,3 @@
+com/creamsugardonut/HttpStaticFileServerHandler2/setContentTypeHeader(io.netty.handler.codec.http.HttpResponse,java.io.File)#javax/activation/MimetypesFileTypeMap/getContentType(java.lang.String)
+com/creamsugardonut/HttpStaticFileServerHandler2/setContentTypeHeader(io.netty.handler.codec.http.HttpResponse,java.io.File)#javax/activation/MimetypesFileTypeMap/MimetypesFileTypeMap()
+com/creamsugardonut/HttpStaticFileServerHandler2/setContentTypeHeader(io.netty.handler.codec.http.HttpResponse,java.io.File)#io/netty/handler/codec/http/HttpHeaders/set(java.lang.String,java.lang.Object)

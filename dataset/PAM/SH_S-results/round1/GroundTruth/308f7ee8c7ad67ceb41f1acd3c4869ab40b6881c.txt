@@ -1,0 +1,5 @@
+fixture/simple/SheetFixture/install()#java/util/Calendar/getInstance()
+fixture/simple/SheetFixture/install()#dom/sheet/Sheets/createSheet(java.util.Date)
+fixture/simple/SheetFixture/install()#java/util/Date/clone()
+fixture/simple/SheetFixture/install()#java/util/Calendar/getTime()
+fixture/simple/SheetFixture/install()#dom/sheet/Sheet/submit()

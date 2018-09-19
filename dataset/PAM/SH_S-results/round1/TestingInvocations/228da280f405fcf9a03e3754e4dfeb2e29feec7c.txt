@@ -1,0 +1,3 @@
+com/jakubstas/swagger/service/UserService/init()#java/nio/file/Files/readAllBytes(java.nio.file.Path)
+com/jakubstas/swagger/service/UserService/init()#org/springframework/core/io/Resource/getFile()
+com/jakubstas/swagger/service/UserService/init()#java/util/Date/Date()

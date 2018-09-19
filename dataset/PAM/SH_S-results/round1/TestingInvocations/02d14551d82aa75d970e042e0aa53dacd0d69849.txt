@@ -1,0 +1,3 @@
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/ServletRequest/getRemoteAddr()
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#java/io/PrintStream/println(java.lang.String)
+com/stylussoftworks/web/controller/MainController/clientConnectionInit(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)#javax/servlet/http/HttpServletRequest/getSession(boolean)

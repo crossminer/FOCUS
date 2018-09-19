@@ -1,0 +1,3 @@
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#java/util/ArrayList/ArrayList()
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
+com/aliyun/emr/example/ODPSJavaSample/main(java.lang.String[])#java/io/PrintStream/println(char[])

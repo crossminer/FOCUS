@@ -1,0 +1,3 @@
+extractorExample/ExtractorTest/observe1Notification()#extractorExample/ExtractorTest/MockObserver/MockObserver()
+extractorExample/ExtractorTest/observe1Notification()#java/util/Observable/addObserver(java.util.Observer)
+extractorExample/ExtractorTest/observe1Notification()#extractorExample/MockRetriever/MockRetriever(java.lang.String[])

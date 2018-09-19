@@ -1,0 +1,2 @@
+net/sf/jpam/Pam/authenticate(java.lang.String,java.lang.String)#java/lang/NullPointerException/NullPointerException(java.lang.String)
+net/sf/jpam/Pam/authenticate(java.lang.String,java.lang.String)#net/sf/jpam/PamReturnValue/fromId(int)

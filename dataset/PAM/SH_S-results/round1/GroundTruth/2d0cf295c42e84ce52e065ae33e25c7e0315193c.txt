@@ -1,0 +1,7 @@
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/util/Properties/load(java.io.InputStream)
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/util/regex/Pattern/matcher(java.lang.CharSequence)
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/io/FileInputStream/FileInputStream(java.lang.String)
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/util/Properties/Properties()
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/lang/String/startsWith(java.lang.String)
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/lang/Object/toString()
+org/sifarish/util/Utility/setConfiguration(org.sifarish.util.Configuration)#java/util/Properties/getProperty(java.lang.String)

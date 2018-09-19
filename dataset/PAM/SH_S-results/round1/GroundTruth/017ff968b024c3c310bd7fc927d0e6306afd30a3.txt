@@ -1,0 +1,2 @@
+org/recipesearch/web/beans/UserBeanTest/testValidUserBean()#org/recipesearch/web/beans/UserBeanTest/buildValidUserBean()
+org/recipesearch/web/beans/UserBeanTest/testValidUserBean()#javax/validation/ValidatorFactory/getValidator()

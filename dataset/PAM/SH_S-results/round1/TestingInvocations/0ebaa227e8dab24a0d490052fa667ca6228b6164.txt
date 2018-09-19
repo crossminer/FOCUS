@@ -1,0 +1,3 @@
+ca/ulaval/ift/graal/pagerank/topk/TopKReducer/reduce(org.apache.hadoop.io.NullWritable,java.lang.Iterable,org.apache.hadoop.mapreduce.Reducer.Context)#org/slf4j/Logger/debug(java.lang.String)
+ca/ulaval/ift/graal/pagerank/topk/TopKReducer/reduce(org.apache.hadoop.io.NullWritable,java.lang.Iterable,org.apache.hadoop.mapreduce.Reducer.Context)#java/util/TreeMap/firstEntry()
+ca/ulaval/ift/graal/pagerank/topk/TopKReducer/reduce(org.apache.hadoop.io.NullWritable,java.lang.Iterable,org.apache.hadoop.mapreduce.Reducer.Context)#java/lang/Double/toString()

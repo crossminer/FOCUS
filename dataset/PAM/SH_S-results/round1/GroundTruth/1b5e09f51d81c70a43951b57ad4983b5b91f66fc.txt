@@ -1,0 +1,6 @@
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#org/w3c/dom/NodeList/item(int)
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/xpath/XPathFactory/newInstance()
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/xpath/XPathFactory/newXPath()
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/xpath/XPath/evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/parsers/DocumentBuilderFactory/newDocumentBuilder()
+uk/commonline/weather/geo/source/yahoo/YahooGeoLocationParser/parsePlace(java.io.InputStream)#javax/xml/parsers/DocumentBuilderFactory/newInstance()

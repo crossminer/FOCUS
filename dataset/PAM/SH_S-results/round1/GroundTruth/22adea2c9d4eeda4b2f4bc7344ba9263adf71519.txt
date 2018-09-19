@@ -1,0 +1,6 @@
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#com/heryratovoarison/wallpic/entities/Wallpaper/getIdCategorie()
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#java/util/Map/get(java.lang.Object)
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#com/heryratovoarison/wallpic/entities/Wallpaper/getPartage()
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#com/heryratovoarison/wallpic/entities/Categorie/getLibelle()
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#com/heryratovoarison/wallpic/utilitaires/CloudinaryUtil/upload(java.io.InputStream,boolean,java.lang.String)
+com/heryratovoarison/wallpic/entities/service/WallpaperFacadeREST/createImage(java.io.InputStream,com.heryratovoarison.wallpic.entities.Wallpaper)#com/heryratovoarison/wallpic/entities/Wallpaper/setNomFichier(java.lang.String)

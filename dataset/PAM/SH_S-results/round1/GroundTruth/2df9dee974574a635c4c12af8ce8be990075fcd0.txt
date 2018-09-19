@@ -1,0 +1,3 @@
+org/wltea/analyzer/query/SWMCQueryBuilder/doAnalyze(java.lang.String)#java/io/StringReader/StringReader(java.lang.String)
+org/wltea/analyzer/query/SWMCQueryBuilder/doAnalyze(java.lang.String)#java/util/List/add(E)
+org/wltea/analyzer/query/SWMCQueryBuilder/doAnalyze(java.lang.String)#org/wltea/analyzer/core/IKSegmenter/IKSegmenter(java.io.Reader,boolean)

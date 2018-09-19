@@ -1,0 +1,5 @@
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/entity/User/getPassword()
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/entity/User/getLoginName()
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/service/account/AccountService/findUserByLoginName(java.lang.String)
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#com/enlight/task/entity/IdEntity/getId()
+com/enlight/task/service/account/ShiroDbRealm/doGetAuthenticationInfo(com.enlight.task.service.account.AuthenticationToken)#java/lang/Object/Object()

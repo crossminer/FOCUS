@@ -1,0 +1,2 @@
+study/services/LinkInfosService/addLinkInfo(study.models.LinkInfo)#java/io/PrintStream/println(java.lang.String)
+study/services/LinkInfosService/addLinkInfo(study.models.LinkInfo)#study/models/User/getCurrentUserId()

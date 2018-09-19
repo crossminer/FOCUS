@@ -1,0 +1,4 @@
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#java/lang/Integer/toString()
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#com/example/sdn4rc2/web/CategoryForm/setDescription(java.lang.String)
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#com/example/sdn4rc2/web/CategoryForm/setCategoryID(java.lang.String)
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#com/example/sdn4rc2/web/CategoryForm/setId(java.lang.String)

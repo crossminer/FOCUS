@@ -1,0 +1,8 @@
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Model/checkEndOfGame()
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Score/getScore()
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Model/getScore()
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Model/newTetrimino()
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/view/View/updateScore(int)
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/view/View/displayBoard(int[][],int[][],int,int)
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Score/incrementScore(int)
+fr/esiea/tetris/controler/Controler/step()#fr/esiea/tetris/model/Model/anchorTetrimino()

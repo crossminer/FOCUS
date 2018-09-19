@@ -1,0 +1,4 @@
+org/apache/spark/streaming/LocalJavaStreamingContext/setUp()#org/apache/spark/streaming/api/java/JavaStreamingContext/checkpoint(java.lang.String)
+org/apache/spark/streaming/LocalJavaStreamingContext/setUp()#org/apache/spark/SparkConf/setAppName(java.lang.String)
+org/apache/spark/streaming/LocalJavaStreamingContext/setUp()#org/apache/spark/streaming/api/java/JavaStreamingContext/JavaStreamingContext(org.apache.spark.SparkConf,org.apache.spark.streaming.Duration)
+org/apache/spark/streaming/LocalJavaStreamingContext/setUp()#org/apache/spark/streaming/Duration/Duration(long)

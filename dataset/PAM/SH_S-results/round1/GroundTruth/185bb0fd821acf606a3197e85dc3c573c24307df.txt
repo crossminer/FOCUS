@@ -1,0 +1,3 @@
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#org/apache/hadoop/hive/serde2/typeinfo/TypeInfo/getCategory()
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseList(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.ListTypeInfo)
+cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseField(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo)#cn/thinkjoy/utils4s/hive/json/JSONSerDe/parseStruct(java.lang.Object,org.apache.hadoop.hive.serde2.typeinfo.StructTypeInfo)

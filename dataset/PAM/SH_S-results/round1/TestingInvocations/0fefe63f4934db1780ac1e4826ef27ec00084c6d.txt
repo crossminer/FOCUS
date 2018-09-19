@@ -1,0 +1,3 @@
+org/objetdirect/wickext/ui/datepicker/DatePickerTestCase/appendNeededResources(org.apache.wicket.protocol.http.documentvalidation.Tag)#org/apache/wicket/Component/getLocale()
+org/objetdirect/wickext/ui/datepicker/DatePickerTestCase/appendNeededResources(org.apache.wicket.protocol.http.documentvalidation.Tag)#org/objetdirect/wickext/commons/WickextTestCase/addExpectedJavaScriptResource(org.apache.wicket.protocol.http.documentvalidation.Tag,org.apache.wicket.ResourceReference)
+org/objetdirect/wickext/ui/datepicker/DatePickerTestCase/appendNeededResources(org.apache.wicket.protocol.http.documentvalidation.Tag)#org/apache/wicket/markup/html/resources/JavascriptResourceReference/JavascriptResourceReference(java.lang.Class,java.lang.String)

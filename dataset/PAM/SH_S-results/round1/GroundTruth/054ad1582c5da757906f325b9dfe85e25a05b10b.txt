@@ -1,0 +1,6 @@
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setUsername(java.lang.String)
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setPassword(java.lang.String)
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setUserStatus(int)
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setId(long)
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setEmail(java.lang.String)
+api/UserData/createUser(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)#models/User/setLastName(java.lang.String)

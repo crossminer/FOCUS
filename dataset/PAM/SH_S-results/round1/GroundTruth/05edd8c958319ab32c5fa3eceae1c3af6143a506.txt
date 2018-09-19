@@ -1,0 +1,4 @@
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#java/lang/IllegalStateException/IllegalStateException(java.lang.String,java.lang.Throwable)
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#com/yangyang/rpc/core/protocol/SerializationUtil/getSchema(java.lang.Class)
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#com/dyuproject/protostuff/LinkedBuffer/allocate(int)
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#java/lang/Object/getClass()

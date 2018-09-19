@@ -1,0 +1,6 @@
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#com/exercise/socialconnection/data/config/DataBuilder/persons()
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#java/util/stream/Stream/limit(long)
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#java/util/stream/Collectors/toList()
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#com/exercise/socialconnection/web/adapters/PersonWebAdapter/getPathToPerson(java.lang.String,java.lang.String)
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#java/util/Collection/stream()
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#com/exercise/socialconnection/services/PersonService/getPathToPerson(java.lang.String,java.lang.String)

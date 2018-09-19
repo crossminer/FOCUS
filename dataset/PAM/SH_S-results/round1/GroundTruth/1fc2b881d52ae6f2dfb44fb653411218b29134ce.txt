@@ -1,0 +1,4 @@
+jclustering/metrics/PNorm/makeConfig()#java/awt/Component/addFocusListener(java.awt.event.FocusListener)
+jclustering/metrics/PNorm/makeConfig()#java/awt/Label/Label(java.lang.String)
+jclustering/metrics/PNorm/makeConfig()#java/awt/Container/add(java.awt.Component)
+jclustering/metrics/PNorm/makeConfig()#javax/swing/JTextField/setColumns(int)

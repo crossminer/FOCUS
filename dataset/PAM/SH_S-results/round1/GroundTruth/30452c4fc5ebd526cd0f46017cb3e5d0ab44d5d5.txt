@@ -1,0 +1,3 @@
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/NeoUniversalCondition/setCypherQuery(java.lang.String)
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/NeoUniversalCondition/setParamsJson(java.lang.String)
+com/nulli/openam/plugins/NeoUniversalConditionTest/neoQueryProperParams()#com/nulli/openam/plugins/NeoUniversalCondition/evaluate(java.lang.String,javax.security.auth.Subject,java.lang.String,java.util.Map)

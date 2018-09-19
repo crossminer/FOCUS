@@ -1,0 +1,3 @@
+bb/rackmesa/research/authorization/DatabaseFunctionsTest/permissionCRUD()#bb/rackmesa/research/authorization/Init/Configure()
+bb/rackmesa/research/authorization/DatabaseFunctionsTest/permissionCRUD()#bb/rackmesa/research/authorization/Service/getPermissions()
+bb/rackmesa/research/authorization/DatabaseFunctionsTest/permissionCRUD()#bb/rackmesa/research/authorization/DatabaseFunctions/retrieveUser(bb.rackmesa.research.authorization.Service,java.lang.String)

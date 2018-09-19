@@ -1,0 +1,3 @@
+cn/lcf/newjava/Lambada/main(java.lang.String[])#java/util/ArrayList/ArrayList()
+cn/lcf/newjava/Lambada/main(java.lang.String[])#cn/lcf/newjava/Lambada/main(java/lang/String[])/$anonymous1/()
+cn/lcf/newjava/Lambada/main(java.lang.String[])#cn/lcf/newjava/Lambada/test(java.util.List,cn.lcf.newjava.Movable)

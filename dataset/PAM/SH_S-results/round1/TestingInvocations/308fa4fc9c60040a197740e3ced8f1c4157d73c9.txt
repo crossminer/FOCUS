@@ -1,0 +1,3 @@
+agenda/rest/GrupoREST/delete(java.lang.String)#agenda/business/GrupoBusiness/deleteById(java.lang.String)
+agenda/rest/GrupoREST/delete(java.lang.String)#agenda/rest/exceptions/CustomWebApplicationException/CustomWebApplicationException(java.lang.Throwable)
+agenda/rest/GrupoREST/delete(java.lang.String)#agenda/dao/SessionManager/commit()

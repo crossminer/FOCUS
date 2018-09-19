@@ -1,0 +1,3 @@
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#java/io/BufferedReader/readLine()
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#junit/framework/Assert/assertTrue(boolean)
+com/joantolos/portfolio/template/FileUtilsTest/closeBufferedReaderTest()#java/io/BufferedReader/BufferedReader(java.io.Reader)

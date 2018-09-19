@@ -1,0 +1,3 @@
+org/planningpoker/domain/NumberCard/getDisplayValue()#java/lang/Math/round(double)
+org/planningpoker/domain/NumberCard/getDisplayValue()#java/lang/Double/longValue()
+org/planningpoker/domain/NumberCard/getDisplayValue()#java/text/DecimalFormat/DecimalFormat(java.lang.String)

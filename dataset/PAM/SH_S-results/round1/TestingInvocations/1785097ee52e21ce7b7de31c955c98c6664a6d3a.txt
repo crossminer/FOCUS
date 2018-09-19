@@ -1,0 +1,3 @@
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/Forum/setPaginationLinks(java.util.List)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/ForumFetcher/extractPaginationLinks(com.pangratz.derstandardatcomments.model.Document)
+com/pangratz/derstandardatcomments/model/ForumFetcher/parseForum(java.lang.String,com.pangratz.derstandardatcomments.model.Document)#com/pangratz/derstandardatcomments/model/Forum/Forum(java.lang.String)

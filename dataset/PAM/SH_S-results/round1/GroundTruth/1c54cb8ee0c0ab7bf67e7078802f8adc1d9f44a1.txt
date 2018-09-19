@@ -1,0 +1,3 @@
+freenet/winterface/core/PeerUtil/splitRef(java.lang.String)#java/lang/String/equals(java.lang.Object)
+freenet/winterface/core/PeerUtil/splitRef(java.lang.String)#java/util/List/add(E)
+freenet/winterface/core/PeerUtil/splitRef(java.lang.String)#java/util/List/size()

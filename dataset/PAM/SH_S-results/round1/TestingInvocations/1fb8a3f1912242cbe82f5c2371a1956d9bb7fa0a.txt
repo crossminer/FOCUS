@@ -1,0 +1,3 @@
+br/com/igor/tccrestws/service/UsuarioAtividadeService/fuzzyficar(java.lang.String)#br/com/igor/tccrestws/dao/ComplementoDao/selectComplemento(br.com.igor.tccrestws.entity.Complemento)
+br/com/igor/tccrestws/service/UsuarioAtividadeService/fuzzyficar(java.lang.String)#br/com/igor/tccrestws/entity/UsuarioAtividade/getAtividade()
+br/com/igor/tccrestws/service/UsuarioAtividadeService/fuzzyficar(java.lang.String)#java/util/ArrayList/ArrayList()

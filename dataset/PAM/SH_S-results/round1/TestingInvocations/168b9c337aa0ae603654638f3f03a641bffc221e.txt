@@ -1,0 +1,3 @@
+org/dyrda/javabrains/client/ClientApp/main(java.lang.String[])#javax/ws/rs/client/WebTarget/resolveTemplate(java.lang.String,java.lang.Object)
+org/dyrda/javabrains/client/ClientApp/main(java.lang.String[])#java/io/PrintStream/println(java.lang.String)
+org/dyrda/javabrains/client/ClientApp/main(java.lang.String[])#org/dyrda/javabrains/model/Message/getMessage()

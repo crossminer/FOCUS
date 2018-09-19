@@ -1,0 +1,3 @@
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#javax/activation/MimetypesFileTypeMap/getContentType(java.lang.String)
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/amazonaws/services/s3/model/ObjectMetadata/setContentType(java.lang.String)
+com/tchepannou/kiosk/core/service/S3Service/put(java.lang.String,java.io.InputStream)#com/amazonaws/services/s3/model/ObjectMetadata/ObjectMetadata()

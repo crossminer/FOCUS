@@ -1,0 +1,3 @@
+com/springapp/mvc/MController/loginCheck(com.springapp.mvc.bean.User,org.springframework.ui.ModelMap,javax.servlet.http.HttpSession)#com/springapp/mvc/bean/User/getEmail()
+com/springapp/mvc/MController/loginCheck(com.springapp.mvc.bean.User,org.springframework.ui.ModelMap,javax.servlet.http.HttpSession)#com/springapp/mvc/bean/User/getPassword()
+com/springapp/mvc/MController/loginCheck(com.springapp.mvc.bean.User,org.springframework.ui.ModelMap,javax.servlet.http.HttpSession)#org/springframework/ui/ModelMap/addAttribute(java.lang.String,java.lang.Object)

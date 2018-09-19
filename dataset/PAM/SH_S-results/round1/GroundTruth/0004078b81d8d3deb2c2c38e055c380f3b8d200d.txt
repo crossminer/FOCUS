@@ -1,0 +1,4 @@
+com/esrichina/pulgin/jdbc/dialet/HSQLDialect/getLimitString(java.lang.String,int,java.lang.String,int,java.lang.String)#java/lang/String/indexOf(java.lang.String)
+com/esrichina/pulgin/jdbc/dialet/HSQLDialect/getLimitString(java.lang.String,int,java.lang.String,int,java.lang.String)#java/lang/StringBuffer/append(java.lang.String)
+com/esrichina/pulgin/jdbc/dialet/HSQLDialect/getLimitString(java.lang.String,int,java.lang.String,int,java.lang.String)#java/lang/StringBuffer/insert(int,java.lang.String)
+com/esrichina/pulgin/jdbc/dialet/HSQLDialect/getLimitString(java.lang.String,int,java.lang.String,int,java.lang.String)#java/lang/StringBuffer/toString()

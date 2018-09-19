@@ -1,0 +1,3 @@
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#com/dyuproject/protostuff/ProtostuffIOUtil/toByteArray(T,com.dyuproject.protostuff.Schema,com.dyuproject.protostuff.LinkedBuffer)
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#com/dyuproject/protostuff/LinkedBuffer/clear()
+com/yangyang/rpc/core/protocol/SerializationUtil/serialize(T)#java/lang/Throwable/getMessage()

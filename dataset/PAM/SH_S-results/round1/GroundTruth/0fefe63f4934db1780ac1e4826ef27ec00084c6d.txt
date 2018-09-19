@@ -1,0 +1,2 @@
+org/objetdirect/wickext/ui/datepicker/DatePickerTestCase/appendNeededResources(org.apache.wicket.protocol.http.documentvalidation.Tag)#org/objetdirect/wickext/commons/WickextTestCase/getComponent()
+org/objetdirect/wickext/ui/datepicker/DatePickerTestCase/appendNeededResources(org.apache.wicket.protocol.http.documentvalidation.Tag)#org/objetdirect/wickext/ui/datepicker/DatePickerLanguageResourceReference/DatePickerLanguageResourceReference(java.util.Locale)

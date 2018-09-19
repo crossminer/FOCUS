@@ -1,0 +1,2 @@
+com/sportdataconnect/strictly/api/StrictlyApiApplication/openReaderForResource(java.lang.String)#java/nio/charset/Charset/forName(java.lang.String)
+com/sportdataconnect/strictly/api/StrictlyApiApplication/openReaderForResource(java.lang.String)#java/lang/Object/getClass()

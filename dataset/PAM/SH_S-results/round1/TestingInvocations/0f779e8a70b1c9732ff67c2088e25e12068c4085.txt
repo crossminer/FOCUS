@@ -1,0 +1,3 @@
+com/flavien/cli/component/Menu/redirectUser(int)#com/flavien/cli/component/ComputerCli/createComputer()
+com/flavien/cli/component/Menu/redirectUser(int)#java/util/Scanner/close()
+com/flavien/cli/component/Menu/redirectUser(int)#com/flavien/cli/component/Menu/MenuEntries/values()

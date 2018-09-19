@@ -1,0 +1,3 @@
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#com/lambdaworks/redis/api/StatefulRedisConnection/sync()
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#com/lambdaworks/redis/api/sync/BaseRedisCommands/close()
+org/apache/kafka/connect/socket/cache/RedisCMDBManager/getConnection()#com/lambdaworks/redis/api/sync/RedisStringCommands/get(K)

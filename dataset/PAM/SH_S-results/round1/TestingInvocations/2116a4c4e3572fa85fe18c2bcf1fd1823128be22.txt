@@ -1,0 +1,3 @@
+org/linkeddata/triplegeo/TripleGeoTest/getDirs()#java/io/File/isDirectory()
+org/linkeddata/triplegeo/TripleGeoTest/getDirs()#org/apache/log4j/Category/error(java.lang.Object)
+org/linkeddata/triplegeo/TripleGeoTest/getDirs()#java/io/File/exists()

@@ -1,0 +1,3 @@
+org/salarymaster/DAO/SalaryDAOMongo/getSalaryByField(java.lang.String,java.lang.String,int,int,int,java.lang.String)#com/mongodb/client/MongoCollection/find(org.bson.conversions.Bson)
+org/salarymaster/DAO/SalaryDAOMongo/getSalaryByField(java.lang.String,java.lang.String,int,int,int,java.lang.String)#org/salarymaster/DAO/SalaryDAOMongo/iterToList(com.mongodb.client.FindIterable)
+org/salarymaster/DAO/SalaryDAOMongo/getSalaryByField(java.lang.String,java.lang.String,int,int,int,java.lang.String)#com/mongodb/client/FindIterable/limit(int)

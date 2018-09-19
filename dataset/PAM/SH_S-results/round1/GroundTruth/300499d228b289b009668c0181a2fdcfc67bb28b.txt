@@ -1,0 +1,7 @@
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#com/nikolas/wicketsecurity/business/security/control/UserDao/getEntityManager()
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/TypedQuery/getSingleResult()
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/criteria/CriteriaBuilder/equal(javax.persistence.criteria.Expression,java.lang.Object)
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/criteria/CriteriaBuilder/createQuery(java.lang.Class)
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/EntityManager/getCriteriaBuilder()
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/EntityManager/createQuery(javax.persistence.criteria.CriteriaQuery)
+com/nikolas/wicketsecurity/business/security/control/UserDao/findUserByUsername(java.lang.String)#javax/persistence/criteria/CriteriaQuery/where(javax.persistence.criteria.Expression)

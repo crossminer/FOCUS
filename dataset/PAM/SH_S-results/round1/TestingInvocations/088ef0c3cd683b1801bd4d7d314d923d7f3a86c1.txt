@@ -1,0 +1,3 @@
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#com/exercise/socialconnection/web/model/PersonList/getPersons()
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#java/util/stream/Stream/collect(java.util.stream.Collector)
+com/exercise/socialconnection/web/adapters/SpringPersonWebAdapterTest/testGetPathToPerson()#java/util/List/size()

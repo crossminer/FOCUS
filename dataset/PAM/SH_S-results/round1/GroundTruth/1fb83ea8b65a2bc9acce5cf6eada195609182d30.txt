@@ -1,0 +1,2 @@
+org/wso2/carbon/cassandra/sample/hectorclient/HectorExample/main(java.lang.String[])#java/util/Scanner/Scanner(java.io.InputStream)
+org/wso2/carbon/cassandra/sample/hectorclient/HectorExample/main(java.lang.String[])#org/wso2/carbon/cassandra/sample/hectorclient/HectorExample/createKeyspace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)

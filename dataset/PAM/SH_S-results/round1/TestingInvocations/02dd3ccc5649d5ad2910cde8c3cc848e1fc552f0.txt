@@ -1,0 +1,3 @@
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/dataaccess/model/ServerInfo/setName(java.lang.String)
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/dataaccess/model/ServerInfo/ServerInfo()
+com/epam/training/services/UserServiceTest/addPrefTest()#com/epam/training/services/UserService/addPreference(com.epam.training.dataaccess.model.ServerInfo,com.epam.training.dataaccess.model.User)

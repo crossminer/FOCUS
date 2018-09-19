@@ -1,0 +1,2 @@
+camelinaction/StarterKitJavaProxyBuilderTest/testProxyBuilder()#java/lang/Object/Object()
+camelinaction/StarterKitJavaProxyBuilderTest/testProxyBuilder()#camelinaction/Inventory/Inventory(java.lang.String,java.lang.String)

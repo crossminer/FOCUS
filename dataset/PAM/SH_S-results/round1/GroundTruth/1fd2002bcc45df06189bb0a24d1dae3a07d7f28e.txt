@@ -1,0 +1,4 @@
+org/neo4j/examples/socnet/SocnetTest/weightedFriendRecommendation()#java/lang/Iterable/iterator()
+org/neo4j/examples/socnet/SocnetTest/weightedFriendRecommendation()#java/util/ArrayList/get(int)
+org/neo4j/examples/socnet/SocnetTest/weightedFriendRecommendation()#org/neo4j/examples/socnet/PersonRepository/createPerson(java.lang.String)
+org/neo4j/examples/socnet/SocnetTest/weightedFriendRecommendation()#org/neo4j/examples/socnet/Person/addFriend(org.neo4j.examples.socnet.Person)

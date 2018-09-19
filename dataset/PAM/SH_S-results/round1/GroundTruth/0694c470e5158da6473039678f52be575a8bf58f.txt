@@ -1,0 +1,6 @@
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#com/sonal/flashcardapp/services/UserService/addNewUser(com.sonal.flashcardapp.domain.FcUsers)
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#org/springframework/web/servlet/ModelAndView/addObject(java.lang.Object)
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#org/springframework/web/servlet/ModelAndView/ModelAndView(java.lang.String)
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#java/lang/Throwable/getLocalizedMessage()
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#javax/servlet/http/HttpSession/setAttribute(java.lang.String,java.lang.Object)
+com/sonal/flashcardapp/controllers/UserRegistrationController/storeNewUserProfile(javax.servlet.http.HttpSession)#org/slf4j/Logger/info(java.lang.String)

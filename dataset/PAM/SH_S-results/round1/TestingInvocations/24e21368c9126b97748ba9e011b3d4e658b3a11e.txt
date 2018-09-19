@@ -1,0 +1,3 @@
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#org/slf4j/Logger/debug(java.lang.String)
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#eu/scape_project/archiventory/cli/Options/exit(java.lang.String,int)
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#org/apache/commons/cli/CommandLine/hasOption(java.lang.String)

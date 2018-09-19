@@ -1,0 +1,2 @@
+com/mytest/myproject/data/TaskData/randomTask()#com/mytest/myproject/entity/User/User(java.lang.Long)
+com/mytest/myproject/data/TaskData/randomTask()#com/mytest/myproject/entity/Task/setUser(com.mytest.myproject.entity.User)

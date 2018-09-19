@@ -1,0 +1,4 @@
+neo4j/services/AuthorService/toAlcFormat(java.util.Iterator)#neo4j/utils/Remap/map(java.lang.String,java.lang.Object)
+neo4j/services/AuthorService/toAlcFormat(java.util.Iterator)#java/util/Iterator/next()
+neo4j/services/AuthorService/toAlcFormat(java.util.Iterator)#java/util/List/add(E)
+neo4j/services/AuthorService/toAlcFormat(java.util.Iterator)#java/util/Iterator/hasNext()

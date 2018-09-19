@@ -1,0 +1,3 @@
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/ArrayList/ArrayList(int)
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/ArrayList/ArrayList(java.util.Collection)
+com/mdeng/common/utils/Randoms/rand(java.util.Collection,int)#java/util/HashSet/HashSet(int)

@@ -1,0 +1,3 @@
+com/michaelpellegrini/brms/healthcare/DroolsClient/main(java.lang.String[])#org/drools/logger/KnowledgeRuntimeLoggerFactory/newFileLogger(org.drools.event.KnowledgeRuntimeEventManager,java.lang.String)
+com/michaelpellegrini/brms/healthcare/DroolsClient/main(java.lang.String[])#org/drools/runtime/rule/WorkingMemoryEntryPoint/insert(java.lang.Object)
+com/michaelpellegrini/brms/healthcare/DroolsClient/main(java.lang.String[])#com/michaelpellegrini/brms/healthcare/DroolsClient/printFacts(java.lang.String,org.drools.runtime.StatefulKnowledgeSession)

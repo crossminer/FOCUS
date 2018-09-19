@@ -1,0 +1,3 @@
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#com/example/sdn4rc2/web/CategoryForm/setCategoryName(java.lang.String)
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#java/lang/Long/toString()
+com/example/sdn4rc2/service/CategoryService/convertToForm(com.example.sdn4rc2.domain.Category,com.example.sdn4rc2.web.CategoryForm)#com/example/sdn4rc2/web/CategoryForm/setPicture(java.lang.String)

@@ -1,0 +1,3 @@
+$/LoginPage/Handler/tryLogin($.AjaxRequestTarget)#$/WebPageBase/getSession()
+$/LoginPage/Handler/tryLogin($.AjaxRequestTarget)#$/AppSession/login(java.lang.String,java.lang.String)
+$/LoginPage/Handler/tryLogin($.AjaxRequestTarget)#$/LoginPage/getPassword()

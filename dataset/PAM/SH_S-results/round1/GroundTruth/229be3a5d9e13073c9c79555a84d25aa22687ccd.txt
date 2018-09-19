@@ -1,0 +1,7 @@
+com/sldg/erp/controller/LoginController/autenticar()#javax/faces/context/ExternalContext/redirect(java.lang.String)
+com/sldg/erp/controller/LoginController/autenticar()#com/sldg/erp/controller/LoginController/getContext()
+com/sldg/erp/controller/LoginController/autenticar()#javax/faces/context/FacesContext/getExternalContext()
+com/sldg/erp/controller/LoginController/autenticar()#com/sldg/erp/model/Usuario/getEmail()
+com/sldg/erp/controller/LoginController/autenticar()#javax/faces/context/ExternalContext/getRequestContextPath()
+com/sldg/erp/controller/LoginController/autenticar()#org/apache/shiro/authc/UsernamePasswordToken/UsernamePasswordToken(java.lang.String,java.lang.String)
+com/sldg/erp/controller/LoginController/autenticar()#org/apache/shiro/subject/Subject/login(org.apache.shiro.authc.AuthenticationToken)

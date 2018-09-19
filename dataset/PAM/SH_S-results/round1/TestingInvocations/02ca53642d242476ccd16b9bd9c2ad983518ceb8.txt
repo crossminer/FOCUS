@@ -1,0 +1,3 @@
+ungp/sampleng/backend/resource/LogradouroResource/findAllByPageable(java.util.List,java.lang.Integer,java.lang.Integer)#ungp/sampleng/backend/util/pageable/PageData/setSize(java.lang.Integer)
+ungp/sampleng/backend/resource/LogradouroResource/findAllByPageable(java.util.List,java.lang.Integer,java.lang.Integer)#ungp/sampleng/backend/util/pageable/PageData/setTotalPages(java.lang.Integer)
+ungp/sampleng/backend/resource/LogradouroResource/findAllByPageable(java.util.List,java.lang.Integer,java.lang.Integer)#ungp/sampleng/backend/repository/LogradouroRepository/findAllBy(ungp.sampleng.backend.resource.TextCriteria,ungp.sampleng.backend.resource.Sort)

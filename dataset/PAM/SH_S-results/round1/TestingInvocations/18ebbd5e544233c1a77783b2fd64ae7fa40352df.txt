@@ -1,0 +1,3 @@
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel/GenericBooleanPrefDataModel(org.apache.mahout.cf.taste.impl.common.FastByIDMap)
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/impl/eval/GenericRecommenderIRStatsEvaluator/GenericRecommenderIRStatsEvaluator()
+mia/recommender/ch03/IREvaluatorBooleanPrefIntro2/main(java.lang.String[])#org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel/toDataMap(org.apache.mahout.cf.taste.model.DataModel)

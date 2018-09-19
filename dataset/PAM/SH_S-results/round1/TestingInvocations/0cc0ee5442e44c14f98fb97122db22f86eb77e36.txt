@@ -1,0 +1,3 @@
+com/kyip/api/buildstartportal/external/resource/StartupResourceImpl/stopProject(com.kyip.api.buildstartportal.external.datatype.StartProject)#com/kyip/api/buildstartportal/external/datatype/StartProject/setStarted(boolean)
+com/kyip/api/buildstartportal/external/resource/StartupResourceImpl/stopProject(com.kyip.api.buildstartportal.external.datatype.StartProject)#com/kyip/api/buildstartportal/external/resource/StartupResourceImpl/stopProjectByProcess(java.lang.Process)
+com/kyip/api/buildstartportal/external/resource/StartupResourceImpl/stopProject(com.kyip.api.buildstartportal.external.datatype.StartProject)#com/kyip/api/buildstartportal/external/datatype/SingleProject/getName()

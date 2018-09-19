@@ -1,0 +1,3 @@
+study/services/LinkInfosService/addLinkInfo(study.models.LinkInfo)#org/springframework/data/repository/CrudRepository/findOne(ID)
+study/services/LinkInfosService/addLinkInfo(study.models.LinkInfo)#study/models/LinkInfo/setAuthor(study.models.User)
+study/services/LinkInfosService/addLinkInfo(study.models.LinkInfo)#org/springframework/data/repository/CrudRepository/save(S)

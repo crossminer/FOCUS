@@ -1,0 +1,3 @@
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#java/net/URL/URL(java.lang.String)
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#org/springside/examples/quickstart/functional/BaseFunctionalTestCase/buildDataSourceOnce()
+org/springside/examples/quickstart/functional/BaseFunctionalTestCase/initFunctionalTestEnv()#java/lang/String/equals(java.lang.Object)

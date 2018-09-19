@@ -1,0 +1,4 @@
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#eu/scape_project/archiventory/cli/CliConfig/setMapReduceJob(boolean)
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#eu/scape_project/archiventory/cli/CliConfig/setSpringConfig(java.lang.String)
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#org/apache/commons/cli/CommandLine/getOptionValue(java.lang.String)
+eu/scape_project/archiventory/cli/Options/initOptions(org.apache.commons.cli.CommandLine,eu.scape_project.archiventory.cli.CliConfig)#eu/scape_project/archiventory/cli/CliConfig/setDirStr(java.lang.String)

@@ -1,0 +1,3 @@
+org/richfaces/example/XMLBodySerializer/serialize(org.w3c.dom.NodeList,org.w3c.dom.Document)#javax/xml/transform/TransformerFactory/newInstance()
+org/richfaces/example/XMLBodySerializer/serialize(org.w3c.dom.NodeList,org.w3c.dom.Document)#org/w3c/dom/NodeList/getLength()
+org/richfaces/example/XMLBodySerializer/serialize(org.w3c.dom.NodeList,org.w3c.dom.Document)#javax/xml/transform/dom/DOMSource/DOMSource(org.w3c.dom.Node)
