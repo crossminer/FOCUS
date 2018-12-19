@@ -4,6 +4,10 @@ This repository contains the source code implementation and the datasets used to
 
 _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
+Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, Massimiliano Di Penta
+
+Our paper has been accepted at ICSE 2019 ([Link](https://2019.icse-conferences.org/track/icse-2019-Technical-Papers#event-overview))
+
 ## Introduction
 
 FOCUS is a context-aware collaborative-filtering system that exploits cross relationships among OSS projects to suggest the inclusion of additional API invocations and concrete API usage patterns.
