@@ -6,7 +6,9 @@ _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
 Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, Massimiliano Di Penta
 
-Our paper has been accepted at ICSE 2019 ([Link](https://2019.icse-conferences.org/track/icse-2019-Technical-Papers#event-overview))
+Our paper has been accepted at ICSE 2019 ([List of accepted papers](https://2019.icse-conferences.org/track/icse-2019-Technical-Papers#event-overview))
+
+Pre-print is available in [this link](https://www.dropbox.com/s/7xewecs7j4ax195/ICSE2019.pdf?dl=0)
 
 ## Introduction
 
