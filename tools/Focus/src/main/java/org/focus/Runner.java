@@ -25,7 +25,11 @@ public class Runner {
 	public void run() {
 		log.info("FOCUS: A Context-Aware Recommender System!");
 		loadConfigurations();
+
+		log.info("Running ten-fold cross validation on " + srcDir);
 		tenFoldCrossValidation();
+
+		log.info("Running leave-one-out cross validation on " + srcDir);
 		leaveOneOutValidation();
 	}
 
@@ -49,19 +53,19 @@ public class Runner {
 			int k = i + 1;
 			String subFolder = "evaluation/round" + Integer.toString(k);
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir, subFolder, trainingStartPos1,
+			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, trainingStartPos1,
 					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir, subFolder, numOfNeighbours,
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
 
-			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(this.srcDir, subFolder, trainingStartPos1,
+			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
 					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			matcher.searchAPIUsagePatterns();
 
-			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, subFolder, testingStartPos,
+			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(srcDir, subFolder, testingStartPos,
 					testingEndPos);
 			eval.computeSimilarityScore();
 		}
@@ -83,11 +87,11 @@ public class Runner {
 
 			String subFolder = "evaluation/round1";
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir, subFolder, trainingStartPos1,
+			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, trainingStartPos1,
 					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir, subFolder, numOfNeighbours,
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
 		}
