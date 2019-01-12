@@ -1040,4 +1040,26 @@ public class DataReader {
 
 		return projects;		
 	}
+
+	public void writeSimilarityScores(String simDir, String project, Map<String, Float> similarities) {
+		String filename = simDir + project;
+		BufferedWriter writer = null;
+		try {
+			writer = new BufferedWriter(new FileWriter(filename));
+			for (Map.Entry<String, Float> entry : similarities.entrySet()) {
+				writer.append(project + "\t" + entry.getKey() + "\t" + entry.getValue());
+				writer.newLine();
+				writer.flush();
+			}
+		} catch (IOException e) {
+			log.error("Couldn't write file " + filename, e);
+		} finally {
+			try {
+				if (writer != null)
+					writer.close();
+			} catch (IOException e) {
+				log.error("Couldn't close file " + filename, e);
+			}
+		}
+	}
 }

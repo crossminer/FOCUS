@@ -1,8 +1,5 @@
 package org.focus;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -17,6 +14,7 @@ import com.google.common.collect.Sets;
  * Compute similarity between every testing project and all training projects using Cosine Similarity with Weight
  */
 public class SimilarityCalculator {
+	private DataReader reader = new DataReader();
 
 	private String srcDir;
 	private String simDir;
@@ -90,6 +88,8 @@ public class SimilarityCalculator {
 		Map<String, Float> testingProjectVector = new HashMap<>();
 		Map<String, Float> projectSimilarities = new HashMap<>();
 
+		log.info("Computing similarity between %s and all other projects", testingPro);
+
 		// Computes the feature vector of the testing project,
 		// ie. the TF-IDF for all its invocations
 		Map<String, Integer> terms = projects.get(testingPro);
@@ -98,47 +98,30 @@ public class SimilarityCalculator {
 			testingProjectVector.put(term, tfIdf);
 		}
 
-		BufferedWriter writer = null;
-		try {
-			// Compute the feature vector of all training projects in the corpus and
-			// store their similarity with the testing project in the similarity vector
-			for (String trainingProject : projects.keySet()) {
-				if (!trainingProject.equals(testingPro)) {
-					Map<String, Float> trainingProjectVector = new HashMap<>();
-					terms = projects.get(trainingProject);
+		// Compute the feature vector of all training projects in the corpus and
+		// store their similarity with the testing project in the similarity vector
+		for (String trainingProject : projects.keySet()) {
+			if (!trainingProject.equals(testingPro)) {
+				Map<String, Float> trainingProjectVector = new HashMap<>();
+				terms = projects.get(trainingProject);
 
-					for (String term : terms.keySet()) {
-						float tfIdf = computeTF_IDF(terms.get(term), projects.size(), termFrequency.get(term));
-						trainingProjectVector.put(term, tfIdf);
-					}
-
-					float similarity = computeCosineSimilarity(testingProjectVector, trainingProjectVector);
-					projectSimilarities.put(trainingProject, similarity);
+				for (String term : terms.keySet()) {
+					float tfIdf = computeTF_IDF(terms.get(term), projects.size(), termFrequency.get(term));
+					trainingProjectVector.put(term, tfIdf);
 				}
-			}
 
-			// Order projects by similarity in a sortedMap
-			ValueComparator bvc = new ValueComparator(projectSimilarities);
-			TreeMap<String, Float> sortedMap = new TreeMap<>(bvc);
-			sortedMap.putAll(projectSimilarities);
-
-			// Store similarities in the dataset/X/evaluation/roundN/Similarities/* files
-			writer = new BufferedWriter(new FileWriter(simDir + testingPro));
-			for (Map.Entry<String, Float> entry : sortedMap.entrySet()) {
-				writer.append(testingPro + "\t" + entry.getKey() + "\t" + entry.getValue());
-				writer.newLine();
-				writer.flush();
-			}
-		} catch (IOException e) {
-			log.error("Couldn't write file " + simDir + testingPro, e);
-		} finally {
-			try {
-				if (writer != null)
-					writer.close();
-			} catch (IOException e) {
-				log.error("Couldn't close file " + simDir + testingPro, e);
+				float similarity = computeCosineSimilarity(testingProjectVector, trainingProjectVector);
+				projectSimilarities.put(trainingProject, similarity);
 			}
 		}
+
+		// Order projects by similarity in a sortedMap
+		ValueComparator bvc = new ValueComparator(projectSimilarities);
+		TreeMap<String, Float> sortedMap = new TreeMap<>(bvc);
+		sortedMap.putAll(projectSimilarities);
+
+		// Store similarities in the evaluation directory
+		reader.writeSimilarityScores(simDir, testingPro, sortedMap);
 	}
 
 
@@ -224,8 +207,6 @@ public class SimilarityCalculator {
 	 * Compute similarity between every testing project and all training projects using Cosine Similarity with Weight
 	 */
 	public void computeProjectSimilarity(){
-		DataReader reader = new DataReader();			
-
 		Map<Integer,String> trainingProjects = new HashMap<Integer,String>();		
 		if(trainingStartPos1<trainingEndPos1) trainingProjects = reader.readProjectList(this.srcDir + "List.txt",trainingStartPos1,trainingEndPos1);		
 		if(trainingStartPos2 < trainingEndPos2) {
@@ -269,7 +250,6 @@ public class SimilarityCalculator {
 
 	public Map<String,Float> getProjectSimilarity(String pro1, Set<String> projects){
 		Map<String,Float> ret = new HashMap<String,Float>();	
-		DataReader reader = new DataReader();			
 		Map<String,Map<String,Integer>> projects2 = new HashMap<String,Map<String,Integer>>();	
 
 		for(String project:projects){						
