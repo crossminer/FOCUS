@@ -31,7 +31,6 @@ class ValueComparator implements Comparator<String> {
 public class Runner {
 
 	private String srcDir;	
-	private String subFolder;
 	private int numOfProjects;
 	private int numOfNeighbours;
 	private int numOfFolds;
@@ -56,7 +55,7 @@ public class Runner {
 		loadConfigurations();
 		tenFoldCrossValidation();
 
-		//		leaveOneOutValidation();
+		leaveOneOutValidation();
 		//		System.out.println(System.currentTimeMillis());		
 		//		testLinkedHashMap();
 	}
@@ -79,9 +78,9 @@ public class Runner {
 			int testingEndPos =   (i+1)*step;
 
 			int k=i+1;
-			subFolder = "evaluation/round" + Integer.toString(k);
+			String subFolder = "evaluation/round" + Integer.toString(k);
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,this.subFolder,
+			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,subFolder,
 					trainingStartPos1,
 					trainingEndPos1,
 					trainingStartPos2,
@@ -90,20 +89,20 @@ public class Runner {
 					testingEndPos);
 			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,this.subFolder,numOfNeighbours,testingStartPos,testingEndPos);
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,subFolder,numOfNeighbours,testingStartPos,testingEndPos);
 			engine.recommendation();
 
-			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(this.srcDir,this.subFolder,
+			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(this.srcDir,subFolder,
 					trainingStartPos1,
 					trainingEndPos1,
 					trainingStartPos2,
 					trainingEndPos2,
 					testingStartPos,
 					testingEndPos);
-			//matcher.searchAPIUsagePatterns();
+			matcher.searchAPIUsagePatterns();
 
-			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, this.subFolder, testingStartPos, testingEndPos);
-			//eval.computeSimilarityScore();
+			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, subFolder, testingStartPos, testingEndPos);
+			eval.computeSimilarityScore();
 		}
 	}
 
@@ -123,9 +122,9 @@ public class Runner {
 			int testingEndPos =  (i+1)*step;
 
 			int k=i+1;
-			subFolder = "round1";			
+			String subFolder = "evaluation/round1";			
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,this.subFolder,
+			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,subFolder,
 					trainingStartPos1,
 					trainingEndPos1,
 					trainingStartPos2,
@@ -134,7 +133,7 @@ public class Runner {
 					testingEndPos);
 			calculator.computeProjectSimilarity();	
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,this.subFolder,numOfNeighbours,testingStartPos,testingEndPos);
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,subFolder,numOfNeighbours,testingStartPos,testingEndPos);
 			engine.recommendation();			
 		}		
 	}

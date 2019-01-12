@@ -335,7 +335,7 @@ public class ContextAwareRecommendation {
 				writer.close();							
 			} 
 			catch (IOException e) {
-				log.error("Couldn't write file " + this.recDir + filename, e);
+				log.error("Couldn't write file " + tmp, e);
 			}			
 		}		
 		return;
