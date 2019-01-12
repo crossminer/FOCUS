@@ -3,13 +3,14 @@ package org.focus;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.common.collect.Sets;
 
@@ -27,7 +28,8 @@ public class APIUsagePatternMatcher {
 	private int trainingEndPos2; 
 	private int testingStartPos;
 	private int testingEndPos;
-
+	
+	private static final Logger log = LogManager.getFormatterLogger(APIUsagePatternMatcher.class);
 
 	public APIUsagePatternMatcher(String sourceDir, String subFolder, int trStartPos1, int trEndPos1, 
 			int trStartPos2, int trEndPos2, 
@@ -79,7 +81,7 @@ public class APIUsagePatternMatcher {
 		for(Integer keyTesting:keyTestingProjects){		
 			testingPro = testingProjects.get(keyTesting);		
 			filename = testingPro;
-			System.out.println("Searching API usage pattern for " + testingPro);
+			log.info("Searching API usage pattern for " + testingPro);
 			String tmp = this.recDir + filename;
 			Map<Integer, String> recommendations = reader.readRecommendationFile(tmp);
 			String tmp2 = this.tiDir + filename;
@@ -140,7 +142,7 @@ public class APIUsagePatternMatcher {
 				writer.close();							
 			} 
 			catch (IOException e) {
-				e.printStackTrace();
+				log.error("Couldn't write file " + this.patternDir + filename, e);
 			}	
 
 		}

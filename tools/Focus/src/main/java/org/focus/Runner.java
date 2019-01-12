@@ -1,21 +1,16 @@
 package org.focus;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.Set;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 class ValueComparator implements Comparator<String> {
-
 	Map<String, Float> base;
 	public ValueComparator(Map<String, Float> base) {
 		this.base = base;
@@ -41,6 +36,7 @@ public class Runner {
 	private int numOfNeighbours;
 	private int numOfFolds;
 
+	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
 
 	public void loadConfigurations(){		
 		Properties prop = new Properties();				
@@ -48,18 +44,15 @@ public class Runner {
 			prop.load(new FileInputStream("evaluation.properties"));		
 			this.srcDir=prop.getProperty("sourceDirectory");
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read evaluation.properties", e);
 		}	
 		return;
 	}
 
 
 	public void run(){		
-		System.out.println("FOCUS: A Context-Aware Recommender System!");
+		log.info("FOCUS: A Context-Aware Recommender System!");
 		loadConfigurations();
 		tenFoldCrossValidation();
 

@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class APIUsagePatternEvaluation {
 
 	private String srcDir;
@@ -19,6 +22,8 @@ public class APIUsagePatternEvaluation {
 
 	private int testingStartPos;
 	private int testingEndPos;
+	
+	private static final Logger log = LogManager.getFormatterLogger(APIUsagePatternEvaluation.class);
 
 	public APIUsagePatternEvaluation(String sourceDir, String subFolder, int teStartPos, int teEndPos) {
 		this.srcDir = sourceDir;		
@@ -121,7 +126,7 @@ public class APIUsagePatternEvaluation {
 			String patternFile = this.patternDir + project;
 			String gtFile = this.groundTruth + project;
 
-			System.out.println("Computing Levenshtein score for: "+project);
+			log.info("Computing Levenshtein score for: " + project);
 
 			String gtDeclaration = reader.readGroundTruthDeclaration(gtFile);						
 			// Read all method invocations of the ground-truth declaration			
@@ -187,7 +192,7 @@ public class APIUsagePatternEvaluation {
 						} 
 						else {
 							if(terms.size()<5) {
-								System.out.println(project + terms.size());
+								log.info(project + terms.size());
 							}
 							String alias = terms.get(0);
 							dictionary.put(iv, alias);
@@ -210,7 +215,7 @@ public class APIUsagePatternEvaluation {
 				writer.close();							
 			} 
 			catch (IOException e) {
-				e.printStackTrace();
+				log.error("Failed to compute similarity scores", e);
 			}			
 		}				
 	}

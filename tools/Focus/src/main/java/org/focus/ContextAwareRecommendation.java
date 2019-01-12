@@ -11,6 +11,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class ContextAwareRecommendation {
 
@@ -27,6 +30,8 @@ public class ContextAwareRecommendation {
 	private int numOfRows;
 	private int numOfCols;
 	private int numOfSlices;
+	
+	private static final Logger log = LogManager.getFormatterLogger(ContextAwareRecommendation.class);
 
 	public ContextAwareRecommendation(String sourceDir, String suFolder, int numOfNeighbours,	int teStartPos, int teEndPos) {			
 		this.srcDir = sourceDir;
@@ -127,7 +132,7 @@ public class ContextAwareRecommendation {
 		numOfRows = listOfMDs.size();
 		numOfCols = listOfMIs.size();						
 
-		System.out.println("Size: " + numOfSlices + " x " + numOfRows + " x " + numOfCols);
+		log.info("Size: %d x %d x %d", numOfSlices, numOfRows, numOfCols);
 
 		byte UserItemContextMatrix[][][] = new byte[this.numOfSlices][this.numOfRows][this.numOfCols];
 		Set<String> myMIs = new HashSet<String>();		
@@ -227,7 +232,7 @@ public class ContextAwareRecommendation {
 
 			// Select most similar method declaration to the testing method declaration: 
 			// those that contain the testing method invocation (only one)
-			System.out.println("Project: " + testingPro);
+			log.info("Project: " + testingPro);
 
 			int vector1[] = new int[numOfCols];
 			int vector2[] = new int[numOfCols];
@@ -330,7 +335,7 @@ public class ContextAwareRecommendation {
 				writer.close();							
 			} 
 			catch (IOException e) {
-				e.printStackTrace();
+				log.error("Couldn't write file " + this.recDir + filename, e);
 			}			
 		}		
 		return;

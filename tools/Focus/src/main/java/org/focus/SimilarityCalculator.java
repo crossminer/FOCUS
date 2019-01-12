@@ -3,13 +3,13 @@ package org.focus;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.common.collect.Sets;
 
@@ -19,7 +19,6 @@ import com.google.common.collect.Sets;
 public class SimilarityCalculator {
 
 	private String srcDir;
-	private String groundTruth;
 	private String simDir;
 	private String subFolder;
 
@@ -29,6 +28,8 @@ public class SimilarityCalculator {
 	private int trainingEndPos2; 
 	private int testingStartPos;
 	private int testingEndPos;
+	
+	private static final Logger log = LogManager.getFormatterLogger(SimilarityCalculator.class);
 
 	public SimilarityCalculator(String sourceDir) {
 		this.srcDir = sourceDir;
@@ -39,7 +40,6 @@ public class SimilarityCalculator {
 			int teStartPos, int teEndPos) {			
 		this.srcDir = sourceDir;		
 		this.subFolder = subFolder;				
-		this.groundTruth = this.srcDir + this.subFolder + "/" + "GroundTruth" + "/";		
 		this.simDir = this.srcDir + this.subFolder + "/" + "Similarities" + "/";
 
 		this.trainingStartPos1 = trStartPos1;
@@ -54,7 +54,7 @@ public class SimilarityCalculator {
 	public void ComputeSimilarity(String testingPro, Map<String,Map<String,Integer>> projects) {	
 		Set<String> keySet = projects.keySet();		
 		// the number of projects in the corpus
-		System.out.println("ComputeSimilarity(" + testingPro + ")");
+		log.info("ComputeSimilarity(" + testingPro + ")");
 		int numOfProjects = projects.size();		
 
 		Map<String,Integer> termFrequency = new HashMap<String,Integer>();		
@@ -121,7 +121,7 @@ public class SimilarityCalculator {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(this.simDir+testingPro));												
 			for(String key:keySet2){				
 				content = testingPro + "\t" + key + "\t" + sim.get(key);
-//				System.out.println("The similarity between " + testingPro + " and " + key + " is: " + sim.get(key));
+				log.info("The similarity between %s and %s is: %f", testingPro, key, sim.get(key));
 				writer.append(content);							
 				writer.newLine();
 				writer.flush();						
@@ -130,7 +130,7 @@ public class SimilarityCalculator {
 
 		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't write file " + this.simDir + testingPro, e);
 		}
 
 		return;		
