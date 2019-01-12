@@ -2,7 +2,6 @@ package org.focus;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,8 +14,13 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class DataReader {
 
+	private static final Logger log = LogManager.getFormatterLogger(DataReader.class);
+	
 	public Set<String> getPCmembers(String filename) {	
 		Set<String> list = new HashSet<String>();	
 		String line = null;	
@@ -30,11 +34,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return list;
 	}
@@ -61,11 +62,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 
 		return ret;				
@@ -115,11 +113,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}			
 
 		testingMIs.put(testingMD, tmp);			
@@ -146,12 +141,9 @@ public class DataReader {
 		filename = path + filename;
 		Set<String> tmp = new HashSet<String>();
 
-		int count = 0;
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(filename));			
 			while ((line = reader.readLine()) != null) {
-				count++;						
-
 				if(line.contains(testingMD)) {	
 					// get the testing method invocations				
 					if(!gtInvocations.contains(line)) {
@@ -173,11 +165,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}			
 
 		testingMIs.put(testingMD, tmp);			
@@ -225,11 +214,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 
 		// remove all declarations with less than 5 invocations from the data
@@ -282,11 +268,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return methodInvocations;
 	}
@@ -313,11 +296,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return invocations;
 	}	
@@ -344,11 +324,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return methodInvocations;
 	}
@@ -385,11 +362,8 @@ public class DataReader {
 			}			
 			reader.close();		
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return methodInvocations;
 	}
@@ -408,11 +382,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		return gtInvocations;
 	}
@@ -438,11 +409,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}	
 
 		methodInvocations.put(name, terms);
@@ -474,11 +442,8 @@ public class DataReader {
 			}						
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		methodInvocations.put(name, terms);
 		return methodInvocations;
@@ -520,11 +485,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}		
 		methodInvocations.put(name, terms);
 		return methodInvocations;
@@ -571,11 +533,9 @@ public class DataReader {
 		Set<String> groundTruthMIs = new HashSet<String>();					
 		list = methodInvocations.get(testingDeclaration);		
 		size = list.size();	
-		int count=0;
 
 		Set<String> set = new HashSet<String>();		
 		for(int i=0;i<size;i++)set.add(list.get(i));
-		int val = 0;
 
 		// remove from the end to the beginning
 
@@ -617,11 +577,8 @@ public class DataReader {
 			}			
 			writer.close();			
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + testingInvocationLocation + filename, e);
 		}
 
 		String groundTruthPath = path + subFolder + "/" + "GroundTruth" + "/";
@@ -638,11 +595,8 @@ public class DataReader {
 
 			writer.close();			
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + groundTruthPath + filename, e);
 		}		
 
 		Map<String,Map<String,Integer>> ret = new HashMap<String,Map<String,Integer>>();
@@ -740,11 +694,8 @@ public class DataReader {
 			}			
 			writer.close();			
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + testingInvocationLocation + filename, e);
 		}
 
 		String groundTruthPath = path + subFolder + "/" + "GroundTruth" + "/";
@@ -761,11 +712,8 @@ public class DataReader {
 
 			writer.close();			
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + groundTruthPath + filename, e);
 		}	
 
 		Map<String,Map<String,Integer>> ret = new HashMap<String,Map<String,Integer>>();
@@ -883,11 +831,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return ret;		
@@ -910,11 +855,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return ret;		
@@ -940,11 +882,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return ret;		
@@ -970,11 +909,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return ret;		
@@ -998,11 +934,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return declaration;		
@@ -1029,11 +962,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return ret;		
@@ -1054,11 +984,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}						
 		return ret;		
 	}
@@ -1081,11 +1008,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return projects;		
@@ -1110,11 +1034,8 @@ public class DataReader {
 			}			
 			reader.close();
 		} 
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} 
 		catch (IOException e) {
-			e.printStackTrace();
+			log.error("Couldn't read file " + filename, e);
 		}
 
 		return projects;		
