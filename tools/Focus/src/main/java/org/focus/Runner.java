@@ -29,15 +29,15 @@ public class Runner {
 		log.info("Running ten-fold cross validation on " + srcDir);
 		tenFoldCrossValidation();
 
-		log.info("Running leave-one-out cross validation on " + srcDir);
-		leaveOneOutValidation();
+//		log.info("Running leave-one-out cross validation on " + srcDir);
+//		leaveOneOutValidation();
 	}
 
 	/**
 	 * Ten-fold cross validation
 	 */
 	public void tenFoldCrossValidation() {
-		int numOfProjects = 610;
+		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = 10;
 		int step = (int) numOfProjects / 10;
@@ -57,17 +57,17 @@ public class Runner {
 					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
-					testingStartPos, testingEndPos);
-			engine.recommendation();
-
-			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
-					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
-			matcher.searchAPIUsagePatterns();
-
-			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(srcDir, subFolder, testingStartPos,
-					testingEndPos);
-			eval.computeSimilarityScore();
+//			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
+//					testingStartPos, testingEndPos);
+//			engine.recommendation();
+//
+//			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
+//					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
+//			matcher.searchAPIUsagePatterns();
+//
+//			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(srcDir, subFolder, testingStartPos,
+//					testingEndPos);
+//			eval.computeSimilarityScore();
 		}
 	}
 
