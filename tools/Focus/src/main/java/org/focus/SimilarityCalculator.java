@@ -50,90 +50,95 @@ public class SimilarityCalculator {
 		this.testingEndPos = teEndPos;	
 	}
 
+	/**
+	 * Compute a term-frequency map which stores, for every invocation, how many
+	 * projects in the supplied list invoke it
+	 * 
+	 * java/util/ArrayList/ArrayList()=131 java/util/List/add(E)=129
+	 * java/io/PrintStream/println(java.lang.String)=128
+	 */
+	private Map<String, Integer> computeTermFrequency(Map<String, Map<String, Integer>> projects) {
+		Map<String, Integer> termFrequency = new HashMap<>();
 
-	public void ComputeSimilarity(String testingPro, Map<String,Map<String,Integer>> projects) {	
-		Set<String> keySet = projects.keySet();		
-		// the number of projects in the corpus
-		log.info("ComputeSimilarity(" + testingPro + ")");
-		int numOfProjects = projects.size();		
-
-		Map<String,Integer> termFrequency = new HashMap<String,Integer>();		
-		Map<String,Integer> terms = new HashMap<String,Integer>(); 
-		Set<String> keySet2 = null;
-
-		for(String pro:keySet) {
-			terms = projects.get(pro);			
-			keySet2 = terms.keySet();
+		for (Map<String, Integer> terms : projects.values()) {
 			int freq = 0;
-			for(String term:keySet2) {
-				if(termFrequency.containsKey(term))freq=termFrequency.get(term)+1;
-				else freq=1;
+			for (String term : terms.keySet()) {
+				if (termFrequency.containsKey(term))
+					freq = termFrequency.get(term) + 1;
+				else
+					freq = 1;
 				termFrequency.put(term, freq);
-			}			
+			}
 		}
 
-		// termFrequency: term -- number of projects that contain the term
-		Map<String,Float> vector1 = new HashMap<String,Float>();
-		Map<String, Float> sim = new HashMap<String, Float>();
+		return termFrequency;
+	}
 
-		// the input project		
-		terms = projects.get(testingPro);
-		keySet2 = terms.keySet();	
-		float tmp,val;
+	/**
+	 * Standard term-frequency inverse document frequency calculation
+	 */
+	private float computeTF_IDF(int count, int total, int freq) {
+		return (float) count * (float) Math.log(total / freq);
+	}
 
-		// tf-idf: term frequency - inverse document frequency
-		for(String term:keySet2) {
-			tmp = numOfProjects/termFrequency.get(term);
-			val = (float) (terms.get(term)*Math.log(tmp));			
-			vector1.put(term, val);
+	/**
+	 * Compute the similarity between the project testingPro and all the projects in
+	 * the supplied list and serialize the results.
+	 */
+	public void computeSimilarity(String testingPro, Map<String, Map<String, Integer>> projects) {
+		Map<String, Integer> termFrequency = computeTermFrequency(projects);
+		Map<String, Float> testingProjectVector = new HashMap<>();
+		Map<String, Float> projectSimilarities = new HashMap<>();
+
+		// Computes the feature vector of the testing project,
+		// ie. the TF-IDF for all its invocations
+		Map<String, Integer> terms = projects.get(testingPro);
+		for (String term : terms.keySet()) {
+			float tfIdf = computeTF_IDF(terms.get(term), projects.size(), termFrequency.get(term));
+			testingProjectVector.put(term, tfIdf);
 		}
 
-		String content="";	
-		keySet = projects.keySet();
+		BufferedWriter writer = null;
+		try {
+			// Compute the feature vector of all training projects in the corpus and
+			// store their similarity with the testing project in the similarity vector
+			for (String trainingProject : projects.keySet()) {
+				if (!trainingProject.equals(testingPro)) {
+					Map<String, Float> trainingProjectVector = new HashMap<>();
+					terms = projects.get(trainingProject);
 
-		//		System.out.println("size of the training set is: " + keySet.size());
+					for (String term : terms.keySet()) {
+						float tfIdf = computeTF_IDF(terms.get(term), projects.size(), termFrequency.get(term));
+						trainingProjectVector.put(term, tfIdf);
+					}
 
-		// compute the similarities between the input project and all other projects in the corpus
-		// and save to files
-		try {					
-			for(String trainingPro:keySet) {	
+					float similarity = computeCosineSimilarity(testingProjectVector, trainingProjectVector);
+					projectSimilarities.put(trainingProject, similarity);
+				}
+			}
 
-				if(!trainingPro.equals(testingPro)) {
-					Map<String,Float> vector2 = new HashMap<String,Float>();
-					terms = projects.get(trainingPro);
-					keySet2 = terms.keySet();
+			// Order projects by similarity in a sortedMap
+			ValueComparator bvc = new ValueComparator(projectSimilarities);
+			TreeMap<String, Float> sortedMap = new TreeMap<>(bvc);
+			sortedMap.putAll(projectSimilarities);
 
-					for(String term:keySet2) {
-						tmp = numOfProjects/termFrequency.get(term);
-						val = (float) (terms.get(term)*Math.log(tmp));			
-						vector2.put(term, val);
-					}			
-					val = CosineSimilarity(vector1, vector2);					
-					sim.put(trainingPro, val);								
-				}													
-			}					
-
-			ValueComparator bvc =  new ValueComparator(sim);        
-			TreeMap<String,Float> sorted_map = new TreeMap<String,Float>(bvc);
-			sorted_map.putAll(sim);				
-			keySet2 = sorted_map.keySet();				
-
-			BufferedWriter writer = new BufferedWriter(new FileWriter(this.simDir+testingPro));												
-			for(String key:keySet2){				
-				content = testingPro + "\t" + key + "\t" + sim.get(key);
-				log.info("The similarity between %s and %s is: %f", testingPro, key, sim.get(key));
-				writer.append(content);							
+			// Store similarities in the dataset/X/evaluation/roundN/Similarities/* files
+			writer = new BufferedWriter(new FileWriter(simDir + testingPro));
+			for (Map.Entry<String, Float> entry : sortedMap.entrySet()) {
+				writer.append(testingPro + "\t" + entry.getKey() + "\t" + entry.getValue());
 				writer.newLine();
-				writer.flush();						
-			}				
-			writer.close();
-
-		} 
-		catch (IOException e) {
-			log.error("Couldn't write file " + this.simDir + testingPro, e);
+				writer.flush();
+			}
+		} catch (IOException e) {
+			log.error("Couldn't write file " + simDir + testingPro, e);
+		} finally {
+			try {
+				if (writer != null)
+					writer.close();
+			} catch (IOException e) {
+				log.error("Couldn't close file " + simDir + testingPro, e);
+			}
 		}
-
-		return;		
 	}
 
 
@@ -206,7 +211,7 @@ public class SimilarityCalculator {
 					val = (float) (terms.get(term)*Math.log(tmp));			
 					vector2.put(term, val);
 				}			
-				val = CosineSimilarity(vector1, vector2);					
+				val = computeCosineSimilarity(vector1, vector2);					
 				sim.put(trainingPro, val);								
 			}													
 		}					
@@ -240,7 +245,7 @@ public class SimilarityCalculator {
 		Map<String,Map<String,Integer>> testingPro = new HashMap<String,Map<String,Integer>>();					
 		Map<Integer,String> testingProjects = reader.readProjectList(this.srcDir + "List.txt",testingStartPos,testingEndPos);
 		Set<Integer> keyTestingProjects = testingProjects.keySet();
-
+		
 		int numOfTestingInvocations = 3;
 		// to specify if we completely remove a half of the method declarations
 		boolean removeHalf = true;
@@ -250,11 +255,11 @@ public class SimilarityCalculator {
 
 			// get a half of all declarations and used for similarity computation
 			testingPro = reader.getTestingProjectInvocations(this.srcDir, this.subFolder, project, numOfTestingInvocations, removeHalf);
-
+			
 			// get all declarations and used for similarity computation	
 			//			testingPro = reader.getAllTestingProjectInvocations(this.srcDir, this.subFolder, project, numOfTestingInvocations);			
 			projects.putAll(testingPro);		
-			ComputeSimilarity(project, projects);
+			computeSimilarity(project, projects);
 			projects.remove(project);
 		}
 
@@ -277,7 +282,7 @@ public class SimilarityCalculator {
 	}
 
 
-	private float CosineSimilarity(Map<String, Float> v1, Map<String, Float> v2) {
+	private float computeCosineSimilarity(Map<String, Float> v1, Map<String, Float> v2) {
 		Set<String> both = Sets.intersection(v1.keySet(), v2.keySet());
 		// Set<String> both=v1.keySet();
 		// both.retainAll(v2.keySet());
