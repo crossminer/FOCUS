@@ -76,7 +76,7 @@ public class SimilarityCalculator {
 	 * Standard term-frequency inverse document frequency calculation
 	 */
 	private float computeTF_IDF(int count, int total, int freq) {
-		return (float) count * (float) Math.log(total / freq);
+		return (float) (count * Math.log(total / freq));
 	}
 
 	/**
@@ -128,17 +128,15 @@ public class SimilarityCalculator {
 	/**
 	 * Compute the similarity between two vectors using Jaccard Similarity
 	 */
-	public float JaccardSimilarity(int vector1[], int vector2[]) {
-		float ret = 0;						
+	public float computeJaccardSimilarity(byte[] vector1, byte[] vector2) {
 		int count = 0;
-		int length = vector1.length;	
+		int length = vector1.length;
 
-		for(int i=0;i<length;i++)if(vector1[i]==1.0 && vector2[i]==1.0)count++;											
-		float size1 = count;		
-		float size2 = 2*length - size1;	
-		ret = (float)size1/size2;
-		//		System.out.println(vector1.size() + "\t"+ vector2.size() + "\t" +size1 + "\t" + size2);
-		return ret;		
+		for (int i = 0; i < length; i++)
+			if (vector1[i] == 1.0 && vector2[i] == 1.0)
+				count++;
+
+		return (float) count / (2 * length - count);
 	}
 
 
