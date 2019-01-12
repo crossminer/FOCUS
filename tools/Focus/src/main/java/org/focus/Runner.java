@@ -101,7 +101,6 @@ public class Runner {
 			int testingStartPos = 1 + i * step;
 			int testingEndPos = (i + 1) * step;
 
-			int k = i + 1;
 			String subFolder = "evaluation/round1";
 
 			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir, subFolder, trainingStartPos1,
