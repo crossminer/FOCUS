@@ -57,9 +57,9 @@ public class Runner {
 					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			calculator.computeProjectSimilarity();
 
-//			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
-//					testingStartPos, testingEndPos);
-//			engine.recommendation();
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
+					testingStartPos, testingEndPos);
+			engine.recommendation();
 //
 //			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
 //					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
