@@ -6,7 +6,7 @@ This folder contains the source code implementation of FOCUS. To execute the run
 
 2. Run the following maven command:
 ```
-mvn exec:java -Dexec.mainClass="it.focus.Runner" 
+mvn exec:java -Dexec.mainClass="org.focus.Runner" 
 ```
 
 3. Results will be stored in the `evaluation` folder of the selected dataset directory. For instance, `<local-path>/FOCUS/dataset/SH_L/evaluation/`. 
