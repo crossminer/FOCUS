@@ -54,6 +54,7 @@ public class SimilarityCalculator {
 	public void ComputeSimilarity(String testingPro, Map<String,Map<String,Integer>> projects) {	
 		Set<String> keySet = projects.keySet();		
 		// the number of projects in the corpus
+		System.out.println("ComputeSimilarity(" + testingPro + ")");
 		int numOfProjects = projects.size();		
 
 		Map<String,Integer> termFrequency = new HashMap<String,Integer>();		
@@ -120,7 +121,7 @@ public class SimilarityCalculator {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(this.simDir+testingPro));												
 			for(String key:keySet2){				
 				content = testingPro + "\t" + key + "\t" + sim.get(key);
-				System.out.println("The similarity between " + testingPro + " and " + key + " is: " + sim.get(key));
+//				System.out.println("The similarity between " + testingPro + " and " + key + " is: " + sim.get(key));
 				writer.append(content);							
 				writer.newLine();
 				writer.flush();						
