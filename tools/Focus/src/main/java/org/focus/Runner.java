@@ -9,139 +9,114 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 class ValueComparator implements Comparator<String> {
 	Map<String, Float> base;
+
 	public ValueComparator(Map<String, Float> base) {
 		this.base = base;
 	}
 
-	// Note: this comparator imposes orderings that are inconsistent with equals.    
+	// Note: this comparator imposes orderings that are inconsistent with equals.
 	public int compare(String a, String b) {
 		if (base.get(a) >= base.get(b)) {
 			return -1;
-		} 
-		else {
+		} else {
 			return 1;
-		} 
+		}
 		// returning 0 would merge keys
 	}
 }
 
 public class Runner {
-
-	private String srcDir;	
-	private int numOfProjects;
-	private int numOfNeighbours;
-	private int numOfFolds;
+	private String srcDir;
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
 
-	public void loadConfigurations(){		
-		Properties prop = new Properties();				
+	public void loadConfigurations() {
+		Properties prop = new Properties();
 		try {
-			prop.load(new FileInputStream("evaluation.properties"));		
-			this.srcDir=prop.getProperty("sourceDirectory");
-		} 
-		catch (IOException e) {
+			prop.load(new FileInputStream("evaluation.properties"));
+			this.srcDir = prop.getProperty("sourceDirectory");
+		} catch (IOException e) {
 			log.error("Couldn't read evaluation.properties", e);
-		}	
-		return;
+		}
 	}
 
-
-	public void run(){		
+	public void run() {
 		log.info("FOCUS: A Context-Aware Recommender System!");
 		loadConfigurations();
 		tenFoldCrossValidation();
-
 		leaveOneOutValidation();
-		//		System.out.println(System.currentTimeMillis());		
-		//		testLinkedHashMap();
 	}
 
 	/**
 	 * Ten-fold cross validation
-	 */	
+	 */
 	public void tenFoldCrossValidation() {
-		numOfProjects = 610;		
-		numOfNeighbours = 2;
-		numOfFolds = 10;
-		int step = (int)numOfProjects/10;								
+		int numOfProjects = 610;
+		int numOfNeighbours = 2;
+		int numOfFolds = 10;
+		int step = (int) numOfProjects / 10;
 
-		for(int i=0;i<numOfFolds;i++) {
-			int trainingStartPos1 = 1;			
-			int trainingEndPos1 = i*step;			
-			int trainingStartPos2 = (i+1)*step+1;
+		for (int i = 0; i < numOfFolds; i++) {
+			int trainingStartPos1 = 1;
+			int trainingEndPos1 = i * step;
+			int trainingStartPos2 = (i + 1) * step + 1;
 			int trainingEndPos2 = numOfProjects;
-			int testingStartPos = 1+i*step;
-			int testingEndPos =   (i+1)*step;
+			int testingStartPos = 1 + i * step;
+			int testingEndPos = (i + 1) * step;
 
-			int k=i+1;
+			int k = i + 1;
 			String subFolder = "evaluation/round" + Integer.toString(k);
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,subFolder,
-					trainingStartPos1,
-					trainingEndPos1,
-					trainingStartPos2,
-					trainingEndPos2,
-					testingStartPos,
-					testingEndPos);
+			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir, subFolder, trainingStartPos1,
+					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,subFolder,numOfNeighbours,testingStartPos,testingEndPos);
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir, subFolder, numOfNeighbours,
+					testingStartPos, testingEndPos);
 			engine.recommendation();
 
-			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(this.srcDir,subFolder,
-					trainingStartPos1,
-					trainingEndPos1,
-					trainingStartPos2,
-					trainingEndPos2,
-					testingStartPos,
-					testingEndPos);
+			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(this.srcDir, subFolder, trainingStartPos1,
+					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 			matcher.searchAPIUsagePatterns();
 
-			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, subFolder, testingStartPos, testingEndPos);
+			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(this.srcDir, subFolder, testingStartPos,
+					testingEndPos);
 			eval.computeSimilarityScore();
 		}
 	}
 
-
-	public void leaveOneOutValidation() {		
-		numOfProjects = 610;		
-		numOfNeighbours = 2;
-		numOfFolds = numOfProjects;		
+	public void leaveOneOutValidation() {
+		int numOfProjects = 610;
+		int numOfNeighbours = 2;
+		int numOfFolds = numOfProjects;
 		int step = 1;
 
-		for(int i=0;i<numOfFolds;i++) {			
-			int trainingStartPos1 = 1;			
-			int trainingEndPos1 = i*step;			
-			int trainingStartPos2 = (i+1)*step+1;
+		for (int i = 0; i < numOfFolds; i++) {
+			int trainingStartPos1 = 1;
+			int trainingEndPos1 = i * step;
+			int trainingStartPos2 = (i + 1) * step + 1;
 			int trainingEndPos2 = numOfProjects;
-			int testingStartPos = 1+i*step;
-			int testingEndPos =  (i+1)*step;
+			int testingStartPos = 1 + i * step;
+			int testingEndPos = (i + 1) * step;
 
-			int k=i+1;
-			String subFolder = "evaluation/round1";			
+			int k = i + 1;
+			String subFolder = "evaluation/round1";
 
-			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir,subFolder,
-					trainingStartPos1,
-					trainingEndPos1,
-					trainingStartPos2,
-					trainingEndPos2,
-					testingStartPos,
-					testingEndPos);
-			calculator.computeProjectSimilarity();	
+			SimilarityCalculator calculator = new SimilarityCalculator(this.srcDir, subFolder, trainingStartPos1,
+					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
+			calculator.computeProjectSimilarity();
 
-			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir,subFolder,numOfNeighbours,testingStartPos,testingEndPos);
-			engine.recommendation();			
-		}		
+			ContextAwareRecommendation engine = new ContextAwareRecommendation(this.srcDir, subFolder, numOfNeighbours,
+					testingStartPos, testingEndPos);
+			engine.recommendation();
+		}
 	}
 
-
-	public static void main(String[] args) {	
-		Runner runner = new Runner();			
-		runner.run();				    		    
+	public static void main(String[] args) {
+		Runner runner = new Runner();
+		runner.run();
 		return;
-	}	
+	}
 }
