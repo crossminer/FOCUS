@@ -1,8 +1,5 @@
 package org.focus;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -16,6 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 
 public class ContextAwareRecommendation {
+	private DataReader reader = new DataReader();
 
 	private String srcDir;
 	private String groundTruth;
@@ -48,8 +46,7 @@ public class ContextAwareRecommendation {
 	/**
 	 * Build a 3-D user-item-context ratings matrix
 	 */
-	public byte[][][] BuildUserItemContextMatrix(String testingPro, List<String> listOfProjects, List<String> listOfMethodInvocations) {		
-		DataReader reader = new DataReader();
+	public byte[][][] buildUserItemContextMatrix(String testingPro, List<String> listOfProjects, List<String> listOfMethodInvocations) {		
 		String filename = testingPro;
 		String tmp = this.simDir + filename;		
 
@@ -205,140 +202,101 @@ public class ContextAwareRecommendation {
 
 
 	/**
-	 * Recommends invocations to test projects using the collaborative-filtering technique
-	 */	
-	public void recommendation(){
-		DataReader reader = new DataReader();			
-		Map<Integer,String> testingProjects = new HashMap<Integer,String>();
-		testingProjects = reader.readProjectList(this.srcDir + "List.txt",this.testingStartPos,this.testingEndPos);						
-		Set<Integer> keyTestingProjects = testingProjects.keySet();						
-		String testingPro = "", filename="";		
+	 * Recommend new invocations for every testing project
+	 * using the collaborative-filtering technique
+	 */
+	public void recommendation() {
+		Map<Integer, String> testingProjects =
+				reader.readProjectList(this.srcDir + "List.txt", testingStartPos, testingEndPos);
 
-		for(Integer keyTesting:keyTestingProjects){		
+		for (String testingPro : testingProjects.values()) {
+			Map<String, Float> recommendations = new HashMap<>();
+			List<String> listOfPRs = new ArrayList<>();
+			List<String> listOfMIs = new ArrayList<>();
 
-			Map<String, Float> recommendations = new HashMap<String, Float>();
-			List<String> listOfPRs = new ArrayList<String>();
-			List<String> listOfMIs = new ArrayList<String>();
+			Map<String, Float> simScores = reader.getSimilarityScores(simDir + testingPro, numOfNeighbours);
 
-			testingPro = testingProjects.get(keyTesting);		
-			filename = testingPro;		
-			String tmp = this.simDir + filename;		
-			Map<String, Double> simScores =  reader.getSimilarScores(tmp, numOfNeighbours);		
+			byte matrix[][][] = buildUserItemContextMatrix(testingPro, listOfPRs, listOfMIs);
 
-			byte UserItemContextMatrix[][][] = BuildUserItemContextMatrix(testingPro, listOfPRs, listOfMIs);
+			// The testingMethodVector represents the invocations made
+			// from the testing method
+			byte[] testingMethodVector = matrix[numOfSlices - 1][numOfRows - 1];
 
-			double avgMdRating = 0;
-			double val = 0;
+			Map<String, Float> mdSimScores = new HashMap<String, Float>();
 
-			// Select most similar method declaration to the testing method declaration: 
-			// those that contain the testing method invocation (only one)
-			log.info("Project: " + testingPro);
-
-			int vector1[] = new int[numOfCols];
-			int vector2[] = new int[numOfCols];
-
-			// This is the testing method declaration
-			for(int k=0;k<numOfCols;k++) {								
-				vector1[k]=UserItemContextMatrix[numOfSlices-1][numOfRows-1][k];				
-			}
-
-			float sim = 0;
-			Map<String,Float> mdSimScores = new HashMap<String,Float>();
-
-			for(int i=0;i<numOfSlices-1;i++) {				
-				for(int j=0;j<numOfRows;j++) {		
-					vector2 = new int[numOfCols];
-
-					for(int k=0;k<numOfCols;k++) {
-						vector2[k]=UserItemContextMatrix[i][j][k];
-					}	
-
-					SimilarityCalculator simCalculator = new SimilarityCalculator(this.srcDir);					
-					sim = simCalculator.JaccardSimilarity(vector1,vector2);					
+			// Compute the jaccard similarity between the testingMethod and every other method
+			// and store the results in mdSimScores
+			for (int i = 0; i < numOfSlices - 1; i++) {
+				for (int j = 0; j < numOfRows; j++) {
+					byte[] otherMethodVector = matrix[i][j];
+					
+					SimilarityCalculator simCalculator = new SimilarityCalculator(this.srcDir);
+					float sim = simCalculator.computeJaccardSimilarity(testingMethodVector, otherMethodVector);
 					String key = Integer.toString(i) + "#" + Integer.toString(j);
 					mdSimScores.put(key, sim);
-					// if(sim!=0)System.out.println("Method similarity " + sim);
-				}				
+				}
 			}
 
-			ValueComparator bvc =  new ValueComparator(mdSimScores);        
-			TreeMap<String,Float> sorted_map = new TreeMap<String,Float>(bvc);
-			sorted_map.putAll(mdSimScores);
-			Set<String> keySet2 = sorted_map.keySet();			
+			// Sort the results
+			ValueComparator bvc = new ValueComparator(mdSimScores);
+			TreeMap<String, Float> simSortedMap = new TreeMap<>(bvc);
+			simSortedMap.putAll(mdSimScores);
 
-			Map<String,Float> newSimScores = new HashMap<String,Float>();
-			int count=0;
-			for(String key:keySet2) {
-				newSimScores.put(key, mdSimScores.get(key));
+			// Compute the top-3 most similar methods
+			Map<String, Float> top3Sim = new HashMap<>();
+			int count = 0;
+			for (String key : simSortedMap.keySet()) {
+				top3Sim.put(key, mdSimScores.get(key));
 				count++;
-				if(count>3)break;
+				if (count > 3)
+					break;
 			}
 
-			keySet2 = newSimScores.keySet();		
-			float vals[] = new float[numOfCols-1];
+			float[] ratings = new float[numOfCols - 1];
 
+			// For every '?' cell (-1.0), compute a rating
+			for (int k = 0; k < numOfCols; k++) {
+				if (matrix[numOfSlices - 1][numOfRows - 1][k] == -1.0) {
+					double totalSim = 0;
 
-			for(int k=0;k<numOfCols;k++) {					
-				if(UserItemContextMatrix[numOfSlices-1][numOfRows-1][k]==(int)-1.0) {
-					int slice=0,row=0;			
-					avgMdRating = 0;						
-					double sim2=0,sim3=0,totalSim=0;
-
-					// go through all similar projects (context)
-					for(String key:keySet2) {						
-						val = 0;									
+					// Iterate over the top-3 most similar methods
+					for (String key : top3Sim.keySet()) {
 						String line = key.trim();
 
-						String parts[] = line.split("#");					
-						slice = Integer.parseInt(parts[0]);						
-						row = Integer.parseInt(parts[1]);	
+						String parts[] = line.split("#");
+						int slice = Integer.parseInt(parts[0]);
+						int row = Integer.parseInt(parts[1]);
 
-						avgMdRating = 0;					
-						// go through all columns of a single row									
-						for(int m=0;m<numOfCols;m++)avgMdRating+=UserItemContextMatrix[slice][row][m];			
-						// get the average rating of a user (method declaration)
-						avgMdRating/=numOfCols;
+						// Compute the average rating of the method declaration
+						double avgMDRating = 0;
+						for (int m = 0; m < numOfCols; m++)
+							avgMDRating += matrix[slice][row][m];
+						avgMDRating /= numOfCols;
 
 						String project = listOfPRs.get(slice);
-						sim2 = simScores.get(project);				
-						val = sim2*UserItemContextMatrix[slice][row][k];
-						sim3 = newSimScores.get(key);
-						totalSim+=sim3;						
-						vals[k] += (val-avgMdRating)*sim3;						
+						double projectSim = simScores.get(project);
+						double val = projectSim * matrix[slice][row][k];
+						double methodSim = top3Sim.get(key);
+						totalSim += methodSim;
+						ratings[k] += (val - avgMDRating) * methodSim;
 					}
 
-					if(totalSim!=0)vals[k]/=totalSim;
+					if (totalSim != 0)
+						ratings[k] /= totalSim;
 
-					double activeMDrating = 0.8;	
-					vals[k]+=activeMDrating;					
-					String methodInvocation=listOfMIs.get(k);
-					recommendations.put(methodInvocation, vals[k]);
+					double activeMDrating = 0.8;
+					ratings[k] += activeMDrating;
+					String methodInvocation = listOfMIs.get(k);
+					recommendations.put(methodInvocation, ratings[k]);
 				}
 			}
 
-			bvc =  new ValueComparator(recommendations);        
-			sorted_map = new TreeMap<String,Float>(bvc);
-			sorted_map.putAll(recommendations);				
-			keySet2 = sorted_map.keySet();				
+			ValueComparator bvc2 = new ValueComparator(recommendations);
+			TreeMap<String, Float> recSortedMap = new TreeMap<>(bvc2);
+			recSortedMap.putAll(recommendations);
 
-			filename = testingPro;
-
-			try {
-				tmp = this.recDir + filename;
-				BufferedWriter writer = new BufferedWriter(new FileWriter(tmp));				
-				for(String key:keySet2){					
-					String content = key + "\t" + recommendations.get(key);				
-					writer.append(content);							
-					writer.newLine();
-					writer.flush();					
-				}
-				writer.close();							
-			} 
-			catch (IOException e) {
-				log.error("Couldn't write file " + tmp, e);
-			}			
-		}		
-		return;
+			reader.writeRecommendations(recDir + testingPro, recSortedMap, recommendations);
+		}
 	}
 
 

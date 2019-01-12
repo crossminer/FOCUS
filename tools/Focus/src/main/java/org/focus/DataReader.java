@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
+import java.util.TreeMap;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -1016,8 +1017,8 @@ public class DataReader {
 	}
 
 
-	public Map<String, Double> getSimilarScores(String filename, int size) {							
-		Map<String, Double> projects = new HashMap<String, Double>();		
+	public Map<String, Float> getSimilarityScores(String filename, int size) {							
+		Map<String, Float> projects = new HashMap<>();		
 		String line = null;		
 		String[] vals = null;		
 		int count=0;
@@ -1027,7 +1028,7 @@ public class DataReader {
 			while ((line = reader.readLine()) != null) {										
 				vals = line.split("\t");							
 				String URI = vals[1].trim();
-				double score = Double.parseDouble(vals[2].trim());
+				float score = Float.parseFloat(vals[2].trim());
 				projects.put(URI, score);
 				count++;
 				if(count==size)break;
@@ -1051,6 +1052,28 @@ public class DataReader {
 				writer.newLine();
 				writer.flush();
 			}
+		} catch (IOException e) {
+			log.error("Couldn't write file " + filename, e);
+		} finally {
+			try {
+				if (writer != null)
+					writer.close();
+			} catch (IOException e) {
+				log.error("Couldn't close file " + filename, e);
+			}
+		}
+	}
+	
+	public void writeRecommendations(String filename, TreeMap<String, Float> sortedMap, Map<String, Float> recommendations) {
+		BufferedWriter writer = null;
+		try {
+			writer = new BufferedWriter(new FileWriter(filename));
+			for (String key : sortedMap.keySet()) {
+				writer.append(key + "\t" + recommendations.get(key));
+				writer.newLine();
+				writer.flush();
+			}
+			writer.close();
 		} catch (IOException e) {
 			log.error("Couldn't write file " + filename, e);
 		} finally {

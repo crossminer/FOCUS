@@ -37,6 +37,7 @@ public class Runner {
 	 * Ten-fold cross validation
 	 */
 	public void tenFoldCrossValidation() {
+		// FIXME: Values should be extracted from the dataset
 		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = 10;
@@ -60,7 +61,7 @@ public class Runner {
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
-//
+
 //			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
 //					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 //			matcher.searchAPIUsagePatterns();
