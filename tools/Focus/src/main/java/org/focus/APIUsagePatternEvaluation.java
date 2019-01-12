@@ -194,6 +194,10 @@ public class APIUsagePatternEvaluation {
 							if(terms.size()<5) {
 								log.info(project + terms.size());
 							}
+							if(terms.size()==0) {
+								log.error("terms.size() == 0 for " + project);
+								continue;
+							}
 							String alias = terms.get(0);
 							dictionary.put(iv, alias);
 							terms.remove(terms.indexOf(alias));
