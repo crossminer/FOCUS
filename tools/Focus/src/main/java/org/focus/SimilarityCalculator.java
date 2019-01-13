@@ -140,47 +140,43 @@ public class SimilarityCalculator {
 	}
 
 	/**
-	 * Compute similarity between every testing project and all training projects using Cosine Similarity with Weight
+	 * Compute similarity between every testing project and all training projects
 	 */
-	public void computeProjectSimilarity(){
-		Map<Integer,String> trainingProjects = new HashMap<Integer,String>();		
-		if(trainingStartPos1<trainingEndPos1) trainingProjects = reader.readProjectList(this.srcDir + "List.txt",trainingStartPos1,trainingEndPos1);		
-		if(trainingStartPos2 < trainingEndPos2) {
-			Map<Integer,String> tempoProjects = reader.readProjectList(this.srcDir + "List.txt",trainingStartPos2,trainingEndPos2);		
-			trainingProjects.putAll(tempoProjects);
-		}
+	public void computeProjectSimilarity() {
+		Map<String, Map<String, Integer>> trainingProjects = new HashMap<>();
+		Map<Integer, String> trainingProjectsID = new HashMap<>();
 
-		Map<String,Map<String,Integer>> projects = new HashMap<String,Map<String,Integer>>();				
-		Set<Integer> keyTrainingProjects = trainingProjects.keySet();		
+		// Read all training project IDs in trainingProjectsID
+		if (trainingStartPos1 < trainingEndPos1)
+			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt",
+					trainingStartPos1, trainingEndPos1));
 
-		for(Integer keyTraining:keyTrainingProjects){			
-			String project = trainingProjects.get(keyTraining);
-			//			System.out.println(project);
-			projects.putAll(reader.getProjectInvocations(this.srcDir,project));			
-		}
+		if (trainingStartPos2 < trainingEndPos2)
+			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt",
+					trainingStartPos2, trainingEndPos2));
 
-		Map<String,Map<String,Integer>> testingPro = new HashMap<String,Map<String,Integer>>();					
-		Map<Integer,String> testingProjects = reader.readProjectList(this.srcDir + "List.txt",testingStartPos,testingEndPos);
-		Set<Integer> keyTestingProjects = testingProjects.keySet();
-		
+		// Read all training projects in trainingProjects
+		for (String trainingID : trainingProjectsID.values())
+			trainingProjects.putAll(reader.getProjectInvocations(srcDir, trainingID));
+
+		// Read all testing project IDs in testingProjectsID
+		Map<Integer, String> testingProjectsID = reader.readProjectList(srcDir + "List.txt",
+				testingStartPos, testingEndPos);
+
 		int numOfTestingInvocations = 3;
-		// to specify if we completely remove a half of the method declarations
 		boolean removeHalf = true;
 
-		for(Integer keyTesting:keyTestingProjects){		
-			String project = testingProjects.get(keyTesting);	
+		for (Integer testingID : testingProjectsID.keySet()) {
+			String testingProjectID = testingProjectsID.get(testingID);
 
-			// get a half of all declarations and used for similarity computation
-			testingPro = reader.getTestingProjectInvocations(this.srcDir, this.subFolder, project, numOfTestingInvocations, removeHalf);
-			
-			// get all declarations and used for similarity computation	
-			//			testingPro = reader.getAllTestingProjectInvocations(this.srcDir, this.subFolder, project, numOfTestingInvocations);			
-			projects.putAll(testingPro);		
-			computeSimilarity(project, projects);
-			projects.remove(project);
+			// Get half of all declarations and used for similarity computation
+			Map<String, Map<String, Integer>> testingProject = reader.getTestingProjectInvocations(srcDir, subFolder,
+					testingProjectID, numOfTestingInvocations, removeHalf);
+
+			trainingProjects.putAll(testingProject);
+			computeSimilarity(testingProjectID, trainingProjects);
+			trainingProjects.remove(testingProjectID);
 		}
-
-		return;
 	}
 
 	private float computeCosineSimilarity(Map<String, Float> v1, Map<String, Float> v2) {
