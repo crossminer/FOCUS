@@ -121,59 +121,6 @@ public class DataReader {
 		return methodInvocations;
 	}
 
-
-	/**
-	 * Get all method invocations that do not belong to the ground-truth data
-	 */
-	public Map<String,Set<String>> getTestingProjectDetailsFromARFF(String path, String filename, Set<String> gtInvocations, Map<String,Set<String>> testingMIs) {		
-		Map<String,Set<String>> methodInvocations = new HashMap<String,Set<String>>();		
-		String testingMD = "", testingMI ="";
-
-		// get the testing method declaration
-		for(String s:gtInvocations) {
-			String[] parts = s.split("#");
-			testingMD = parts[0].trim();			
-			break;			
-		}		
-
-		Set<String> vector = null;				
-		String line = null;	
-		filename = path + filename;
-		Set<String> tmp = new HashSet<String>();
-
-		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));			
-			while ((line = reader.readLine()) != null) {
-				if(line.contains(testingMD)) {	
-					// get the testing method invocations				
-					if(!gtInvocations.contains(line)) {
-						String[] parts = line.split("#");
-						testingMI = parts[1];
-						tmp.add(testingMI);
-					}			
-				} 
-				else {	
-					// other method invocations, we get them all
-					String[] parts = line.split("#");			
-					String md = parts[0].trim();
-					String mi = parts[1].trim();					
-					if(methodInvocations.containsKey(md))vector=methodInvocations.get(md);
-					else vector = new HashSet<String>();
-					vector.add(mi);
-					methodInvocations.put(md, vector);										
-				}
-			}			
-			reader.close();
-		} 
-		catch (IOException e) {
-			log.error("Couldn't read file " + filename, e);
-		}			
-
-		testingMIs.put(testingMD, tmp);			
-		return methodInvocations;
-	}
-
-
 	/**
 	 * We need to retain the sequence of both declarations and invocations, so a LinkedHashMap and a List are used
 	 */
@@ -231,50 +178,6 @@ public class DataReader {
 		return methodInvocations;
 	}	
 
-	/**
-	 * We need to retain the sequence of the method invocations, so a List is used instead of a Set
-	 */
-	public Map<String,List<String>> getProjectDetailsFromARFF(String path, String filename) {	
-		Map<String,List<String>> methodInvocations = new HashMap<String,List<String>>();	
-		List<String> vector = null;				
-		String line = null;	
-		filename = path + filename;
-
-		int count=0;
-		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));		
-
-			while ((line = reader.readLine()) != null) {				
-				count++;
-
-				if(count>6) {					
-					String[] parts = line.split("#");			
-					String md = parts[0].replace("'","").trim();
-					String temp = parts[1].replace("'","").trim();
-
-					String[] invocations = temp.split(" ");
-					int len = invocations.length;
-
-					if(methodInvocations.containsKey(md))vector=methodInvocations.get(md);
-					else vector = new ArrayList<String>();
-
-					for(int i=0;i<len;i++) {
-						String mi = invocations[i].trim();
-						vector.add(mi);						
-					}
-
-					methodInvocations.put(md, vector);				
-				}				
-			}			
-			reader.close();
-		} 
-		catch (IOException e) {
-			log.error("Couldn't read file " + filename, e);
-		}		
-		return methodInvocations;
-	}
-
-
 	public Map<Integer,String> getDeclarationDetails(String path, String project, String declaration) {
 		Map<Integer,String> invocations = new HashMap<Integer,String>();
 		String line = null;	
@@ -330,44 +233,6 @@ public class DataReader {
 		return methodInvocations;
 	}
 
-
-	public Map<String,Set<String>> getProjectDetailsFromARFF2(String path, String filename) {	
-		Map<String,Set<String>> methodInvocations = new HashMap<String,Set<String>>();		
-		Set<String> vector = null;				
-		String line = null;	
-		filename = path + filename;		
-		int count=0;	
-
-		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));			
-			while ((line = reader.readLine()) != null) {				
-				count++;				
-				if(count>6) {					
-					String[] parts = line.split("#");			
-					String md = parts[0].replace("'","").trim();
-					String temp = parts[1].replace("'","").trim();
-
-					String[] invocations = temp.split(" ");
-					int len = invocations.length;
-
-					if(methodInvocations.containsKey(md))vector=methodInvocations.get(md);
-					else vector = new HashSet<String>();
-
-					for(int i=0;i<len;i++) {
-						String mi = invocations[i].trim();
-						vector.add(mi);						
-					}					
-					methodInvocations.put(md, vector);				
-				}				
-			}			
-			reader.close();		
-		} 
-		catch (IOException e) {
-			log.error("Couldn't read file " + filename, e);
-		}		
-		return methodInvocations;
-	}
-
 	public Set<String> getGroundTruthInvocations(String path, String filename) {
 		Set<String> gtInvocations = new HashSet<String>();
 		String line = null;
@@ -414,85 +279,8 @@ public class DataReader {
 		return methodInvocations;
 	}
 
-
-	public Map<String,Map<String,Integer>> getProjectInvocationsFromARFF(String path, String name) {	
-		Map<String,Map<String,Integer>> methodInvocations = new HashMap<String,Map<String,Integer>>();
-		Map<String,Integer> terms = new HashMap<String,Integer>();
-		String line = null;	
-		String filename = path + name;		
-
-		int freq=0;
-		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));
-			while ((line = reader.readLine()) != null) {				
-				String[] parts = line.split("#");
-				String temp = parts[1].trim();
-				String[] invocations = temp.split(" ");
-				int len = invocations.length;
-
-				for(int i=0;i<len;i++) {
-					String mi = invocations[i].trim();					
-					if(terms.containsKey(mi))freq=terms.get(mi)+1;
-					else freq=1;
-					terms.put(mi, freq);
-				}						
-			}						
-			reader.close();
-		} 
-		catch (IOException e) {
-			log.error("Couldn't read file " + filename, e);
-		}		
-		methodInvocations.put(name, terms);
-		return methodInvocations;
-	}
-
-
-	/**
-	 * Read invocations for a project from an ARFF file
-	 */
-	public Map<String,Map<String,Integer>> getProjectInvocationsFromARFFs(String path, String name) {	
-		Map<String,Map<String,Integer>> methodInvocations = new HashMap<String,Map<String,Integer>>();
-		Map<String,Integer> terms = new HashMap<String,Integer>();
-		String line = null;	
-		String filename = path + name;		
-
-		int freq=0,count=0;
-
-		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));						
-
-			while ((line = reader.readLine()) != null) {
-				count++;
-
-				// ignore the first 6 lines				
-				if(count>6) {
-					String[] parts = line.split(",");
-					String temp = parts[1].replace("'", "");
-					String[] invocations = temp.split(" ");
-					int len = invocations.length;
-
-					// get all the invocations
-					for(int i=0;i<len;i++) {
-						String mi = invocations[i].trim();					
-						if(terms.containsKey(mi))freq=terms.get(mi)+1;
-						else freq=1;
-						terms.put(mi, freq);						
-					}									
-				}							
-			}			
-			reader.close();
-		} 
-		catch (IOException e) {
-			log.error("Couldn't read file " + filename, e);
-		}		
-		methodInvocations.put(name, terms);
-		return methodInvocations;
-	}
-
-
 	public Map<String,Map<String,Integer>> getTestingProjectInvocations(String path, String subFolder, String filename, int numOfInvocations, boolean removeHalf) {
 		LinkedHashMap<String,List<String>> methodInvocations = getProjectDetails2(path, filename);
-		//Map<String,List<String>> methodInvocations = getProjectDetailsFromARFF(path, filename);
 
 		Set<String> keySet = methodInvocations.keySet();
 		List<String> list = null;
