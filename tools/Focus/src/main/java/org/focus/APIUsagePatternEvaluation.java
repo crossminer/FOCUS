@@ -191,9 +191,6 @@ public class APIUsagePatternEvaluation {
 							s2 += alias;					
 						} 
 						else {
-							if(terms.size()<5) {
-								log.info(project + terms.size());
-							}
 							if(terms.size()==0) {
 								log.error("terms.size() == 0 for " + project);
 								continue;
