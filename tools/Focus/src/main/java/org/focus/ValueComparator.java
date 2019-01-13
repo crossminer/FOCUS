@@ -12,8 +12,12 @@ class ValueComparator implements Comparator<String> {
 
 	// Note: this comparator imposes orderings that are inconsistent with equals.
 	public int compare(String a, String b) {
-		if (base.get(a) >= base.get(b)) {
+		float va = base.get(a);
+		float vb = base.get(b);
+		if (va > vb) {
 			return -1;
+		} else if (va == vb) {
+			return a.compareTo(b);
 		} else {
 			return 1;
 		}
