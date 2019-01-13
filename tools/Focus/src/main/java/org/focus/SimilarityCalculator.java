@@ -139,68 +139,6 @@ public class SimilarityCalculator {
 		return (float) count / (2 * length - count);
 	}
 
-
-	public Map<String, Float> ComputeSimilarity2(String testingPro, Map<String,Map<String,Integer>> projects) {	
-		Set<String> keySet = projects.keySet();		
-		// the number of projects in the corpus
-		int numOfProjects = projects.size();		
-
-		Map<String,Integer> termFrequency = new HashMap<String,Integer>();		
-		Map<String,Integer> terms = new HashMap<String,Integer>(); 
-		Set<String> keySet2 = null;
-
-		for(String pro:keySet) {
-			terms = projects.get(pro);			
-			keySet2 = terms.keySet();
-			int freq = 0;
-
-			for(String term:keySet2) {
-				if(termFrequency.containsKey(term))freq=termFrequency.get(term)+1;
-				else freq=1;
-				termFrequency.put(term, freq);
-			}			
-		}
-
-		// termFrequency: term -- number of projects that contain the term
-		Map<String,Float> vector1 = new HashMap<String,Float>();
-		Map<String, Float> sim = new HashMap<String, Float>();
-
-		// the input project
-		terms = projects.get(testingPro);
-		keySet2 = terms.keySet();
-
-		float tmp,val;
-
-		// tf-idf: term frequency - inverse document frequency
-		for(String term:keySet2) {
-			tmp = numOfProjects/termFrequency.get(term);
-			val = (float) (terms.get(term)*Math.log(tmp));			
-			vector1.put(term, val);
-		}
-
-		keySet = projects.keySet();
-
-		// compute the similarities between the input project and all other projects in the corpus		
-		for(String trainingPro:keySet) {			
-			if(!trainingPro.equals(testingPro)) {
-				Map<String,Float> vector2 = new HashMap<String,Float>();
-				terms = projects.get(trainingPro);
-				keySet2 = terms.keySet();
-
-				for(String term:keySet2) {
-					tmp = numOfProjects/termFrequency.get(term);
-					val = (float) (terms.get(term)*Math.log(tmp));			
-					vector2.put(term, val);
-				}			
-				val = computeCosineSimilarity(vector1, vector2);					
-				sim.put(trainingPro, val);								
-			}													
-		}					
-
-		return sim;		
-	}
-
-
 	/**
 	 * Compute similarity between every testing project and all training projects using Cosine Similarity with Weight
 	 */
@@ -244,21 +182,6 @@ public class SimilarityCalculator {
 
 		return;
 	}
-
-
-	public Map<String,Float> getProjectSimilarity(String pro1, Set<String> projects){
-		Map<String,Float> ret = new HashMap<String,Float>();	
-		Map<String,Map<String,Integer>> projects2 = new HashMap<String,Map<String,Integer>>();	
-
-		for(String project:projects){						
-			projects2.putAll(reader.getProjectInvocations(this.srcDir,project));			
-		}
-
-		projects2.putAll(reader.getProjectInvocations(this.srcDir, pro1));						
-		ret = ComputeSimilarity2(pro1, projects2);
-		return ret;
-	}
-
 
 	private float computeCosineSimilarity(Map<String, Float> v1, Map<String, Float> v2) {
 		Set<String> both = Sets.intersection(v1.keySet(), v2.keySet());
