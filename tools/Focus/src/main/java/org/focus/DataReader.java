@@ -11,7 +11,6 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.Set;
 import java.util.TreeMap;
 
@@ -500,7 +499,6 @@ public class DataReader {
 
 		Set<String> keySet = methodInvocations.keySet();
 		List<String> list = null;
-		Random randomGenerator = new Random();
 		int size = 0, index = 0;
 		Set<String> removedKey = new HashSet<String>();
 
@@ -527,7 +525,7 @@ public class DataReader {
 		// select a method that contains at least some invocations: this is our future work	
 		// randomly select a method declaration as testing
 		// System.out.println("size is: "+size + " " + filename);
-		index = randomGenerator.nextInt(size);
+		index = size - 1; //randomGenerator.nextInt(size);
 
 		// the method invocation that is used as query					
 		String testingDeclaration = list.get(index);
@@ -629,7 +627,6 @@ public class DataReader {
 		Map<String,List<String>> methodInvocations = getProjectDetails2(path, filename);
 		Set<String> keySet = methodInvocations.keySet();
 		List<String> list = null;
-		Random randomGenerator = new Random();
 
 		// remove a half of the method declarations
 
@@ -651,7 +648,7 @@ public class DataReader {
 		int size = list.size();		
 
 		// randomly select a method declaration as testing
-		int index = randomGenerator.nextInt(size);
+		int index = size - 1; //randomGenerator.nextInt(size);
 
 		// the method invocation that is used as testing data						
 		String testingDeclaration = list.get(index);
