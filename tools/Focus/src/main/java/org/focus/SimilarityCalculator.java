@@ -11,7 +11,8 @@ import org.apache.logging.log4j.Logger;
 import com.google.common.collect.Sets;
 
 /**
- * Compute similarity between every testing project and all training projects using Cosine Similarity with Weight
+ * Compute similarity between every testing project and all training projects
+ * using cosine similarity with weight
  */
 public class SimilarityCalculator {
 	private DataReader reader = new DataReader();
@@ -21,62 +22,30 @@ public class SimilarityCalculator {
 	private String subFolder;
 
 	private int trainingStartPos1;
-	private int trainingEndPos1; 
+	private int trainingEndPos1;
 	private int trainingStartPos2;
-	private int trainingEndPos2; 
+	private int trainingEndPos2;
 	private int testingStartPos;
 	private int testingEndPos;
-	
+
 	private static final Logger log = LogManager.getFormatterLogger(SimilarityCalculator.class);
 
-	public SimilarityCalculator(String sourceDir) {
-		this.srcDir = sourceDir;
+	public SimilarityCalculator(String srcDir) {
+		this.srcDir = srcDir;
 	}
 
-	public SimilarityCalculator(String sourceDir, String subFolder, int trStartPos1, int trEndPos1, 
-			int trStartPos2, int trEndPos2, 
-			int teStartPos, int teEndPos) {			
-		this.srcDir = sourceDir;		
-		this.subFolder = subFolder;				
+	public SimilarityCalculator(String srcDir, String subFolder, int trainingStartPos1, int trainingEndPos1,
+			int trainingStartPos2, int trainingEndPos2, int testingStartPos, int testingEndPos) {
+		this.srcDir = srcDir;
+		this.subFolder = subFolder;
 		this.simDir = this.srcDir + this.subFolder + "/" + "Similarities" + "/";
 
-		this.trainingStartPos1 = trStartPos1;
-		this.trainingEndPos1 = trEndPos1;
-		this.trainingStartPos2 = trStartPos2;
-		this.trainingEndPos2 = trEndPos2;
-		this.testingStartPos = teStartPos;
-		this.testingEndPos = teEndPos;	
-	}
-
-	/**
-	 * Compute a term-frequency map which stores, for every invocation, how many
-	 * projects in the supplied list invoke it
-	 * 
-	 * java/util/ArrayList/ArrayList()=131 java/util/List/add(E)=129
-	 * java/io/PrintStream/println(java.lang.String)=128
-	 */
-	private Map<String, Integer> computeTermFrequency(Map<String, Map<String, Integer>> projects) {
-		Map<String, Integer> termFrequency = new HashMap<>();
-
-		for (Map<String, Integer> terms : projects.values()) {
-			int freq = 0;
-			for (String term : terms.keySet()) {
-				if (termFrequency.containsKey(term))
-					freq = termFrequency.get(term) + 1;
-				else
-					freq = 1;
-				termFrequency.put(term, freq);
-			}
-		}
-
-		return termFrequency;
-	}
-
-	/**
-	 * Standard term-frequency inverse document frequency calculation
-	 */
-	private float computeTF_IDF(int count, int total, int freq) {
-		return (float) (count * Math.log(total / freq));
+		this.trainingStartPos1 = trainingStartPos1;
+		this.trainingEndPos1 = trainingEndPos1;
+		this.trainingStartPos2 = trainingStartPos2;
+		this.trainingEndPos2 = trainingEndPos2;
+		this.testingStartPos = testingStartPos;
+		this.testingEndPos = testingEndPos;
 	}
 
 	/**
@@ -124,7 +93,6 @@ public class SimilarityCalculator {
 		reader.writeSimilarityScores(simDir, testingPro, sortedMap);
 	}
 
-
 	/**
 	 * Compute the similarity between two vectors using Jaccard Similarity
 	 */
@@ -140,7 +108,8 @@ public class SimilarityCalculator {
 	}
 
 	/**
-	 * Compute similarity between every testing project and all training projects
+	 * Compute the similarity between every testing project and all training
+	 * projects
 	 */
 	public void computeProjectSimilarity() {
 		Map<String, Map<String, Integer>> trainingProjects = new HashMap<>();
@@ -148,20 +117,18 @@ public class SimilarityCalculator {
 
 		// Read all training project IDs in trainingProjectsID
 		if (trainingStartPos1 < trainingEndPos1)
-			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt",
-					trainingStartPos1, trainingEndPos1));
+			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt", trainingStartPos1, trainingEndPos1));
 
 		if (trainingStartPos2 < trainingEndPos2)
-			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt",
-					trainingStartPos2, trainingEndPos2));
+			trainingProjectsID.putAll(reader.readProjectList(srcDir + "List.txt", trainingStartPos2, trainingEndPos2));
 
 		// Read all training projects in trainingProjects
 		for (String trainingID : trainingProjectsID.values())
 			trainingProjects.putAll(reader.getProjectInvocations(srcDir, trainingID));
 
 		// Read all testing project IDs in testingProjectsID
-		Map<Integer, String> testingProjectsID = reader.readProjectList(srcDir + "List.txt",
-				testingStartPos, testingEndPos);
+		Map<Integer, String> testingProjectsID = reader.readProjectList(srcDir + "List.txt", testingStartPos,
+				testingEndPos);
 
 		int numOfTestingInvocations = 3;
 		boolean removeHalf = true;
@@ -179,30 +146,61 @@ public class SimilarityCalculator {
 		}
 	}
 
+	/**
+	 * Compute the cosine similarity between two project vectors
+	 */
 	private float computeCosineSimilarity(Map<String, Float> v1, Map<String, Float> v2) {
 		Set<String> both = Sets.intersection(v1.keySet(), v2.keySet());
-		// Set<String> both=v1.keySet();
-		// both.retainAll(v2.keySet());
-		double sclar = 0, norm1 = 0, norm2 = 0;
+		double scalar = 0, norm1 = 0, norm2 = 0;
 
-		// we need to perform cosine similarity only on words that exist in both lists
+		// Only perform cosine similarity on words that exist in both lists
 		if (both.size() > 0) {
-			for (Float f : v1.values()) {
+			for (Float f : v1.values())
 				norm1 += f * f;
-			}
-			for (Float f : v2.values()) {
+
+			for (Float f : v2.values())
 				norm2 += f * f;
-			}
-			for (String k : both) {
-				sclar += v1.get(k) * v2.get(k);
-			}
-			if (sclar == 0)
+
+			for (String k : both)
+				scalar += v1.get(k) * v2.get(k);
+
+			if (scalar == 0)
 				return 0f;
 			else
-				return (float) (sclar / Math.sqrt(norm1 * norm2));
-		} 
-		else {
+				return (float) (scalar / Math.sqrt(norm1 * norm2));
+		} else {
 			return 0f;
 		}
+	}
+
+	/**
+	 * Compute a term-frequency map which stores, for every invocation, how many
+	 * projects in the supplied list invoke it
+	 * 
+	 * java/util/ArrayList/ArrayList()=131 java/util/List/add(E)=129
+	 * java/io/PrintStream/println(java.lang.String)=128
+	 */
+	private Map<String, Integer> computeTermFrequency(Map<String, Map<String, Integer>> projects) {
+		Map<String, Integer> termFrequency = new HashMap<>();
+
+		for (Map<String, Integer> terms : projects.values()) {
+			int freq = 0;
+			for (String term : terms.keySet()) {
+				if (termFrequency.containsKey(term))
+					freq = termFrequency.get(term) + 1;
+				else
+					freq = 1;
+				termFrequency.put(term, freq);
+			}
+		}
+
+		return termFrequency;
+	}
+
+	/**
+	 * Standard term-frequency inverse document frequency calculation
+	 */
+	private float computeTF_IDF(int count, int total, int freq) {
+		return (float) (count * Math.log(total / freq));
 	}
 }
