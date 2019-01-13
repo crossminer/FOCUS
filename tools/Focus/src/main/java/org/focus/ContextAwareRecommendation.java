@@ -129,12 +129,9 @@ public class ContextAwareRecommendation {
 		numOfRows = listOfMDs.size();
 		numOfCols = listOfMIs.size();						
 
-		log.info("Size: %d x %d x %d", numOfSlices, numOfRows, numOfCols);
-
 		byte UserItemContextMatrix[][][] = new byte[this.numOfSlices][this.numOfRows][this.numOfCols];
 		Set<String> myMIs = new HashSet<String>();		
 		String currentMD = "", currentMI = "";
-
 
 		Map<String,Set<String>> myMDs = new HashMap<String,Set<String>>();
 
@@ -256,7 +253,7 @@ public class ContextAwareRecommendation {
 
 			// For every '?' cell (-1.0), compute a rating
 			for (int k = 0; k < numOfCols; k++) {
-				if (matrix[numOfSlices - 1][numOfRows - 1][k] == -1.0) {
+				if (matrix[numOfSlices - 1][numOfRows - 1][k] == -1) {
 					double totalSim = 0;
 
 					// Iterate over the top-3 most similar methods

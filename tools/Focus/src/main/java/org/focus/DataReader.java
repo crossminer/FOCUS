@@ -368,26 +368,23 @@ public class DataReader {
 		return methodInvocations;
 	}
 
-
-	public Set<String> getGroundTruthInvocations(String path, String filename) {	
-		Set<String> gtInvocations = new HashSet<String>();						
-		String line = null;	
+	public Set<String> getGroundTruthInvocations(String path, String filename) {
+		Set<String> gtInvocations = new HashSet<String>();
+		String line = null;
 		filename = path + filename;
 
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));						
-			while ((line = reader.readLine()) != null) {											
-				line=line.trim();
-				gtInvocations.add(line);							
-			}			
+			BufferedReader reader = new BufferedReader(new FileReader(filename));
+			while ((line = reader.readLine()) != null) {
+				line = line.trim();
+				gtInvocations.add(line);
+			}
 			reader.close();
-		} 
-		catch (IOException e) {
+		} catch (IOException e) {
 			log.error("Couldn't read file " + filename, e);
-		}		
+		}
 		return gtInvocations;
 	}
-
 
 	public Map<String,Map<String,Integer>> getProjectInvocations(String path, String name) {	
 		Map<String,Map<String,Integer>> methodInvocations = new HashMap<String,Map<String,Integer>>();
@@ -887,33 +884,28 @@ public class DataReader {
 		return ret;		
 	}
 
-
 	/**
 	 * Read the ground-truth invocations for a given project
 	 */
-	public Map<Integer,String> readGroundTruthInvocations(String filename) {							
-		Map<Integer,String> ret = new HashMap<Integer,String>();	
-		String line = null;		
+	public Set<String> readGroundTruthInvocations(String filename) {
+		Set<String> ret = new HashSet<>();
+		String line = null;
 		String[] vals = null;
-		int id=1;
 
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader(filename));					
-			while ((line = reader.readLine()) != null) {										
-				vals = line.split("\t");			
-				String invocation = vals[1].trim();			
-				ret.put(id, invocation);
-				id++;
-			}			
+			BufferedReader reader = new BufferedReader(new FileReader(filename));
+			while ((line = reader.readLine()) != null) {
+				vals = line.split("#");
+				String invocation = vals[1].trim();
+				ret.add(invocation);
+			}
 			reader.close();
-		} 
-		catch (IOException e) {
+		} catch (IOException e) {
 			log.error("Couldn't read file " + filename, e);
 		}
 
-		return ret;		
+		return ret;
 	}
-
 
 	/**
 	 * Read the ground-truth declaration for a given project
