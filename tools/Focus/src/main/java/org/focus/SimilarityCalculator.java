@@ -184,13 +184,8 @@ public class SimilarityCalculator {
 		Map<String, Integer> termFrequency = new HashMap<>();
 
 		for (Map<String, Integer> terms : projects.values()) {
-			int freq = 0;
 			for (String term : terms.keySet()) {
-				if (termFrequency.containsKey(term))
-					freq = termFrequency.get(term) + 1;
-				else
-					freq = 1;
-				termFrequency.put(term, freq);
+				termFrequency.put(term, termFrequency.getOrDefault(term, 1) + 1);
 			}
 		}
 
