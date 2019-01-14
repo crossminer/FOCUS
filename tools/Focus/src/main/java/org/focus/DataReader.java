@@ -2,6 +2,7 @@ package org.focus;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -38,6 +39,45 @@ public class DataReader {
 			log.error("Couldn't read file " + filename, e);
 		}		
 		return list;
+	}
+
+	public Map<String, Set<String>> getProjectDetailsFromARFF2(String path, String filename) {
+		Map<String, Set<String>> methodInvocations = new HashMap<String, Set<String>>();
+		Set<String> vector = null;
+		String line = null;
+		filename = path + filename;
+		int count = 0;
+
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader(filename));
+			while ((line = reader.readLine()) != null) {
+				count++;
+				if (count > 6) {
+					String[] parts = line.split("#");
+					String md = parts[0].replace("'", "").trim();
+					String temp = parts[1].replace("'", "").trim();
+
+					String[] invocations = temp.split(" ");
+					int len = invocations.length;
+
+					if (methodInvocations.containsKey(md))
+						vector = methodInvocations.get(md);
+					else
+						vector = new HashSet<String>();
+
+					for (int i = 0; i < len; i++) {
+						String mi = invocations[i].trim();
+						vector.add(mi);
+					}
+					methodInvocations.put(md, vector);
+				}
+			}
+			reader.close();
+		} catch (IOException e) {
+			log.error("Couldn't read file " + filename, e);
+		}
+
+		return methodInvocations;
 	}
 
 
