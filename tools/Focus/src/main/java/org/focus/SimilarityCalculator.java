@@ -185,7 +185,7 @@ public class SimilarityCalculator {
 
 		for (Map<String, Integer> terms : projects.values()) {
 			for (String term : terms.keySet()) {
-				termFrequency.put(term, termFrequency.getOrDefault(term, 1) + 1);
+				termFrequency.put(term, termFrequency.getOrDefault(term, 0) + 1);
 			}
 		}
 
