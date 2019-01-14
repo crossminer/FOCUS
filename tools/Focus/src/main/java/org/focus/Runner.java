@@ -33,8 +33,8 @@ public class Runner {
 		log.info("Running ten-fold cross validation on " + srcDir);
 		tenFoldCrossValidation();
 
-//		log.info("Running leave-one-out cross validation on " + srcDir);
-//		leaveOneOutValidation();
+		// log.info("Running leave-one-out cross validation on " + srcDir);
+		// leaveOneOutValidation();
 	}
 
 	/**
@@ -103,10 +103,14 @@ public class Runner {
 	}
 
 	public void leaveOneOutValidation() {
-		int numOfProjects = 610;
+		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = numOfProjects;
 		int step = 1;
+		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
+		Map<Integer, Float> avgSuccess = new HashMap<>();
+		Map<Integer, Float> avgPrecision = new HashMap<>();
+		Map<Integer, Float> avgRecall = new HashMap<>();
 
 		for (int i = 0; i < numOfFolds; i++) {
 			int trainingStartPos1 = 1;
@@ -125,6 +129,28 @@ public class Runner {
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
+
+			SuccessCalculator calc = new SuccessCalculator(srcDir, subFolder, testingStartPos, testingEndPos);
+			for (Integer n : ns) {
+				float success = calc.computeSuccessRate(n);
+				float precision = calc.computePrecision(n);
+				float recall = calc.computeRecall(n);
+
+				avgSuccess.put(n, avgSuccess.getOrDefault(n, 0f) + success);
+				avgPrecision.put(n, avgPrecision.getOrDefault(n, 0f) + precision);
+				avgRecall.put(n, avgRecall.getOrDefault(n, 0f) + recall);
+
+				// log.info("successRate@" + n + " = " + success);
+				// log.info("precision@" + n + " = " + precision);
+				// log.info("recall@" + n + " = " + recall);
+			}
+		}
+
+		log.info("### RESULTS ###");
+		for (Integer n : ns) {
+			log.info("successRate@" + n + " = " + avgSuccess.get(n) / numOfFolds);
+			log.info("precision@" + n + "   = " + avgPrecision.get(n) / numOfFolds);
+			log.info("recall@" + n + "      = " + avgRecall.get(n) / numOfFolds);
 		}
 	}
 
