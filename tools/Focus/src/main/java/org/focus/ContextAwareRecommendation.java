@@ -57,7 +57,7 @@ public class ContextAwareRecommendation {
 		int sz = simProjects.keySet().size();
 		for (int key = 0; key < sz; key++) {
 			String project = simProjects.get(key);
-			Map<String, Set<String>> tmpMIs = reader.getProjectDetails(srcDir, project);
+			Map<String, Set<String>> tmpMIs = reader.getProjectDetailsFromARFF2(srcDir, project);
 
 			// All method declarations of a project
 			allMDs.addAll(tmpMIs.keySet());
