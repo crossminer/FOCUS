@@ -37,6 +37,6 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 	* __SH_L__: metadata of the SH<sub>L</sub> dataset (610 GitHub projects);
 	* __SH_S__: metadata of the SH<sub>S</sub> dataset (200 GitHub projects);
 
-__Note<sup>1</sup>__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at `anonymized`.
+__Note<sup>1</sup>__: the archive of 5,147 Java projects retrieved from GitHub via the Software Heritage archive is available at ([this url](https://annex.softwareheritage.org/public/dataset/vault-crossminer/856749_done_with_origins.txt.gz.))
 
 __Note<sup>2</sup>__: to get the results shown in the paper you must run the `Focus` tool included in this repository. Follow the instructions provided in the corresponding project.
