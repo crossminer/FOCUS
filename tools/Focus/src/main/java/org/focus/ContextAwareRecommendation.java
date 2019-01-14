@@ -129,12 +129,7 @@ public class ContextAwareRecommendation {
 
 						if (myMIs.contains(currentMI))
 							matrix[i][j][k] = (byte) 1;
-						else
-							matrix[i][j][k] = (byte) 0;
 					}
-				} else {
-					for (int k = 0; k < numOfCols; k++)
-						matrix[i][j][k] = (byte) 0;
 				}
 			}
 		}
@@ -152,12 +147,7 @@ public class ContextAwareRecommendation {
 
 					if (myMIs.contains(currentMI))
 						matrix[numOfSlices - 1][j][k] = (byte) 1;
-					else
-						matrix[numOfSlices - 1][j][k] = (byte) 0;
 				}
-			} else {
-				for (int k = 0; k < numOfCols; k++)
-					matrix[numOfSlices - 1][j][k] = (byte) 0;
 			}
 		}
 
