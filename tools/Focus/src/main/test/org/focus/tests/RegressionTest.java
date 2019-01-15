@@ -22,7 +22,7 @@ class RegressionTest {
 		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = 10;
-		int step = (int) numOfProjects / 10;
+		int step = (int) numOfProjects / numOfFolds;
 		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
 		Map<Integer, Float> avgSuccess = new HashMap<>();
 
