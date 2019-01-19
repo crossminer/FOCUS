@@ -2,7 +2,6 @@ package org.focus;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -900,6 +899,22 @@ public class DataReader {
 			} catch (IOException e) {
 				log.error("Couldn't close file " + filename, e);
 			}
+		}
+	}
+
+	public void writeUsagePatterns(String filename, Map<String, Float> patterns, int numOfRecs) {
+		try(BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+			int count = 0;
+			for (Map.Entry<String, Float> pattern : patterns.entrySet()) {
+				writer.append(pattern.getKey() + "\t" + pattern.getValue());
+				writer.newLine();
+				writer.flush();
+				count++;
+				if (count > numOfRecs)
+					break;
+			}
+		} catch (IOException e) {
+			log.error("Couldn't write file " + filename, e);
 		}
 	}
 }
