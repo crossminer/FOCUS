@@ -38,6 +38,22 @@ public class DataReader {
 		return list;
 	}
 
+	public Map<String, String> getTestingInvocations2(String filename) {
+		Map<String, String> ret = new HashMap<>();
+		String line = null;
+
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+			while ((line = reader.readLine()) != null) {
+				String[] vals = line.split("#");
+				ret.put(vals[0].trim(), vals[1].trim());
+			}
+		} catch (IOException e) {
+			log.error("Couldn't read file " + filename, e);
+		}
+
+		return ret;
+	}
+
 	public Map<String, Set<String>> getProjectDetailsFromARFF2(String path, String filename) {
 		Map<String, Set<String>> methodInvocations = new HashMap<String, Set<String>>();
 		Set<String> vector = null;
@@ -45,7 +61,7 @@ public class DataReader {
 		filename = path + filename;
 		int count = 0;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				count++;
 				if (count > 6) {
@@ -81,7 +97,7 @@ public class DataReader {
 		int count = 1;
 		int id = startPos;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while (count < startPos) {
 				line = reader.readLine();
 				count++;
@@ -120,7 +136,7 @@ public class DataReader {
 		filename = path + filename;
 		Set<String> tmp = new HashSet<String>();
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				if (line.contains(testingMD)) {
 					// get the testing method invocations
@@ -164,7 +180,7 @@ public class DataReader {
 		boolean start = true;
 		Set<String> doneDeclarations = new HashSet<String>();
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				String[] parts = line.split("#");
 				String md = parts[0].trim();
@@ -216,7 +232,7 @@ public class DataReader {
 		String filename = path + project;
 		int id = 1;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				String[] parts = line.split("#");
 				String md = parts[0].trim();
@@ -239,7 +255,7 @@ public class DataReader {
 		String line = null;
 		filename = path + filename;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				String[] parts = line.split("#");
 				String md = parts[0].trim();
@@ -265,7 +281,7 @@ public class DataReader {
 		String line = null;
 		filename = path + filename;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				line = line.trim();
 				gtInvocations.add(line);
@@ -283,7 +299,7 @@ public class DataReader {
 		String filename = path + name;
 
 		int freq = 0;
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				String[] parts = line.split("#");
 				String mi = parts[1].trim();
@@ -385,7 +401,7 @@ public class DataReader {
 		String testingInvocationLocation = path + subFolder + "/" + "TestingInvocations" + "/";
 		// save the testing method invocations to an external file for future usage
 
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(testingInvocationLocation + filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(testingInvocationLocation + filename))) {
 			size = query.size();
 			for (int i = 0; i < size; i++) {
 				String content = testingDeclaration + "#" + query.get(i);
@@ -400,7 +416,7 @@ public class DataReader {
 		String groundTruthPath = path + subFolder + "/" + "GroundTruth" + "/";
 		// save the ground-truth method invocations to an external file for future
 		// comparison
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(groundTruthPath + filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(groundTruthPath + filename))) {
 			for (String s : groundTruthMIs) {
 				String content = testingDeclaration + "#" + s;
 				writer.append(content);
@@ -499,7 +515,7 @@ public class DataReader {
 		String testingInvocationLocation = path + subFolder + "/" + "TestingInvocations" + "/";
 		// save the testing method invocations to an external file for future usage
 
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(testingInvocationLocation + filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(testingInvocationLocation + filename))) {
 			size = list.size();
 			for (int i = 0; i < size; i++) {
 				String content = testingDeclaration + "#" + list.get(i);
@@ -514,7 +530,7 @@ public class DataReader {
 		String groundTruthPath = path + subFolder + "/" + "GroundTruth" + "/";
 		// save the ground-truth method invocations to an external file for future
 		// comparison
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(groundTruthPath + filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(groundTruthPath + filename))) {
 			for (String s : groundTruthMIs) {
 				String content = testingDeclaration + "#" + s;
 				writer.append(content);
@@ -639,7 +655,7 @@ public class DataReader {
 		String[] vals = null;
 		int id = 1;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String invocation = vals[0].trim();
@@ -659,7 +675,7 @@ public class DataReader {
 		String[] vals = null;
 		int id = 1;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("#");
 				String invocation = vals[1].trim();
@@ -682,7 +698,7 @@ public class DataReader {
 		String[] vals = null;
 		int id = 1;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String invocation = vals[0].trim();
@@ -704,7 +720,7 @@ public class DataReader {
 		String line = null;
 		String[] vals = null;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("#");
 				String invocation = vals[1].trim();
@@ -725,7 +741,7 @@ public class DataReader {
 		String line = null;
 		String[] vals = null;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("#");
 				declaration = vals[0].trim();
@@ -747,7 +763,7 @@ public class DataReader {
 		String[] vals = null;
 		int count = 0;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String library = vals[0].trim();
@@ -768,7 +784,7 @@ public class DataReader {
 		String line = null;
 		String[] vals = null;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String library = vals[1].trim();
@@ -786,7 +802,7 @@ public class DataReader {
 		String[] vals = null;
 		int count = 0;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String URI = vals[1].trim();
@@ -808,7 +824,7 @@ public class DataReader {
 		String[] vals = null;
 		int count = 0;
 
-		try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 			while ((line = reader.readLine()) != null) {
 				vals = line.split("\t");
 				String URI = vals[1].trim();
@@ -828,7 +844,7 @@ public class DataReader {
 	public void writeSimilarityScores(String simDir, String project, Map<String, Float> similarities) {
 		String filename = simDir + project;
 
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
 			for (Map.Entry<String, Float> entry : similarities.entrySet()) {
 				writer.append(project + "\t" + entry.getKey() + "\t" + entry.getValue());
 				writer.newLine();
@@ -841,7 +857,7 @@ public class DataReader {
 
 	public void writeRecommendations(String filename, TreeMap<String, Float> sortedMap,
 			Map<String, Float> recommendations) {
-		try(BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
 			for (String key : sortedMap.keySet()) {
 				writer.append(key + "\t" + recommendations.get(key));
 				writer.newLine();

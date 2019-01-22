@@ -102,6 +102,9 @@ public class Runner {
 //					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 //			matcher.searchAPIUsagePatterns();
 
+//			UsagePatternPrinter printer = new UsagePatternPrinter(srcDir, subFolder, testingStartPos, testingEndPos);
+//			printer.print();
+
 			SuccessCalculator calc = new SuccessCalculator(srcDir, subFolder, testingStartPos, testingEndPos);
 			for (Integer n : ns) {
 				float success = calc.computeSuccessRate(n);

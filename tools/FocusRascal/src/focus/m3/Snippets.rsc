@@ -1,6 +1,7 @@
 module focus::m3::Snippets
 
 import IO;
+import ValueIO;
 import lang::java::m3::AST;
 import lang::java::m3::Core;
 import lang::java::m3::TypeSymbol;
@@ -71,7 +72,8 @@ str functionSnippet(loc fun, M3 m3) {
 		return ("" | it + "<t>" | t <- code);
 	}
 	catch EmptySet(): {
-		throw "There is no declaration related to the corresponding function.";
+		println("There is no declaration related to the corresponding function");
+		return "";
 	}
 }
 
