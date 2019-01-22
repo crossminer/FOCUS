@@ -17,41 +17,59 @@ import org.apache.logging.log4j.Logger;
 public class Runner {
 	private String srcDir;
 	private int numOfProjects = 0;
+	private Configuration configuration;
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
 
-	public void loadConfigurations() {
+	public boolean loadConfigurations() {
 		try (InputStream in = new FileInputStream("evaluation.properties")) {
+			// Read sourceDirectory
 			Properties prop = new Properties();
 			prop.load(in);
 			srcDir = prop.getProperty("sourceDirectory");
 
+			// Read evaluation parameters (pi, delta)
+			String conf = prop.getProperty("configuration");
+			switch (conf) {
+				case "C1.1": configuration = Configuration.C1_1; break;
+				case "C1.2": configuration = Configuration.C1_2; break;
+				case "C2.1": configuration = Configuration.C2_1; break;
+				case "C2.2": configuration = Configuration.C2_2; break;
+				default: log.error("Invalid configuration " + conf);
+			}
+
+			// Count number of projects from List.txt
 			String projectList = srcDir + "/List.txt";
 			BufferedReader reader = new BufferedReader(new FileReader(projectList));
 			while (reader.readLine() != null)
 				numOfProjects++;
 			reader.close();
+
+			return true;
 		} catch (IOException e) {
 			log.error("Couldn't read evaluation.properties", e);
 		}
+
+		return false;
 	}
 
 	public void run() {
 		log.info("FOCUS: A Context-Aware Recommender System!");
-		loadConfigurations();
 
-		log.info("Running ten-fold cross validation on " + srcDir);
-		tenFoldCrossValidation();
+		if (loadConfigurations()) {
+			log.info("Running ten-fold cross validation on " + srcDir);
+			tenFoldCrossValidation();
 
-		// log.info("Running leave-one-out cross validation on " + srcDir);
-		// leaveOneOutValidation();
+			// log.info("Running leave-one-out cross validation on " + srcDir);
+			// leaveOneOutValidation();
+		} else
+			log.error("Aborting.");
 	}
 
 	/**
 	 * Ten-fold cross validation
 	 */
 	public void tenFoldCrossValidation() {
-		// FIXME: Values should be extracted from the dataset
 		int numOfNeighbours = 2;
 		int numOfFolds = 10;
 		int step = (int) numOfProjects / 10;
@@ -71,8 +89,9 @@ public class Runner {
 			int k = i + 1;
 			String subFolder = "evaluation/round" + Integer.toString(k);
 
-			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, trainingStartPos1,
-					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
+			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, configuration,
+					trainingStartPos1, trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos,
+					testingEndPos);
 			calculator.computeProjectSimilarity();
 
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
@@ -126,8 +145,9 @@ public class Runner {
 
 			String subFolder = "evaluation/round1";
 
-			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, trainingStartPos1,
-					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
+			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, configuration,
+					trainingStartPos1, trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos,
+					testingEndPos);
 			calculator.computeProjectSimilarity();
 
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,

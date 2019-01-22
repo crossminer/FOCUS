@@ -20,6 +20,7 @@ public class SimilarityCalculator {
 	private String srcDir;
 	private String simDir;
 	private String subFolder;
+	private Configuration configuration;
 
 	private int trainingStartPos1;
 	private int trainingEndPos1;
@@ -34,10 +35,11 @@ public class SimilarityCalculator {
 		this.srcDir = srcDir;
 	}
 
-	public SimilarityCalculator(String srcDir, String subFolder, int trainingStartPos1, int trainingEndPos1,
-			int trainingStartPos2, int trainingEndPos2, int testingStartPos, int testingEndPos) {
+	public SimilarityCalculator(String srcDir, String subFolder, Configuration conf, int trainingStartPos1,
+			int trainingEndPos1, int trainingStartPos2, int trainingEndPos2, int testingStartPos, int testingEndPos) {
 		this.srcDir = srcDir;
 		this.subFolder = subFolder;
+		this.configuration = conf;
 		this.simDir = this.srcDir + this.subFolder + "/" + "Similarities" + "/";
 
 		this.trainingStartPos1 = trainingStartPos1;
@@ -57,7 +59,7 @@ public class SimilarityCalculator {
 		Map<String, Float> testingProjectVector = new HashMap<>();
 		Map<String, Float> projectSimilarities = new HashMap<>();
 
-		log.info("Computing similarity between %s and all other projects", testingPro);
+//		log.info("Computing similarity between %s and all other projects", testingPro);
 
 		// Computes the feature vector of the testing project,
 		// ie. the TF-IDF for all its invocations
@@ -130,8 +132,27 @@ public class SimilarityCalculator {
 		Map<Integer, String> testingProjectsID = reader.readProjectList(srcDir + "List.txt", testingStartPos,
 				testingEndPos);
 
-		int numOfTestingInvocations = 3;
-		boolean removeHalf = true;
+		int numOfTestingInvocations = 0;
+		boolean removeHalf = false;
+
+		switch (configuration) {
+			case C1_1:
+				numOfTestingInvocations = 1;
+				removeHalf = true;
+			break;
+			case C1_2:
+				numOfTestingInvocations = 4;
+				removeHalf = true;
+			break;
+			case C2_1:
+				numOfTestingInvocations = 1;
+				removeHalf = false;
+			break;
+			case C2_2:
+				numOfTestingInvocations = 4;
+				removeHalf = false;
+			break;
+		}
 
 		for (Integer testingID : testingProjectsID.keySet()) {
 			String testingProjectID = testingProjectsID.get(testingID);
