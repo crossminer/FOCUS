@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: ApiFunctionCall
-Bundle-SymbolicName: ApiFunctionCall
-Bundle-Version: 1.0.0
-Require-Bundle: rascal_eclipse,
- rascal_java_build_manager;bundle-version="0.0.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
