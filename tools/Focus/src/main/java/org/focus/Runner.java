@@ -1,7 +1,10 @@
 package org.focus;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -13,14 +16,21 @@ import org.apache.logging.log4j.Logger;
 
 public class Runner {
 	private String srcDir;
+	private int numOfProjects = 0;
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
 
 	public void loadConfigurations() {
-		Properties prop = new Properties();
-		try {
-			prop.load(new FileInputStream("evaluation.properties"));
-			this.srcDir = prop.getProperty("sourceDirectory");
+		try (InputStream in = new FileInputStream("evaluation.properties")) {
+			Properties prop = new Properties();
+			prop.load(in);
+			srcDir = prop.getProperty("sourceDirectory");
+
+			String projectList = srcDir + "/List.txt";
+			BufferedReader reader = new BufferedReader(new FileReader(projectList));
+			while (reader.readLine() != null)
+				numOfProjects++;
+			reader.close();
 		} catch (IOException e) {
 			log.error("Couldn't read evaluation.properties", e);
 		}
@@ -42,7 +52,6 @@ public class Runner {
 	 */
 	public void tenFoldCrossValidation() {
 		// FIXME: Values should be extracted from the dataset
-		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = 10;
 		int step = (int) numOfProjects / 10;
@@ -99,7 +108,6 @@ public class Runner {
 	}
 
 	public void leaveOneOutValidation() {
-		int numOfProjects = 200;
 		int numOfNeighbours = 2;
 		int numOfFolds = numOfProjects;
 		int step = 1;
@@ -151,8 +159,6 @@ public class Runner {
 	}
 
 	public static void main(String[] args) {
-		Runner runner = new Runner();
-		runner.run();
-		return;
+		new Runner().run();
 	}
 }
