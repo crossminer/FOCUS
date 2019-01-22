@@ -73,10 +73,6 @@ public class Runner {
 //			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
 //					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
 //			matcher.searchAPIUsagePatterns();
-//
-//			APIUsagePatternEvaluation eval = new APIUsagePatternEvaluation(srcDir, subFolder, testingStartPos,
-//					testingEndPos);
-//			eval.computeSimilarityScore();
 
 			SuccessCalculator calc = new SuccessCalculator(srcDir, subFolder, testingStartPos, testingEndPos);
 			for (Integer n : ns) {
