@@ -21,8 +21,8 @@ public class Runner {
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
 
-	public boolean loadConfigurations() {
-		try (InputStream in = new FileInputStream("evaluation.properties")) {
+	public boolean loadConfigurations(String propFile) {
+		try (InputStream in = new FileInputStream(propFile)) {
 			// Read sourceDirectory
 			Properties prop = new Properties();
 			prop.load(in);
@@ -53,10 +53,15 @@ public class Runner {
 		return false;
 	}
 
-	public void run() {
+	public void run(String[] args) {
 		log.info("FOCUS: A Context-Aware Recommender System!");
 
-		if (loadConfigurations()) {
+		String propFile = "evaluation.properties";
+
+		if (args.length == 1)
+			propFile = args[0];
+
+		if (loadConfigurations(propFile)) {
 			log.info("Running ten-fold cross validation on " + srcDir);
 			tenFoldCrossValidation();
 
@@ -121,7 +126,7 @@ public class Runner {
 			}
 		}
 
-		log.info("### RESULTS ###");
+		log.info("### 10-FOLDS RESULTS ###");
 		for (Integer n : ns) {
 			log.info("successRate@" + n + " = " + avgSuccess.get(n) / numOfFolds);
 			log.info("precision@" + n + "   = " + avgPrecision.get(n) / numOfFolds);
@@ -173,7 +178,7 @@ public class Runner {
 			}
 		}
 
-		log.info("### RESULTS ###");
+		log.info("### LEAVE-1-OUT RESULTS ###");
 		for (Integer n : ns) {
 			log.info("successRate@" + n + " = " + avgSuccess.get(n) / numOfFolds);
 			log.info("precision@" + n + "   = " + avgPrecision.get(n) / numOfFolds);
@@ -182,6 +187,6 @@ public class Runner {
 	}
 
 	public static void main(String[] args) {
-		new Runner().run();
+		new Runner().run(args);
 	}
 }
