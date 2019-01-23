@@ -6,10 +6,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
@@ -87,9 +87,9 @@ public class Runner {
 		int numOfFolds = 10;
 		int step = (int) numOfProjects / 10;
 		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
-		Map<Integer, Float> avgSuccess = new HashMap<>();
-		Map<Integer, Float> avgPrecision = new HashMap<>();
-		Map<Integer, Float> avgRecall = new HashMap<>();
+		Map<Integer, Float> avgSuccess = new ConcurrentHashMap<>();
+		Map<Integer, Float> avgPrecision = new ConcurrentHashMap<>();
+		Map<Integer, Float> avgRecall = new ConcurrentHashMap<>();
 
 		IntStream.range(0,  numOfFolds).parallel().forEach(i -> {
 			int trainingStartPos1 = 1;
@@ -155,9 +155,9 @@ public class Runner {
 		int numOfFolds = numOfProjects;
 		int step = 1;
 		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
-		Map<Integer, Float> avgSuccess = new HashMap<>();
-		Map<Integer, Float> avgPrecision = new HashMap<>();
-		Map<Integer, Float> avgRecall = new HashMap<>();
+		Map<Integer, Float> avgSuccess = new ConcurrentHashMap<>();
+		Map<Integer, Float> avgPrecision = new ConcurrentHashMap<>();
+		Map<Integer, Float> avgRecall = new ConcurrentHashMap<>();
 
 		IntStream.range(0,  numOfFolds).parallel().forEach(i -> {
 			int trainingStartPos1 = 1;
