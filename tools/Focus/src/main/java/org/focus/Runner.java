@@ -45,8 +45,8 @@ public class Runner {
 			// Read evaluation mode
 			String mode = prop.getProperty("validation");
 			switch (mode) {
-				case "ten-fold": tenFold = true;
-				case "leave-one-out": leaveOneOut = true;
+				case "ten-fold": tenFold = true; break;
+				case "leave-one-out": leaveOneOut = true; break;
 				default: log.error("Invalid validation mode " + mode);
 			}
 
