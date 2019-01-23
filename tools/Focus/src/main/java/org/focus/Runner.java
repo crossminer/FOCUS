@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.IntStream;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -90,7 +91,7 @@ public class Runner {
 		Map<Integer, Float> avgPrecision = new HashMap<>();
 		Map<Integer, Float> avgRecall = new HashMap<>();
 
-		for (int i = 0; i < numOfFolds; i++) {
+		IntStream.range(0,  numOfFolds).parallel().forEach(i -> {
 			int trainingStartPos1 = 1;
 			int trainingEndPos1 = i * step;
 			int trainingStartPos2 = (i + 1) * step + 1;
@@ -139,7 +140,7 @@ public class Runner {
 				// log.info("precision@" + n + " = " + precision);
 				// log.info("recall@" + n + " = " + recall);
 			}
-		}
+		});
 
 		log.info("### 10-FOLDS RESULTS ###");
 		for (Integer n : ns) {
@@ -158,7 +159,7 @@ public class Runner {
 		Map<Integer, Float> avgPrecision = new HashMap<>();
 		Map<Integer, Float> avgRecall = new HashMap<>();
 
-		for (int i = 0; i < numOfFolds; i++) {
+		IntStream.range(0,  numOfFolds).parallel().forEach(i -> {
 			int trainingStartPos1 = 1;
 			int trainingEndPos1 = i * step;
 			int trainingStartPos2 = (i + 1) * step + 1;
@@ -199,7 +200,7 @@ public class Runner {
 				// log.info("precision@" + n + " = " + precision);
 				// log.info("recall@" + n + " = " + recall);
 			}
-		}
+		});
 
 		log.info("### LEAVE-1-OUT RESULTS ###");
 		for (Integer n : ns) {
