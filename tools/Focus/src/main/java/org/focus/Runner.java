@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -62,11 +63,17 @@ public class Runner {
 			propFile = args[0];
 
 		if (loadConfigurations(propFile)) {
-			log.info("Running ten-fold cross validation on " + srcDir);
+			long before = System.nanoTime();
+			log.info("Running ten-fold cross validation on %s with configuration %s", srcDir, configuration);
 			tenFoldCrossValidation();
+			long after = System.nanoTime();
+			log.info("10-fold took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 
-			// log.info("Running leave-one-out cross validation on " + srcDir);
-			// leaveOneOutValidation();
+//			before = System.nanoTime();
+//			log.info("Running leave-one-out cross validation on %s with configuration %s", srcDir, configuration);
+//			leaveOneOutValidation();
+//			after = System.nanoTime();
+//			log.info("Took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 		} else
 			log.error("Aborting.");
 	}
@@ -94,14 +101,22 @@ public class Runner {
 			int k = i + 1;
 			String subFolder = "evaluation/round" + Integer.toString(k);
 
+			long before = System.nanoTime();
 			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, configuration,
 					trainingStartPos1, trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos,
 					testingEndPos);
 			calculator.computeProjectSimilarity();
+			long after = System.nanoTime();
+			log.info("Fold [%d/%d]: SimilarityCalculator took %ds", i, numOfFolds,
+					TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 
+			before = System.nanoTime();
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
+			after = System.nanoTime();
+			log.info("Fold [%d/%d]: ContextAwareRecommendation took %ds", i, numOfFolds,
+					TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 
 //			APIUsagePatternMatcher matcher = new APIUsagePatternMatcher(srcDir, subFolder, trainingStartPos1,
 //					trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos, testingEndPos);
@@ -153,14 +168,22 @@ public class Runner {
 
 			String subFolder = "evaluation/round1";
 
+			long before = System.nanoTime();
 			SimilarityCalculator calculator = new SimilarityCalculator(srcDir, subFolder, configuration,
 					trainingStartPos1, trainingEndPos1, trainingStartPos2, trainingEndPos2, testingStartPos,
 					testingEndPos);
 			calculator.computeProjectSimilarity();
+			long after = System.nanoTime();
+			log.info("Fold [%d/%d]: SimilarityCalculator took %ds", i, numOfFolds,
+					TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 
+			before = System.nanoTime();
 			ContextAwareRecommendation engine = new ContextAwareRecommendation(srcDir, subFolder, numOfNeighbours,
 					testingStartPos, testingEndPos);
 			engine.recommendation();
+			after = System.nanoTime();
+			log.info("Fold [%d/%d]: ContextAwareRecommendation took %ds", i, numOfFolds,
+					TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
 
 			SuccessCalculator calc = new SuccessCalculator(srcDir, subFolder, testingStartPos, testingEndPos);
 			for (Integer n : ns) {
