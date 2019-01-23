@@ -20,7 +20,7 @@ void inferAllM3s(loc path) {
 			loc project = path + f;
 			loc dest = path + (project.file + ".m3");
 			
-			if (!isFile(dest) && project.file != "169011526a201a4653bec249316cb1a3ecae9a7c") {
+			if (!isFile(dest)) {
 				print("Creating M3 model for <project.file>... "); 
 				M3 m = createM3FromDirectory(project);
 				println("Done.");
