@@ -1,0 +1,39 @@
+2019-01-23 10:17:09 INFO  Runner:59 - FOCUS: A Context-Aware Recommender System!
+2019-01-23 10:17:09 INFO  Runner:68 - Running ten-fold cross validation on /home/dig/repositories/FOCUS-master/dataset/MV_L/ with configuration C1_1
+2019-01-23 10:24:44 INFO  Runner:111 - Fold [9/10]: SimilarityCalculator took 454s
+2019-01-23 10:24:44 INFO  Runner:111 - Fold [8/10]: SimilarityCalculator took 455s
+2019-01-23 10:24:55 INFO  Runner:111 - Fold [2/10]: SimilarityCalculator took 466s
+2019-01-23 10:24:56 INFO  Runner:111 - Fold [7/10]: SimilarityCalculator took 467s
+2019-01-23 10:25:01 INFO  Runner:119 - Fold [9/10]: ContextAwareRecommendation took 17s
+2019-01-23 10:25:02 INFO  Runner:119 - Fold [8/10]: ContextAwareRecommendation took 17s
+2019-01-23 10:25:05 INFO  Runner:111 - Fold [0/10]: SimilarityCalculator took 476s
+2019-01-23 10:25:05 INFO  Runner:111 - Fold [1/10]: SimilarityCalculator took 476s
+2019-01-23 10:25:06 INFO  Runner:111 - Fold [6/10]: SimilarityCalculator took 477s
+2019-01-23 10:25:07 INFO  Runner:111 - Fold [4/10]: SimilarityCalculator took 477s
+2019-01-23 10:25:10 INFO  Runner:119 - Fold [7/10]: ContextAwareRecommendation took 13s
+2019-01-23 10:25:11 INFO  Runner:119 - Fold [2/10]: ContextAwareRecommendation took 15s
+2019-01-23 10:25:13 INFO  Runner:119 - Fold [1/10]: ContextAwareRecommendation took 7s
+2019-01-23 10:25:15 INFO  Runner:119 - Fold [0/10]: ContextAwareRecommendation took 9s
+2019-01-23 10:25:16 INFO  Runner:119 - Fold [6/10]: ContextAwareRecommendation took 9s
+2019-01-23 10:25:18 INFO  Runner:119 - Fold [4/10]: ContextAwareRecommendation took 11s
+2019-01-23 10:28:53 INFO  Runner:111 - Fold [3/10]: SimilarityCalculator took 231s
+2019-01-23 10:28:56 INFO  Runner:111 - Fold [5/10]: SimilarityCalculator took 234s
+2019-01-23 10:29:00 INFO  Runner:119 - Fold [3/10]: ContextAwareRecommendation took 6s
+2019-01-23 10:29:06 INFO  Runner:119 - Fold [5/10]: ContextAwareRecommendation took 9s
+2019-01-23 10:29:06 INFO  Runner:145 - ### 10-FOLDS RESULTS ###
+2019-01-23 10:29:06 INFO  Runner:147 - successRate@1 = 73.30556
+2019-01-23 10:29:06 INFO  Runner:148 - precision@1   = 0.73305553
+2019-01-23 10:29:06 INFO  Runner:149 - recall@1      = 0.06737014
+2019-01-23 10:29:06 INFO  Runner:147 - successRate@5 = 82.66667
+2019-01-23 10:29:06 INFO  Runner:148 - precision@5   = 0.6486667
+2019-01-23 10:29:06 INFO  Runner:149 - recall@5      = 0.2956125
+2019-01-23 10:29:06 INFO  Runner:147 - successRate@10 = 86.69446
+2019-01-23 10:29:06 INFO  Runner:148 - precision@10   = 0.5511667
+2019-01-23 10:29:06 INFO  Runner:149 - recall@10      = 0.49201664
+2019-01-23 10:29:06 INFO  Runner:147 - successRate@15 = 88.22222
+2019-01-23 10:29:06 INFO  Runner:148 - precision@15   = 0.4440371
+2019-01-23 10:29:06 INFO  Runner:149 - recall@15      = 0.57449764
+2019-01-23 10:29:06 INFO  Runner:147 - successRate@20 = 89.13888
+2019-01-23 10:29:06 INFO  Runner:148 - precision@20   = 0.3645417
+2019-01-23 10:29:06 INFO  Runner:149 - recall@20      = 0.6169203
+2019-01-23 10:29:06 INFO  Runner:71 - 10-fold took 716s
