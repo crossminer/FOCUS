@@ -19,6 +19,8 @@ import org.apache.logging.log4j.Logger;
 public class Runner {
 	private String srcDir;
 	private int numOfProjects = 0;
+	private boolean tenFold = false;
+	private boolean leaveOneOut = false;
 	private Configuration configuration;
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
@@ -38,6 +40,14 @@ public class Runner {
 				case "C2.1": configuration = Configuration.C2_1; break;
 				case "C2.2": configuration = Configuration.C2_2; break;
 				default: log.error("Invalid configuration " + conf);
+			}
+
+			// Read evaluation mode
+			String mode = prop.getProperty("validation");
+			switch (mode) {
+				case "ten-fold": tenFold = true;
+				case "leave-one-out": leaveOneOut = true;
+				default: log.error("Invalid validation mode " + mode);
 			}
 
 			// Count number of projects from List.txt
@@ -64,17 +74,21 @@ public class Runner {
 			propFile = args[0];
 
 		if (loadConfigurations(propFile)) {
-			long before = System.nanoTime();
-			log.info("Running ten-fold cross validation on %s with configuration %s", srcDir, configuration);
-			tenFoldCrossValidation();
-			long after = System.nanoTime();
-			log.info("10-fold took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
+			if (tenFold) {
+				long before = System.nanoTime();
+				log.info("Running ten-fold cross-validation on %s with configuration %s", srcDir, configuration);
+				tenFoldCrossValidation();
+				long after = System.nanoTime();
+				log.info("10-fold took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
+			}
 
-//			before = System.nanoTime();
-//			log.info("Running leave-one-out cross validation on %s with configuration %s", srcDir, configuration);
-//			leaveOneOutValidation();
-//			after = System.nanoTime();
-//			log.info("Took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
+			if (leaveOneOut) {
+				long before = System.nanoTime();
+				log.info("Running leave-one-out cross-validation on %s with configuration %s", srcDir, configuration);
+				leaveOneOutValidation();
+				long after = System.nanoTime();
+				log.info("Leave-one-out took %ds", TimeUnit.SECONDS.convert(after - before, TimeUnit.NANOSECONDS));
+			}
 		} else
 			log.error("Aborting.");
 	}
