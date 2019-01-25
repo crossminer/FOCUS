@@ -3,8 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: FocusRascal
 Bundle-SymbolicName: FocusRascal
 Bundle-Version: 1.0.0
-Require-Bundle: rascal_eclipse
+Require-Bundle: rascal_eclipse,
+ rascal_java_build_manager;bundle-version="0.0.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-ClassPath: lib/rascal-build-manager.jar,
- lib/org.eclipse.jgit-5.0.1.201806211838-r.jar,
- lib/commons-io-2.6.jar
