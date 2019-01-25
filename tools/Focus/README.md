@@ -21,7 +21,51 @@ To use a different `.properties` file, use the `-Dexec.args` argument:
 mvn clean compile exec:java -Dexec.mainClass=org.focus.Runner -Dexec.args=confs/shs12.properties
 ```
 
-Results (success rate, precision, recall) are displayed in the console directly. Intermediate results for every fold (recommended invocations, groundtruth invocations, usage patterns, etc.) are stored in the `evaluation` folder of the corresponding dataset (e.g. `../../dataset/SH_S/evaluation/`).
+Results (success rate, precision, recall) for different cut-off values are displayed in the console directly as follows:
+
+```
+FOCUS: A Context-Aware Recommender System!
+Running ten-fold cross validation on ../../dataset/MV_L/ with configuration C1_1
+Fold [9/10]: SimilarityCalculator took 454s
+Fold [8/10]: SimilarityCalculator took 455s
+Fold [2/10]: SimilarityCalculator took 466s
+Fold [7/10]: SimilarityCalculator took 467s
+Fold [9/10]: ContextAwareRecommendation took 17s
+Fold [8/10]: ContextAwareRecommendation took 17s
+Fold [0/10]: SimilarityCalculator took 476s
+Fold [1/10]: SimilarityCalculator took 476s
+Fold [6/10]: SimilarityCalculator took 477s
+Fold [4/10]: SimilarityCalculator took 477s
+Fold [7/10]: ContextAwareRecommendation took 13s
+Fold [2/10]: ContextAwareRecommendation took 15s
+Fold [1/10]: ContextAwareRecommendation took 7s
+Fold [0/10]: ContextAwareRecommendation took 9s
+Fold [6/10]: ContextAwareRecommendation took 9s
+Fold [4/10]: ContextAwareRecommendation took 11s
+Fold [3/10]: SimilarityCalculator took 231s
+Fold [5/10]: SimilarityCalculator took 234s
+Fold [3/10]: ContextAwareRecommendation took 6s
+Fold [5/10]: ContextAwareRecommendation took 9s
+### 10-FOLDS RESULTS ###
+successRate@1 = 73.30556
+precision@1   = 0.73305553
+recall@1      = 0.06737014
+successRate@5 = 82.66667
+precision@5   = 0.6486667
+recall@5      = 0.2956125
+successRate@10 = 86.69446
+precision@10   = 0.5511667
+recall@10      = 0.49201664
+successRate@15 = 88.22222
+precision@15   = 0.4440371
+recall@15      = 0.57449764
+successRate@20 = 89.13888
+precision@20   = 0.3645417
+recall@20      = 0.6169203
+10-fold took 716s
+```
+
+ Intermediate results for every fold (recommended invocations, groundtruth invocations, usage patterns, etc.) are stored in the `evaluation` folder of the corresponding dataset (e.g. `../../dataset/SH_S/evaluation/`).
 
 Please bear in mind that the evaluation takes time and resources. The table below gives reference time for 10-fold cross-validation on a Linux 4.20.3 with Intel Core i7-6700HQ CPU @ 2.60GHz and 16GB of RAM.
 
