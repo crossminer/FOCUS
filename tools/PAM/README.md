@@ -19,3 +19,5 @@ The complete evaluation process involves the following sequence of functions to 
 4. getGroundTruth
 5. combineMethodsInv
 6. combineAll
+
+These python scripts are developed by [@claudioDsi](https://github.com/claudioDsi) during his thesis work.
