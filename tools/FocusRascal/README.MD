@@ -29,7 +29,7 @@ repos.<i>=<repository name>;<repository URL>
 ```
 or invoke the ```jarM3``` function create their corresponding M3 models from jar files:
 ```
-jarM3(directory=<jar-folder-path>);
+jarM3(directory=<jar-folder-path>,outputFolder=<otuput-folder>);
 ```
 
 ## API
