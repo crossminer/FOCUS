@@ -32,6 +32,6 @@ This repository is organized as follows:
 	* [SH_L](./dataset/SH_L): meta-data of the SH<sub>L</sub> dataset (extracted from the source code of 610 GitHub projects)
 	* [SH_S](./dataset/SH_S): meta-data of the SH<sub>S</sub> dataset (extracted from the source code of 200 GitHub projects)
 
-__Note<sup>1</sup>__: the archive of 5,147 Java projects retrieved from GitHub via the [Software Heritage](https://www.softwareheritage.org/) archive is available at [this url](https://annex.softwareheritage.org/public/dataset/vault-crossminer/856749_done_with_origins.txt.gz.).
+__Note<sup>1</sup>__: the archive of 5,147 Java projects retrieved from GitHub via the [Software Heritage](https://www.softwareheritage.org/) archive is available at [this url](https://annex.softwareheritage.org/public/dataset/vault-crossminer/856749_done_with_origins.txt.gz).
 
 __Note<sup>2</sup>__: The results presented in the paper can be reproduced following the instructions contained in the [Focus](./tools/Focus) directory.
