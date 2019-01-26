@@ -79,7 +79,7 @@ public class Runner {
 
 		if (pam) {
 			srcDir = "../../dataset/PAM/SH_S-results/";
-			log.info("Evaluating PAM results from %s", srcDir);
+			log.info("Computing PAM results from %s", srcDir);
 			calculateSuccessPAM();
 			return;
 		}
