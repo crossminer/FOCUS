@@ -169,7 +169,7 @@ def run(focus_path,pam_path):
     createFolder(os.path.join(pam_path, 'RP/'))
     createFolder(os.path.join(pam_path, 'GT/'))
     createFolder(os.path.join(pam_path, 'RESULT/'))
-    createFolder(os.path.join(pam_path, 'DESTINATION/'))
+    createFolder(os.path.join(pam_path, 'TEMP/'))
     print("Generating temp files")
     fromFocusToPam(focus_path, pam_path)
     print('Converting to arff format')
@@ -180,11 +180,11 @@ def run(focus_path,pam_path):
     splitFiles(pam_path, os.path.join(pam_path,'2_3/'), os.path.join(pam_path,'1_3/'))
     print ('Compute GT')
     getGroundTruth(pam_path, os.path.join(pam_path,'RP/'), os.path.join(pam_path,'GT/'))
-    combineMethodsInv(os.path.join(pam_path,'2_3/'), os.path.join(pam_path,'RP/'), os.path.join(pam_path, "RESULT/"))
-    combineAll(os.path.join(pam_path,"RESULT/"), os.path.join(pam_path,"DESTINATION/"),pam_path)
+    combineMethodsInv(os.path.join(pam_path,'2_3/'), os.path.join(pam_path,'RP/'), os.path.join(pam_path, "TEMP/"))
+    combineAll(os.path.join(pam_path,"TEMP/"), os.path.join(pam_path,"RESULT/"),pam_path)
 
 if __name__ == "__main__":
-    focus_path = '/home/juri/Scrivania/input/'#sys.argv[1]
-    pam_path = '/home/juri/Scrivania/output/PAM/'#sys.argv[2]
+    focus_path = sys.argv[1]
+    pam_path = sys.argv[2]
     run(focus_path, pam_path)
 
