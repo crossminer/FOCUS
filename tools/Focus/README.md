@@ -127,3 +127,32 @@ To use this script, FOCUS must first be packed in a single JAR `focus-0.0.1-SNAP
 mvn clean compile assembly:single 
 ```
 
+## Running the evaluation of PAM
+
+The recommendations computed using the PAM tool are stored in [dataset/PAM/](../../dataset/PAM/). To compute success rate, precision, and recall for the cut-off values `N = {1, 5, 10, 15, 20)`, as presented in the paper, run the following command:
+
+```
+mvn compile exec:java -Dexec.mainClass=org.focus.Runner -Dexec.args=PAM
+```
+
+Output should be as follows:
+
+```
+FOCUS: A Context-Aware Recommender System!
+Computing PAM results from ../../dataset/PAM/SH_S-results/ (leave-one-out cross-validation)
+successRate@1 = 8.0
+precision@1 = 0.08
+recall@1 = 0.012586491
+successRate@5 = 15.000001
+precision@5 = 0.029999994
+recall@5 = 0.027643414
+successRate@10 = 27.5
+precision@10 = 0.032999985
+recall@10 = 0.056715574
+successRate@15 = 29.499998
+precision@15 = 0.023999996
+recall@15 = 0.060281053
+successRate@20 = 33.5
+precision@20 = 0.021999996
+recall@20 = 0.07093916
+```
