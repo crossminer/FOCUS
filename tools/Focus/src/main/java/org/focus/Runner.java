@@ -83,7 +83,7 @@ public class Runner {
 			calculateSuccessPAM();
 			return;
 		}
-		
+
 		if (loadConfigurations(propFile)) {
 			if (tenFold) {
 				long before = System.nanoTime();
@@ -234,11 +234,11 @@ public class Runner {
 			log.info("recall@" + n + "      = " + avgRecall.get(n) / numOfFolds);
 		}
 	}
-	
+
 	public void calculateSuccessPAM() {
 		SuccessCalculator calc = new SuccessCalculator(srcDir, "round1", -1, -1);
 		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
-		
+
 		for (Integer n : ns) {
 			float success = calc.computeSuccessRate(n);
 			float precision = calc.computePrecision(n);
