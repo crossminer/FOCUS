@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2550379.svg)](https://doi.org/10.5281/zenodo.2550379)
+
 # FOCUS
 
 This repository contains the source code implementation of FOCUS and the datasets used to replicate the experimental results of our ICSE'19 paper:
