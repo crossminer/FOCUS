@@ -21,6 +21,7 @@ public class Runner {
 	private int numOfProjects = 0;
 	private boolean tenFold = false;
 	private boolean leaveOneOut = false;
+	private boolean pam = false;
 	private Configuration configuration;
 
 	private static final Logger log = LogManager.getFormatterLogger(Runner.class);
@@ -71,8 +72,18 @@ public class Runner {
 		String propFile = "evaluation.properties";
 
 		if (args.length == 1)
-			propFile = args[0];
+			if (args[0].equals("PAM"))
+				pam = true;
+			else
+				propFile = args[0];
 
+		if (pam) {
+			srcDir = "../../dataset/PAM/SH_S-results/";
+			log.info("Evaluating PAM results from %s", srcDir);
+			calculateSuccessPAM();
+			return;
+		}
+		
 		if (loadConfigurations(propFile)) {
 			if (tenFold) {
 				long before = System.nanoTime();
@@ -221,6 +232,21 @@ public class Runner {
 			log.info("successRate@" + n + " = " + avgSuccess.get(n) / numOfFolds);
 			log.info("precision@" + n + "   = " + avgPrecision.get(n) / numOfFolds);
 			log.info("recall@" + n + "      = " + avgRecall.get(n) / numOfFolds);
+		}
+	}
+	
+	public void calculateSuccessPAM() {
+		SuccessCalculator calc = new SuccessCalculator(srcDir, "round1", -1, -1);
+		List<Integer> ns = Arrays.asList(1, 5, 10, 15, 20);
+		
+		for (Integer n : ns) {
+			float success = calc.computeSuccessRate(n);
+			float precision = calc.computePrecision(n);
+			float recall = calc.computeRecall(n);
+
+			log.info("successRate@" + n + " = " + success);
+			log.info("precision@" + n + " = " + precision);
+			log.info("recall@" + n + " = " + recall);
 		}
 	}
 

@@ -98,7 +98,7 @@ public class DataReader {
 		int id = startPos;
 
 		try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
-			while (count < startPos) {
+			while (startPos != -1 && count < startPos) {
 				line = reader.readLine();
 				count++;
 			}
@@ -107,7 +107,7 @@ public class DataReader {
 				ret.put(id, repo);
 				id++;
 				count++;
-				if (count > endPos)
+				if (endPos != -1 && count > endPos)
 					break;
 			}
 		} catch (IOException e) {
