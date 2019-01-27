@@ -1,5 +1,7 @@
 # Installation instructions
 
+This file provides instructions to install and execute the tools for replicating the experiments of the paper entitled ``FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns'' accepted in the Technical Track of ICSE 2019.
+
 ## Requirements
 
   - Apache Maven >= 3.0
