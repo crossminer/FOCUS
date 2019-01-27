@@ -6,13 +6,6 @@
 	<artifactId>focus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<repositories>
-		<repository>
-			<id>usethesource</id>
-			<url>http://nexus.usethesource.io/content/repositories/public/</url>
-		</repository>
-	</repositories>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -59,11 +52,6 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<dependency>
-			<groupId>org.rascalmpl</groupId>
-			<artifactId>rascal</artifactId>
-			<version>0.12.0-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
