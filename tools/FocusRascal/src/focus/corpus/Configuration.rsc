@@ -7,8 +7,17 @@ import Relation;
 import Set;
 import String;
 
-import org::analyzer::osgi::language::Syntax;
+// Pointer to mvn executable, used to build the classpath of Maven projects
+public loc mavenLocation = |file:///usr/bin/mvn|;
 
+// Where the GitHub repositories are stored and/or cloned
+public loc datasetLocation = |file:///home/dig/repositories/FOCUS/tools/FocusRascal/dataset/|;
 
-public loc pathCSV = |project://DependenciesAnalyzer/data/analysis|;
-public loc resultPath = |file:///home/juri/Scrivania/claudio|;
+// Where the M3, PAM, and FOCUS models are stored
+public loc javaM3sLocation = |project://FocusRascal/data/m3/java-projects|;
+
+// Where the FOCUS models built from JARs are stored
+public loc jarsM3sLocation = |project://FocusRascal/data/m3/jar-projects|;
+
+// Where information about the GitHub projects to analyze is stored
+public loc githubConfigFile = |project://FocusRascal/config/github-repos.properties|;

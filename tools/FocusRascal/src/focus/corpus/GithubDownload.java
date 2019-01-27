@@ -43,15 +43,11 @@ public class GithubDownload {
 				localDir.mkdirs();
 			}
 			if(localDir.list().length == 0) {
-				ctx.getStdOut().println("Cloning " + name.getValue() + " to " + directory);
 				Git git = Git.cloneRepository()
 				.setURI(url.getURI().toString())
 				.setDirectory(localDir)
 				.call();
 				git.close();
-			}
-			else {
-				ctx.getStdOut().println(name.getValue() + " repository was already cloned. Skipping.");
 			}
 		} 
 		catch (GitAPIException e) {
