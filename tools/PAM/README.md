@@ -35,3 +35,5 @@ $ for f in <FOCUS_root>/dataset/PAM/SH_S/ *; do java -jar api-mining/target/api-
 ```
 where <PAM_root> is the directory where you have cloned the repository.
 In our case, we set it to ```/home/admin/Desktop/PAM/```.
+
+These python scripts are developed by [@claudioDsi](https://github.com/claudioDsi) during his thesis work.
