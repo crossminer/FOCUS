@@ -31,7 +31,7 @@ Then execute PAM on the given input data as follows:
 $ git clone git@github.com:mast-group/api-mining.git <PAM_root>
 $ cd <PAM_root>
 $ mvn package
-$ for f in <FOCUS_root>/dataset/PAM/SH_S/ *; do java -jar api-mining/target/api-mining-1.0.jar -i 10 -s 100 -f $f; done
+$ for f in <FOCUS_root>/dataset/PAM/SH_S/ *; do java -jar api-mining/target/api-mining-1.0.jar -i 10 -s 100 -v -f $f -o <RESULT_FILE>; done
 ```
 where <PAM_root> is the directory where you have cloned the repository.
 In our case, we set it to ```/home/admin/Desktop/PAM/```.
