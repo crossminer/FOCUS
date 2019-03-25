@@ -7,7 +7,7 @@ This repository contains the source code implementation of FOCUS and the dataset
 _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, Massimiliano Di Penta
 
-A pre-print version of the paper is available [here](https://www.dropbox.com/s/7xewecs7j4ax195/ICSE2019.pdf?dl=0).
+A pre-print version of the paper is available [here](https://hal.archives-ouvertes.fr/hal-02023023/document).
 
 ## Introduction
 
