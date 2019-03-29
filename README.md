@@ -9,6 +9,9 @@ Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, 
 
 A pre-print version of the paper is available [here](https://hal.archives-ouvertes.fr/hal-02023023/document).
 
+A detailed instruction on how to experiment the artifacts is provided [here](https://github.com/crossminer/FOCUS/blob/master/README.pdf).
+
+
 ## Introduction
 
 FOCUS is a context-aware collaborative-filtering recommendation system that exploits cross relationships among OSS projects to suggest the inclusion of additional API invocations and concrete API usage patterns. The current implementation targets Java code specifically.
