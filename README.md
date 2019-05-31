@@ -14,7 +14,7 @@ Our paper has been awarded two badges by the ICSE 2019 Artifact Evaluation Track
 adhere to norms and standards of the research community for artifacts of this type.
 
 <p align="center">
-<img src="https://github.com/crossminer/FOCUS/blob/master/images/Badges.png" width="450">
+<img src="https://github.com/crossminer/FOCUS/blob/master/Badges.png" width="250">
 </p>
 
 A detailed instruction on how to experiment the artifacts is provided [here](https://github.com/crossminer/FOCUS/blob/master/README.pdf).
