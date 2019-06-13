@@ -54,15 +54,21 @@ __Note<sup>2</sup>__: The results presented in the paper can be reproduced follo
 If you find our work useful for your research, please cite the paper using the following BibTex entry:
 
 ```
-@INPROCEEDINGS{NDDLDD2019, 
-author={P.T. {Nguyen} and J. {Di Rocco} and D. {Di Ruscio} and L. {Ochoa} and T. {Degueule} and M. {Di Penta}}, 
-booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)}, 
-title={FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns}, 
-year={2019}, 
-volume={}, 
-number={}, 
-doi={10.1109/ICSE.2019.00109}, 
-month={May},}
+@inproceedings{Nguyen:2019:FRS:3339505.3339636,
+ author = {Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Ochoa, Lina and Degueule, Thomas and Di Penta, Massimiliano},
+ title = {FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns},
+ booktitle = {Proceedings of the 41st International Conference on Software Engineering},
+ series = {ICSE '19},
+ year = {2019},
+ location = {Montreal, Quebec, Canada},
+ pages = {1050--1060},
+ numpages = {11},
+ url = {https://doi.org/10.1109/ICSE.2019.00109},
+ doi = {10.1109/ICSE.2019.00109},
+ acmid = {3339636},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+} 
 
 ```
 
