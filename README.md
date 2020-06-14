@@ -12,7 +12,7 @@ which is an extension of the following paper paper, which has been accepted and 
 
 _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
-Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, and Massimiliano Di Penta
+Authors: Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, and Massimiliano Di Penta
 
 A pre-print version of the paper is available [here](https://hal.archives-ouvertes.fr/hal-02023023/document).
 
@@ -80,3 +80,6 @@ If you find our work useful for your research, please cite the paper using the f
 
 ```
 
+## Troubleshooting
+
+If you encounter any difficulties in working with the tool or the datasets, please do not hesitate to contact us at one of the following emails: phuong.nguyen@univaq.it, juri.dirocco@univaq.it. We will try our best to answer you as soon as possible.
