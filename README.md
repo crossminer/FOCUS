@@ -2,11 +2,17 @@
 
 # FOCUS
 
-This repository contains the source code implementation of FOCUS and the datasets used to replicate the experimental results of our ICSE'19 paper:
+This repository contains the source code implementation of FOCUS and the datasets used to replicate the experimental results of our paper submitted to the IEEE Transactions on Software Engineering:
+
+_Recommending API Function Calls and Code Snippets to Support Software Development_
+
+Authors: Phuong T. Nguyen, Juri Di Rocco, Claudio Di Sipio, Davide Di Ruscio, and Massimiliano Di Penta
+
+which is an extension of the following paper paper, which has been accepted and published in the Proceedings of the 41st International Conference on Software Engineering (ICSE 2019):
 
 _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
-Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, Massimiliano Di Penta
+Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas Degueule, and Massimiliano Di Penta
 
 A pre-print version of the paper is available [here](https://hal.archives-ouvertes.fr/hal-02023023/document).
 
@@ -18,6 +24,8 @@ adhere to norms and standards of the research community for artifacts of this ty
 </p>
 
 A detailed instruction on how to experiment the artifacts is provided [here](https://github.com/crossminer/FOCUS/blob/master/README.pdf).
+
+Furthermore, FOCUS has been successfully integrated into the Eclipse IDE, you can find a detailed instruction on how to install in the following [link](https://mdegroup.github.io/FOCUS-Appendix/install.html).
 
 
 ## Introduction
