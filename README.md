@@ -8,7 +8,7 @@ _Recommending API Function Calls and Code Snippets to Support Software Developme
 
 Authors: Phuong T. Nguyen, Juri Di Rocco, Claudio Di Sipio, Davide Di Ruscio, and Massimiliano Di Penta
 
-which is an extension of the following paper paper, which has been accepted and published in the Proceedings of the 41st International Conference on Software Engineering (ICSE 2019):
+which is an extension of the following paper, which has been accepted and published in the Proceedings of the 41st International Conference on Software Engineering (ICSE 2019):
 
 _FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns_
 
@@ -25,7 +25,7 @@ adhere to norms and standards of the research community for artifacts of this ty
 
 A detailed instruction on how to experiment the artifacts is provided [here](https://github.com/crossminer/FOCUS/blob/master/README.pdf).
 
-Furthermore, FOCUS has been successfully integrated into the Eclipse IDE, you can find a detailed instruction on how to install in the following [link](https://mdegroup.github.io/FOCUS-Appendix/install.html).
+Furthermore, FOCUS has been successfully integrated into the Eclipse IDE, allowing one to invoke API recommendations while they are programming. You can find a detailed instruction on how to install the IDE in the following [link](https://mdegroup.github.io/FOCUS-Appendix/install.html).
 
 
 ## Introduction
