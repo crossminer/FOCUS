@@ -42,7 +42,9 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 
 We designed and implemented FOCUS as a novel approach to provide developers with API calls and soure code while they are programming. The system works on the basis of a context-aware collaborative filtering technique to extract API usages from OSS projects. In the TSE submission, we demonstrate the suitability of FOCUS for Android programming by evaluating it on a dataset of 2,600 apps. The experimental results demonstrate that our approach outperforms the state-of-the-art approach PAM concerning success rate, accuracy, and execution time. More importantly, we show that FOCUS efficiently recommends source code to a method declaration being developed. We also find out that there is no subtle relationship between the categories for apps defined in Google Play and their API usages.
 
-The dataset which consists of 2,600 Android apps is stored in the [following folder](./dataset/TSE).
+The metadata parsed for a dataset consisting of 2,600 Android apps is stored in the [following folder](./dataset/TSE). We acknowledge the original data collected from the AndroidTimeMachine [platform](https://androidtimemachine.github.io/).
+
+
 
 
 ## Repository Structure
