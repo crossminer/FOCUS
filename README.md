@@ -71,7 +71,7 @@ If you find our work useful for your research, please cite the paper using the f
 ```
 @inproceedings{Nguyen:2019:FRS:3339505.3339636,
  author = {Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Ochoa, Lina and Degueule, Thomas and Di Penta, Massimiliano},
- title = {FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns},
+ title = {{FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns}},
  booktitle = {Proceedings of the 41st International Conference on Software Engineering},
  series = {ICSE '19},
  year = {2019},
