@@ -40,7 +40,32 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 
 ## Examples of FOCUS recommendations
 
-A list of FOCUS recommendation instances is available at [https://mdegroup.github.io/FOCUS-Appendix/tasks.html](https://mdegroup.github.io/FOCUS-Appendix/tasks.html)
+By means of the IDE, FOCUS provides two main types of recommendations in two separate tabs as shown in the picture above. By the first tab, it displays a ranked list of API calls while by the second tab, there are real snippets of code. As a matter of fact, our tool only provides and presents recommendations, and integrating the recommended APIs or source code is purely at the developers' discretion, i.e., they will decide whether and how to adopt the recommended API calls and/or code snippets. With the recommendations provided by FOCUS, developers can embed into their IDE by copying and pasting fragments of the recommended code into the editing window.
+
+<p align="center">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/FOCUS_IDE.png" width="850">
+</p>
+
+The following figure show an incomplete method declaration:
+
+<p align="center">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/OriginalDeclaration.png" width="650">
+</p>
+
+and the figure below is the final declaration:
+
+<p align="center">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/FinalDeclaration.png" width="650">
+</p>
+
+FOCUS provides the following code snippet as recommendation for the incomplete declaration:
+
+<p align="center">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/RecommendedCode.png" width="650">
+</p>
+
+More examples of code snippets provided by FOCUS are available at the following link: [https://mdegroup.github.io/FOCUS-Appendix/tasks.html](https://mdegroup.github.io/FOCUS-Appendix/tasks.html)
+
 ## Extension in the TSE submission
 
 We designed and implemented FOCUS as a novel approach to provide developers with API calls and soure code while they are programming. The system works on the basis of a context-aware collaborative filtering technique to extract API usages from OSS projects. In the TSE submission, we demonstrate the suitability of FOCUS for Android programming by evaluating it on a dataset of 2,600 apps. The experimental results demonstrate that our approach outperforms the state-of-the-art approach PAM concerning success rate, accuracy, and execution time. More importantly, we show that FOCUS efficiently recommends source code to a method declaration being developed. We also find out that there is no subtle relationship between the categories for apps defined in Google Play and their API usages.
