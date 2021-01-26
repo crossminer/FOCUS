@@ -40,7 +40,7 @@ We incorporate these ideas in a new context-aware collaborative filtering recomm
 
 ## Examples of FOCUS recommendations
 
-By means of the IDE, FOCUS provides two main types of recommendations in two separate tabs as shown in the picture above. By the first tab, it displays a ranked list of API calls while by the second tab, there are real snippets of code. As a matter of fact, our tool only provides and presents recommendations, and integrating the recommended APIs or source code is purely at the developers' discretion, i.e., they will decide whether and how to adopt the recommended API calls and/or code snippets. With the recommendations provided by FOCUS, developers can embed into their IDE by copying and pasting fragments of the recommended code into the editing window.
+By means of the IDE, FOCUS provides two main types of recommendations in two separate tabs as shown in the picture below. By the first tab, it displays a ranked list of API calls while by the second tab, there are real snippets of code. As a matter of fact, our tool only provides and presents recommendations, and integrating the recommended APIs or source code is purely at the developers' discretion, i.e., they will decide whether and how to adopt the recommended API calls and/or code snippets. With the recommendations provided by FOCUS, developers can embed into their IDE by copying and pasting fragments of the recommended code into the editing window.
 
 <p align="center">
 <img src="https://github.com/crossminer/FOCUS/blob/master/images/FOCUS_IDE.png" width="850">
@@ -49,19 +49,19 @@ By means of the IDE, FOCUS provides two main types of recommendations in two sep
 The following figure show an incomplete method declaration:
 
 <p align="center">
-<img src="https://github.com/crossminer/FOCUS/blob/master/images/OriginalDeclaration.png" width="650">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/OriginalDeclaration.png" width="550">
 </p>
 
 and the figure below is the final declaration:
 
 <p align="center">
-<img src="https://github.com/crossminer/FOCUS/blob/master/images/FinalDeclaration.png" width="650">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/FinalDeclaration.png" width="550">
 </p>
 
 FOCUS provides the following code snippet as recommendation for the incomplete declaration:
 
 <p align="center">
-<img src="https://github.com/crossminer/FOCUS/blob/master/images/RecommendedCode.png" width="650">
+<img src="https://github.com/crossminer/FOCUS/blob/master/images/RecommendedCode.png" width="550">
 </p>
 
 More examples of code snippets provided by FOCUS are available at the following link: [https://mdegroup.github.io/FOCUS-Appendix/tasks.html](https://mdegroup.github.io/FOCUS-Appendix/tasks.html)
