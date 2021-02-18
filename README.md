@@ -2,11 +2,13 @@
 
 # FOCUS
 
-This repository contains the source code implementation of FOCUS and the datasets used to replicate the experimental results of our paper submitted to the IEEE Transactions on Software Engineering:
+This repository contains the source code implementation of FOCUS and the datasets used to replicate the experimental results of our paper accepted by the IEEE Transactions on Software Engineering:
 
 _Recommending API Function Calls and Code Snippets to Support Software Development_
 
 Authors: Phuong T. Nguyen, Juri Di Rocco, Claudio Di Sipio, Davide Di Ruscio, and Massimiliano Di Penta
+
+A pre-print is available in [Arxiv](https://arxiv.org/pdf/2102.07508.pdf).
 
 which is an extension of the following paper, which has been accepted and published in the Proceedings of the 41st International Conference on Software Engineering (ICSE 2019):
 
@@ -16,7 +18,7 @@ Authors: Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Lina Ochoa, Thomas D
 
 A pre-print version of the paper is available [here](https://hal.archives-ouvertes.fr/hal-02023023/document).
 
-Our paper has been awarded two badges by the ICSE 2019 Artifact Evaluation Track, namely "Artifacts Available" and "Artifacts Evaluated." This means that all the related artifacts have been properly documented, and they are consistent, complete, and reproducible. Furthermore, they include appropriate evidence to facilitate future reuse and reproduction. We also strictly
+The conference paper has been awarded two badges by the ICSE 2019 Artifact Evaluation Track, namely "Artifacts Available" and "Artifacts Evaluated." This means that all the related artifacts have been properly documented, and they are consistent, complete, and reproducible. Furthermore, they include appropriate evidence to facilitate future reuse and reproduction. We also strictly
 adhere to norms and standards of the research community for artifacts of this type.
 
 <p align="center">
