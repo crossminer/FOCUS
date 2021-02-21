@@ -98,7 +98,7 @@ __Note<sup>2</sup>__: The results presented in the paper can be reproduced follo
 
 
 ## How to cite
-If you find our work useful for your research, please cite the paper using the following BibTex entry:
+If you find our work useful for your research, please cite the papers using the following BibTex entries:
 
 ```
 @inproceedings{Nguyen:2019:FRS:3339505.3339636,
@@ -117,6 +117,18 @@ If you find our work useful for your research, please cite the paper using the f
  address = {Piscataway, NJ, USA},
 } 
 
+```
+
+```
+@ARTICLE{9359479,
+  author={P. T. {Nguyen} and J. {Di Rocco} and C. {Di Sipio} and D. {Di Ruscio} and M. {Di Penta}},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={Recommending API Function Calls and Code Snippets to Support Software Development}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TSE.2021.3059907}}
 ```
 
 ## Troubleshooting
