@@ -74,7 +74,7 @@ We designed and implemented FOCUS as a novel approach to provide developers with
 
 The metadata parsed for a dataset consisting of 2,600 Android apps is stored in the [following folder](./dataset/TSE). We acknowledge the original data collected from the AndroidTimeMachine [platform](https://androidtimemachine.github.io/).
 
-
+A pre-print of the TSE paper is available in [Arxiv](https://arxiv.org/pdf/2102.07508.pdf).
 
 
 ## Repository Structure
