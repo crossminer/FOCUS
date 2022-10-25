@@ -121,13 +121,13 @@ If you find our work useful for your research, please cite the papers using the 
 
 ```
 @ARTICLE{9359479,
-  author={P. T. {Nguyen} and J. {Di Rocco} and C. {Di Sipio} and D. {Di Ruscio} and M. {Di Penta}},
+  author={Nguyen, Phuong T. and Di Rocco, Juri and Di Sipio, Claudio and Di Ruscio, Davide and Di Penta, Massimiliano},
   journal={IEEE Transactions on Software Engineering}, 
   title={Recommending API Function Calls and Code Snippets to Support Software Development}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
+  year={2022},
+  volume={48},
+  number={7},
+  pages={2417-2438},
   doi={10.1109/TSE.2021.3059907}}
 ```
 
